@@ -55,7 +55,7 @@ See `LICENSE` for more information.
 <img src=https://www.aka.fi/globalassets/vanhat/y_kuvat/aka_logo_en.svg alt="AKA emblem" width=100%></td>
 <td valign="middle">
 This dataset was built for the [Academy of Finland](https://www.aka.fi/en) project
-[*"Integration of building flexibility into future energy systems (FlexiB)"*](https://akareport.aka.fi/ibi_apps/WFServlet?IBIF_ex=x_hakkuvaus2&CLICKED_ON=&HAKNRO1=332421&UILANG=en&TULOSTE=HTML)
+[*"Integration of building flexibility into future energy systems (FlexiB)"*](https://cris.vtt.fi/en/projects/integration-of-building-flexibility-into-future-energy-systems)
 under grant agreement No 332421.
 </td>
 </table>
