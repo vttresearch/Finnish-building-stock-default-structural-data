@@ -1,0 +1,1373 @@
+source,structure,structure_type,layer_id,layer_weight,layer_number,layer_minimum_thickness_mm,layer_load_bearing_thickness_mm,layer_tag,structure_material,layer_notes
+ETOL_1900,DH_SF_log,separating_floor,1,0.25,0,150,,load-bearing structure,wood,150x175 k 600 logs estimated
+ETOL_1900,DH_SF_log,separating_floor,2,0.75,0,150,,soundproofing,wood chips and sawdust,
+ETOL_1900,DH_SF_log,separating_floor,3,0.25,1,25,,load-bearing structure,wood,150x175 k 600 logs estimated
+ETOL_1900,DH_SF_log,separating_floor,4,0.75,1,25,,weight,sand,
+ETOL_1900,DH_SF_log,separating_floor,5,1,2,20,,exterior finish,wood,20x100 floor boards estimated
+ETOL_1900,DH_SF_log,separating_floor,6,1,-1,0,,filter,cardboard,
+ETOL_1900,DH_SF_log,separating_floor,7,1,-2,20,,interior finish,wood,20x100 ceiling boards estimated
+ETOL_1900,DH_R_log,roof,8,0.25,0,150,,load-bearing structure,wood,150x175 k 600 logs estimated
+ETOL_1900,DH_R_log,roof,9,0.75,0,150,,thermal insulation,wood chips and sawdust,
+ETOL_1900,DH_R_log,roof,10,0.25,1,25,,load-bearing structure,wood,150x175 k 600 logs estimated
+ETOL_1900,DH_R_log,roof,11,0.75,1,25,,weight,sand,
+ETOL_1900,DH_R_log,roof,12,1,2,20,,boarding,wood,attic floor
+ETOL_1900,DH_R_log,roof,13,1,3,100,,ventilation space,ventilation space,
+ETOL_1900,DH_R_log,roof,14,0.08333333333333333,4,100,,roof supports,wood,50x100 k 600 estimated
+ETOL_1900,DH_R_log,roof,15,0.9166666666666666,4,100,,ventilation space,ventilation space,
+ETOL_1900,DH_R_log,roof,16,1,5,20,,boarding,wood,
+ETOL_1900,DH_R_log,roof,17,1,6,0,,exterior finish,none,roofing
+ETOL_1900,DH_R_log,roof,18,1,-1,0,,filter,cardboard,
+ETOL_1900,DH_R_log,roof,19,1,-2,20,,interior finish,wood,ceiling
+ETOL_1900,DH_PW_timber,partition_wall,20,0.08333333333333333,0,100,100,load-bearing structure,wood,50x100 k 600 timber frame assumed
+ETOL_1900,DH_PW_timber,partition_wall,21,0.9166666666666666,0,100,100,ventilation space,ventilation space,
+ETOL_1900,DH_PW_timber,partition_wall,22,1,1,20,,exterior finish,wood,20x100 boarding assumed
+ETOL_1900,DH_PW_timber,partition_wall,23,1,-1,20,,interior finish,wood,20x100 boarding assumed
+ETOL_1900,DH_PW_log,partition_wall,24,1,0,150,150,load-bearing structure,wood,150x175 logs assumed
+ETOL_1900,DH_PW_log,partition_wall,25,1,1,0,,exterior finish,none,
+ETOL_1900,DH_PW_log,partition_wall,26,1,-1,0,,interior finish,none,
+ETOL_1900,DH_EW_log,exterior_wall,27,1,0,150,150,load-bearing structure,wood,"solid log wall, thickness of 150 mm estimated"
+ETOL_1900,DH_EW_log,exterior_wall,28,1,1,0,,exterior finish,none,
+ETOL_1900,DH_EW_log,exterior_wall,29,1,-1,0,,interior finish,none,
+ETOL_1900,DH_BF_log,base_floor,30,0.25,0,150,,load-bearing structure,wood,150x175 k 600 logs estimated
+ETOL_1900,DH_BF_log,base_floor,31,0.75,0,150,,thermal insulation,wood chips and sawdust,
+ETOL_1900,DH_BF_log,base_floor,32,1,1,0,,filter,cardboard,
+ETOL_1900,DH_BF_log,base_floor,33,1,2,20,,boarding,wood,20x100 boards estimated
+ETOL_1900,DH_BF_log,base_floor,34,1,3,0,,exterior finish,none,
+ETOL_1900,DH_BF_log,base_floor,35,0.25,-1,25,,weight,sand,
+ETOL_1900,DH_BF_log,base_floor,36,0.75,-1,25,,load-bearing structure,wood,150x175 k 600 logs estimated
+ETOL_1900,DH_BF_log,base_floor,37,1,-2,20,,interior finish,wood,20x100 boards estimated
+ETOL_1900,AB_R_log,roof,38,0.25,0,150,,load-bearing structure,wood,150x175 k 600 logs estimated
+ETOL_1900,AB_R_log,roof,39,0.75,0,150,,thermal insulation,wood chips and sawdust,
+ETOL_1900,AB_R_log,roof,40,0.25,1,25,,load-bearing structure,wood,150x175 k 600 logs estimated
+ETOL_1900,AB_R_log,roof,41,0.75,1,25,,weight,sand,
+ETOL_1900,AB_R_log,roof,42,1,2,20,,boarding,wood,attic floor
+ETOL_1900,AB_R_log,roof,43,1,3,85,,fireproofing,brick,fireproofing between load-bearing structures and roofing
+ETOL_1900,AB_R_log,roof,44,1,4,100,,ventilation space,ventilation space,
+ETOL_1900,AB_R_log,roof,45,0.08333333333333333,5,100,,roof supports,wood,50x100 k 600 estimated
+ETOL_1900,AB_R_log,roof,46,0.9166666666666666,5,100,,ventilation space,ventilation space,
+ETOL_1900,AB_R_log,roof,47,1,6,20,,boarding,wood,
+ETOL_1900,AB_R_log,roof,48,1,7,0,,exterior finish,none,roofing
+ETOL_1900,AB_R_log,roof,49,1,-1,0,,filter,cardboard,
+ETOL_1900,AB_R_log,roof,50,1,-2,20,,interior finish,wood,ceiling
+ETOL_1900,AB_PW_brick,partition_wall,51,1,0,240,480,load-bearing structure,brick,
+ETOL_1900,AB_PW_brick,partition_wall,52,1,1,0,,exterior finish,none,
+ETOL_1900,AB_PW_brick,partition_wall,53,1,-1,0,,interior finish,none,
+ETOL_1900,AB_EW_brick,exterior_wall,54,1,0,600,600,load-bearing structure,brick,solid 2½ brick wall
+ETOL_1900,AB_EW_brick,exterior_wall,55,1,1,0,,exterior finish,none,
+ETOL_1900,AB_EW_brick,exterior_wall,56,1,-1,0,,interior finish,none,
+ETOL_1900,AB_BF_brick,base_floor,57,0.25,0,150,,load-bearing structure,wood,150x175 k 600 logs estimated
+ETOL_1900,AB_BF_brick,base_floor,58,0.75,0,150,,thermal insulation,wood chips and sawdust,
+ETOL_1900,AB_BF_brick,base_floor,59,0.05,1,85,,arch,brick,
+ETOL_1900,AB_BF_brick,base_floor,60,0.95,1,85,,load-bearing structure,steel,
+ETOL_1900,AB_BF_brick,base_floor,61,1,2,1600,,crawl space,ventilation space,"basement estimated as ""crawl space"""
+ETOL_1900,AB_BF_brick,base_floor,62,1,3,60,,slab,concrete,basement floor
+ETOL_1900,AB_BF_brick,base_floor,63,1,4,200,,french drain,gravel,
+ETOL_1900,AB_BF_brick,base_floor,64,1,5,0,,ground,none,
+ETOL_1900,AB_BF_brick,base_floor,65,0.25,-1,25,,weight,sand,
+ETOL_1900,AB_BF_brick,base_floor,66,0.75,-1,25,,load-bearing structure,wood,150x175 k 600 logs estimated
+ETOL_1900,AB_BF_brick,base_floor,67,1,-2,20,,interior finish,wood,20x100 boards estimated
+ETOL_1920,DH_SF_timber,separating_floor,68,0.125,0,150,,load-bearing structure,wood,75x200 k 600 planks estimated
+ETOL_1920,DH_SF_timber,separating_floor,69,0.875,0,150,,soundproofing,wood chips and sawdust,
+ETOL_1920,DH_SF_timber,separating_floor,70,0.125,1,25,,load-bearing structure,wood,75x200 k 600 planks estimated
+ETOL_1920,DH_SF_timber,separating_floor,71,0.875,1,25,,weight,sand,
+ETOL_1920,DH_SF_timber,separating_floor,72,0.125,2,25,,load-bearing structure,wood,75x200 k 600 planks estimated
+ETOL_1920,DH_SF_timber,separating_floor,73,0.875,2,25,,ventilation space,ventilation space,
+ETOL_1920,DH_SF_timber,separating_floor,74,1,3,20,,exterior finish,wood,20x100 floor boards estimated
+ETOL_1920,DH_SF_timber,separating_floor,75,1,-1,0,,filter,cardboard,
+ETOL_1920,DH_SF_timber,separating_floor,76,1,-2,20,,interior finish,wood,20x100 ceiling boards estimated
+ETOL_1920,DH_R_timber,roof,77,0.125,0,150,,load-bearing structure,wood,75x200 k 600 planks estimated
+ETOL_1920,DH_R_timber,roof,78,0.875,0,150,,thermal insulation,wood chips and sawdust,
+ETOL_1920,DH_R_timber,roof,79,0.125,1,25,,load-bearing structure,wood,75x200 k 600 planks estimated
+ETOL_1920,DH_R_timber,roof,80,0.875,1,25,,weight,sand,
+ETOL_1920,DH_R_timber,roof,81,0.125,2,25,,load-bearing structure,wood,75x200 k 600 planks estimated
+ETOL_1920,DH_R_timber,roof,82,0.875,2,25,,ventilation space,ventilation space,
+ETOL_1920,DH_R_timber,roof,83,1,3,20,,boarding,wood,attic floor
+ETOL_1920,DH_R_timber,roof,84,1,4,100,,ventilation space,ventilation space,
+ETOL_1920,DH_R_timber,roof,85,0.08333333333333333,5,100,,roof supports,wood,50x100 k 600 estimated
+ETOL_1920,DH_R_timber,roof,86,0.9166666666666666,5,100,,ventilation space,ventilation space,
+ETOL_1920,DH_R_timber,roof,87,1,6,20,,boarding,wood,
+ETOL_1920,DH_R_timber,roof,88,1,7,0,,exterior finish,none,roofing
+ETOL_1920,DH_R_timber,roof,89,1,-1,0,,filter,cardboard,
+ETOL_1920,DH_R_timber,roof,90,1,-2,20,,interior finish,wood,ceiling
+ETOL_1920,DH_PW_timber,partition_wall,91,0.08333333333333333,0,100,100,load-bearing structure,wood,50x100 k 600 timber frame assumed
+ETOL_1920,DH_PW_timber,partition_wall,92,0.9166666666666666,0,100,100,ventilation space,ventilation space,
+ETOL_1920,DH_PW_timber,partition_wall,93,1,1,20,,exterior finish,wood,20x100 boarding assumed
+ETOL_1920,DH_PW_timber,partition_wall,94,1,-1,20,,interior finish,wood,20x100 boarding assumed
+ETOL_1920,DH_PW_log,partition_wall,95,1,0,200,200,load-bearing structure,wood,200 mm thick logs
+ETOL_1920,DH_PW_log,partition_wall,96,1,1,0,,exterior finish,none,
+ETOL_1920,DH_PW_log,partition_wall,97,1,-1,0,,interior finish,none,
+ETOL_1920,DH_EW_log,exterior_wall,98,1,0,200,200,load-bearing structure,wood,
+ETOL_1920,DH_EW_log,exterior_wall,99,1,1,20,,exterior finish,wood,20x100 exterior boarding estimated
+ETOL_1920,DH_EW_log,exterior_wall,100,1,-1,20,,interior finish,wood,20x100 interior boarding estimated
+ETOL_1920,DH_BF_timber_b,base_floor,101,0.125,0,200,,load-bearing structure,wood,75x200 k 600 planks estimated
+ETOL_1920,DH_BF_timber_b,base_floor,102,0.875,0,200,,thermal insulation,wood chips and sawdust,
+ETOL_1920,DH_BF_timber_b,base_floor,103,1,1,0,,filter,cardboard,
+ETOL_1920,DH_BF_timber_b,base_floor,104,1,2,20,,boarding,wood,20x100 boards estimated
+ETOL_1920,DH_BF_timber_b,base_floor,105,1,3,1600,,crawl space,ventilation space,"basement estimated as ""crawl space"""
+ETOL_1920,DH_BF_timber_b,base_floor,106,1,4,60,,slab,concrete,basement floor
+ETOL_1920,DH_BF_timber_b,base_floor,107,1,5,200,,french drain,gravel,
+ETOL_1920,DH_BF_timber_b,base_floor,108,1,6,0,,ground,none,
+ETOL_1920,DH_BF_timber_b,base_floor,109,0.08333333333333333,-1,25,,furring,wood,50x50 furring estimated
+ETOL_1920,DH_BF_timber_b,base_floor,110,0.9166666666666666,-1,25,,weight,sand,
+ETOL_1920,DH_BF_timber_b,base_floor,111,0.08333333333333333,-2,25,,furring,wood,50x50 furring estimated
+ETOL_1920,DH_BF_timber_b,base_floor,112,0.9166666666666666,-2,25,,ventilation space,ventilation space,
+ETOL_1920,DH_BF_timber_b,base_floor,113,1,-3,20,,interior finish,wood,boarding
+ETOL_1920,DH_BF_timber,base_floor,114,0.125,0,200,,load-bearing structure,wood,75x200 k 600 planks estimated
+ETOL_1920,DH_BF_timber,base_floor,115,0.875,0,200,,thermal insulation,wood chips and sawdust,
+ETOL_1920,DH_BF_timber,base_floor,116,1,1,0,,filter,cardboard,
+ETOL_1920,DH_BF_timber,base_floor,117,1,2,20,,boarding,wood,20x100 boards estimated
+ETOL_1920,DH_BF_timber,base_floor,118,1,3,400,,crawl space,ventilation space,
+ETOL_1920,DH_BF_timber,base_floor,119,1,4,60,,slab,concrete,basement floor
+ETOL_1920,DH_BF_timber,base_floor,120,1,5,200,,french drain,gravel,
+ETOL_1920,DH_BF_timber,base_floor,121,1,6,0,,ground,none,
+ETOL_1920,DH_BF_timber,base_floor,122,0.08333333333333333,-1,25,,furring,wood,50x50 furring estimated
+ETOL_1920,DH_BF_timber,base_floor,123,0.9166666666666666,-1,25,,weight,sand,
+ETOL_1920,DH_BF_timber,base_floor,124,0.08333333333333333,-2,25,,furring,wood,50x50 furring estimated
+ETOL_1920,DH_BF_timber,base_floor,125,0.9166666666666666,-2,25,,ventilation space,ventilation space,
+ETOL_1920,DH_BF_timber,base_floor,126,1,-3,20,,interior finish,wood,boarding
+ETOL_1920,AB_SF_concrete,separating_floor,127,0.1,0,230,,load-bearing structure,reinforced concrete,100x300 k 1000 reinforced concrete beams estimated
+ETOL_1920,AB_SF_concrete,separating_floor,128,0.9,0,230,,soundproofing,wood chips and sawdust,
+ETOL_1920,AB_SF_concrete,separating_floor,129,0.1,1,30,,load-bearing structure,reinforced concrete,100x300 k 1000 reinforced concrete beams estimated
+ETOL_1920,AB_SF_concrete,separating_floor,130,0.9,1,30,,weight,sand,
+ETOL_1920,AB_SF_concrete,separating_floor,131,0.08333333333333333,2,100,,furring,wood,
+ETOL_1920,AB_SF_concrete,separating_floor,132,0.9166666666666666,2,100,,ventilation space,ventilation space,
+ETOL_1920,AB_SF_concrete,separating_floor,133,1,3,20,,exterior finish,wood,floor boarding
+ETOL_1920,AB_SF_concrete,separating_floor,134,1,-1,40,,load-bearing structure,reinforced concrete,thin reinforced concrete slab
+ETOL_1920,AB_SF_concrete,separating_floor,135,1,-2,0,,interior finish,none,
+ETOL_1920,AB_R_timber,roof,136,0.125,0,150,,load-bearing structure,wood,75x200 k 600 planks estimated
+ETOL_1920,AB_R_timber,roof,137,0.875,0,150,,thermal insulation,wood chips and sawdust,
+ETOL_1920,AB_R_timber,roof,138,0.125,1,25,,load-bearing structure,wood,75x200 k 600 planks estimated
+ETOL_1920,AB_R_timber,roof,139,0.875,1,25,,weight,sand,
+ETOL_1920,AB_R_timber,roof,140,0.125,2,25,,load-bearing structure,wood,75x200 k 600 planks estimated
+ETOL_1920,AB_R_timber,roof,141,0.875,2,25,,ventilation space,ventilation space,
+ETOL_1920,AB_R_timber,roof,142,1,3,20,,boarding,wood,attic floor
+ETOL_1920,AB_R_timber,roof,143,1,4,85,,fireproofing,brick,fireproofing between load-bearing structures and roofing
+ETOL_1920,AB_R_timber,roof,144,1,5,100,,ventilation space,ventilation space,
+ETOL_1920,AB_R_timber,roof,145,0.08333333333333333,6,100,,roof supports,wood,50x100 k 600 estimated
+ETOL_1920,AB_R_timber,roof,146,0.9166666666666666,6,100,,ventilation space,ventilation space,
+ETOL_1920,AB_R_timber,roof,147,1,7,20,,boarding,wood,
+ETOL_1920,AB_R_timber,roof,148,1,8,0,,exterior finish,none,roofing
+ETOL_1920,AB_R_timber,roof,149,1,-1,0,,filter,cardboard,
+ETOL_1920,AB_R_timber,roof,150,1,-2,20,,interior finish,wood,ceiling
+ETOL_1920,AB_PW_brick,partition_wall,151,1,0,240,480,load-bearing structure,brick,
+ETOL_1920,AB_PW_brick,partition_wall,152,1,1,0,,exterior finish,none,
+ETOL_1920,AB_PW_brick,partition_wall,153,1,-1,0,,interior finish,none,
+ETOL_1920,AB_EW_brick,exterior_wall,154,1,0,600,600,load-bearing structure,brick,solid 2½ brick wall
+ETOL_1920,AB_EW_brick,exterior_wall,155,1,1,0,,exterior finish,none,
+ETOL_1920,AB_EW_brick,exterior_wall,156,1,-1,0,,interior finish,none,
+ETOL_1920,AB_BF_concrete,base_floor,157,1,0,100,,load-bearing structure,concrete,
+ETOL_1920,AB_BF_concrete,base_floor,158,1,1,200,,french drain layer,gravel,
+ETOL_1920,AB_BF_concrete,base_floor,159,1,2,0,,ground,none,
+ETOL_1920,AB_BF_concrete,base_floor,160,1,-1,0,,interior finish,none,
+ETOL_1920,AB_BF_brick,base_floor,161,0.25,0,150,,load-bearing structure,wood,150x175 k 600 logs estimated
+ETOL_1920,AB_BF_brick,base_floor,162,0.75,0,150,,thermal insulation,wood chips and sawdust,
+ETOL_1920,AB_BF_brick,base_floor,163,0.05,1,85,,arch,brick,
+ETOL_1920,AB_BF_brick,base_floor,164,0.95,1,85,,load-bearing structure,steel,
+ETOL_1920,AB_BF_brick,base_floor,165,1,2,1600,,crawl space,ventilation space,"basement estimated as ""crawl space"""
+ETOL_1920,AB_BF_brick,base_floor,166,1,3,60,,slab,concrete,basement floor
+ETOL_1920,AB_BF_brick,base_floor,167,1,4,200,,french drain,gravel,
+ETOL_1920,AB_BF_brick,base_floor,168,1,5,0,,ground,none,
+ETOL_1920,AB_BF_brick,base_floor,169,0.25,-1,25,,weight,sand,
+ETOL_1920,AB_BF_brick,base_floor,170,0.75,-1,25,,load-bearing structure,wood,150x175 k 600 logs estimated
+ETOL_1920,AB_BF_brick,base_floor,171,1,-2,20,,interior finish,wood,20x100 boards estimated
+ETOL_1945,DH_SF_timber,separating_floor,172,0.125,0,150,,load-bearing structure,wood,75x200 k 600 planks estimated
+ETOL_1945,DH_SF_timber,separating_floor,173,0.875,0,150,,soundproofing,wood chips and sawdust,
+ETOL_1945,DH_SF_timber,separating_floor,174,0.125,1,25,,load-bearing structure,wood,75x200 k 600 planks estimated
+ETOL_1945,DH_SF_timber,separating_floor,175,0.875,1,25,,weight,sand,
+ETOL_1945,DH_SF_timber,separating_floor,176,0.125,2,25,,load-bearing structure,wood,75x200 k 600 planks estimated
+ETOL_1945,DH_SF_timber,separating_floor,177,0.875,2,25,,ventilation space,ventilation space,
+ETOL_1945,DH_SF_timber,separating_floor,178,1,3,20,,exterior finish,wood,20x100 floor boards estimated
+ETOL_1945,DH_SF_timber,separating_floor,179,1,-1,0,,filter,cardboard,
+ETOL_1945,DH_SF_timber,separating_floor,180,1,-2,20,,interior finish,wood,20x100 ceiling boards estimated
+ETOL_1945,DH_R_timber_200,roof,181,0.125,0,200,,load-bearing structure,wood,75x200 k 600 planks estimated
+ETOL_1945,DH_R_timber_200,roof,182,0.875,0,200,,thermal insulation,wood chips and sawdust,
+ETOL_1945,DH_R_timber_200,roof,183,0.08333333333333333,1,25,,furring,wood,50x50 k 600 furring estimated
+ETOL_1945,DH_R_timber_200,roof,184,0.9166666666666666,1,25,,weight,sand,
+ETOL_1945,DH_R_timber_200,roof,185,0.08333333333333333,2,25,,furring,wood,50x50 k 600 furring estimated
+ETOL_1945,DH_R_timber_200,roof,186,0.9166666666666666,2,25,,ventilation space,ventilation space,
+ETOL_1945,DH_R_timber_200,roof,187,1,3,20,,boarding,wood,attic floor
+ETOL_1945,DH_R_timber_200,roof,188,1,4,100,,ventilation space,ventilation space,
+ETOL_1945,DH_R_timber_200,roof,189,0.08333333333333333,5,100,,roof supports,wood,50x100 k 600 estimated
+ETOL_1945,DH_R_timber_200,roof,190,0.9166666666666666,5,100,,ventilation space,ventilation space,
+ETOL_1945,DH_R_timber_200,roof,191,1,6,20,,boarding,wood,
+ETOL_1945,DH_R_timber_200,roof,192,1,7,0,,exterior finish,none,roofing
+ETOL_1945,DH_R_timber_200,roof,193,1,-1,0,,filter,cardboard,
+ETOL_1945,DH_R_timber_200,roof,194,1,-2,20,,interior finish,wood,ceiling
+ETOL_1945,DH_R_timber_150,roof,195,0.125,0,150,,load-bearing structure,wood,75x200 k 600 planks estimated
+ETOL_1945,DH_R_timber_150,roof,196,0.875,0,150,,thermal insulation,wood chips and sawdust,
+ETOL_1945,DH_R_timber_150,roof,197,0.125,1,25,,load-bearing structure,wood,75x200 k 600 planks estimated
+ETOL_1945,DH_R_timber_150,roof,198,0.875,1,25,,weight,sand,
+ETOL_1945,DH_R_timber_150,roof,199,0.125,2,25,,load-bearing structure,wood,75x200 k 600 planks estimated
+ETOL_1945,DH_R_timber_150,roof,200,0.875,2,25,,ventilation space,ventilation space,
+ETOL_1945,DH_R_timber_150,roof,201,1,3,20,,boarding,wood,attic floor
+ETOL_1945,DH_R_timber_150,roof,202,1,4,100,,ventilation space,ventilation space,
+ETOL_1945,DH_R_timber_150,roof,203,0.08333333333333333,5,100,,roof supports,wood,50x100 k 600 estimated
+ETOL_1945,DH_R_timber_150,roof,204,0.9166666666666666,5,100,,ventilation space,ventilation space,
+ETOL_1945,DH_R_timber_150,roof,205,1,6,20,,boarding,wood,
+ETOL_1945,DH_R_timber_150,roof,206,1,7,0,,exterior finish,none,roofing
+ETOL_1945,DH_R_timber_150,roof,207,1,-1,0,,filter,cardboard,
+ETOL_1945,DH_R_timber_150,roof,208,1,-2,20,,interior finish,wood,ceiling
+ETOL_1945,DH_PW_timber_b,partition_wall,209,0.08333333333333333,0,100,100,load-bearing structure,wood,50x100 k 600 timber frame assumed
+ETOL_1945,DH_PW_timber_b,partition_wall,210,0.9166666666666666,0,100,100,ventilation space,ventilation space,
+ETOL_1945,DH_PW_timber_b,partition_wall,211,1,1,0,,soundproofing,cardboard,
+ETOL_1945,DH_PW_timber_b,partition_wall,212,1,2,20,,boarding,wood,20x100 boarding assumed
+ETOL_1945,DH_PW_timber_b,partition_wall,213,1,3,0,,exterior finish,none,
+ETOL_1945,DH_PW_timber_b,partition_wall,214,1,-1,0,,soundproofing,cardboard,
+ETOL_1945,DH_PW_timber_b,partition_wall,215,1,-2,20,,boarding,wood,20x100 boarding assumed
+ETOL_1945,DH_PW_timber_b,partition_wall,216,1,-3,0,,interior finish,none,
+ETOL_1945,DH_PW_timber,partition_wall,217,0.08333333333333333,0,100,100,load-bearing structure,wood,50x100 k 600 timber frame assumed
+ETOL_1945,DH_PW_timber,partition_wall,218,0.9166666666666666,0,100,100,ventilation space,ventilation space,
+ETOL_1945,DH_PW_timber,partition_wall,219,1,1,20,,exterior finish,wood,20x100 boarding assumed
+ETOL_1945,DH_PW_timber,partition_wall,220,1,-1,20,,interior finish,wood,20x100 boarding assumed
+ETOL_1945,DH_EW_timber_125,exterior_wall,221,0.08333333333333333,0,125,125,load-bearing structure,wood,50x125 k 600 timber frame estimated
+ETOL_1945,DH_EW_timber_125,exterior_wall,222,0.9166666666666666,0,125,125,thermal insulation,wood chips and sawdust,
+ETOL_1945,DH_EW_timber_125,exterior_wall,223,1,1,0,,filter,cardboard,
+ETOL_1945,DH_EW_timber_125,exterior_wall,224,0.16666666666666666,2,20,,furring,wood,20x100 k 600 furring estimated
+ETOL_1945,DH_EW_timber_125,exterior_wall,225,0.8333333333333334,2,20,,ventilation space,ventilation space,
+ETOL_1945,DH_EW_timber_125,exterior_wall,226,1,3,20,,exterior finish,wood,20x100 exterior boarding
+ETOL_1945,DH_EW_timber_125,exterior_wall,227,1,-1,0,,filter,cardboard,
+ETOL_1945,DH_EW_timber_125,exterior_wall,228,1,-2,20,,interior finish,wood,20x100 interior boarding
+ETOL_1945,DH_EW_timber_100,exterior_wall,229,0.08333333333333333,0,100,100,load-bearing structure,wood,50x100 k 600 timber frame estimated
+ETOL_1945,DH_EW_timber_100,exterior_wall,230,0.9166666666666666,0,100,100,thermal insulation,wood chips and sawdust,
+ETOL_1945,DH_EW_timber_100,exterior_wall,231,1,1,0,,filter,cardboard,
+ETOL_1945,DH_EW_timber_100,exterior_wall,232,0.16666666666666666,2,20,,furring,wood,20x100 k 600 furring estimated
+ETOL_1945,DH_EW_timber_100,exterior_wall,233,0.8333333333333334,2,20,,ventilation space,ventilation space,
+ETOL_1945,DH_EW_timber_100,exterior_wall,234,1,3,20,,exterior finish,wood,20x100 exterior boarding
+ETOL_1945,DH_EW_timber_100,exterior_wall,235,1,-1,0,,filter,cardboard,
+ETOL_1945,DH_EW_timber_100,exterior_wall,236,1,-2,20,,interior finish,wood,20x100 interior boarding
+ETOL_1945,DH_BF_timber_b,base_floor,237,0.125,0,400,,load-bearing structure,wood,2x(75x200) k 600 planks estimated
+ETOL_1945,DH_BF_timber_b,base_floor,238,0.875,0,400,,thermal insulation,wood chips and sawdust,
+ETOL_1945,DH_BF_timber_b,base_floor,239,1,1,0,,filter,cardboard,
+ETOL_1945,DH_BF_timber_b,base_floor,240,1,2,20,,boarding,wood,20x100 boards estimated
+ETOL_1945,DH_BF_timber_b,base_floor,241,1,3,1600,,crawl space,ventilation space,"basement estimated as ""crawl space"""
+ETOL_1945,DH_BF_timber_b,base_floor,242,1,4,60,,slab,concrete,basement floor
+ETOL_1945,DH_BF_timber_b,base_floor,243,1,5,200,,french drain,gravel,
+ETOL_1945,DH_BF_timber_b,base_floor,244,1,6,0,,ground,none,
+ETOL_1945,DH_BF_timber_b,base_floor,245,0.08333333333333333,-1,25,,furring,wood,50x50 furring estimated
+ETOL_1945,DH_BF_timber_b,base_floor,246,0.9166666666666666,-1,25,,weight,sand,
+ETOL_1945,DH_BF_timber_b,base_floor,247,0.08333333333333333,-2,25,,furring,wood,50x50 furring estimated
+ETOL_1945,DH_BF_timber_b,base_floor,248,0.9166666666666666,-2,25,,ventilation space,ventilation space,
+ETOL_1945,DH_BF_timber_b,base_floor,249,1,-3,20,,interior finish,wood,boarding
+ETOL_1945,DH_BF_timber,base_floor,250,0.125,0,200,,load-bearing structure,wood,75x200 k 600 planks estimated
+ETOL_1945,DH_BF_timber,base_floor,251,0.875,0,200,,thermal insulation,wood chips and sawdust,
+ETOL_1945,DH_BF_timber,base_floor,252,1,1,0,,filter,cardboard,
+ETOL_1945,DH_BF_timber,base_floor,253,1,2,20,,boarding,wood,20x100 boards estimated
+ETOL_1945,DH_BF_timber,base_floor,254,1,3,400,,crawl space,ventilation space,
+ETOL_1945,DH_BF_timber,base_floor,255,1,4,60,,slab,concrete,basement floor
+ETOL_1945,DH_BF_timber,base_floor,256,1,5,200,,french drain,gravel,
+ETOL_1945,DH_BF_timber,base_floor,257,1,6,0,,ground,none,
+ETOL_1945,DH_BF_timber,base_floor,258,0.08333333333333333,-1,25,,furring,wood,50x50 furring estimated
+ETOL_1945,DH_BF_timber,base_floor,259,0.9166666666666666,-1,25,,weight,sand,
+ETOL_1945,DH_BF_timber,base_floor,260,0.08333333333333333,-2,25,,furring,wood,50x50 furring estimated
+ETOL_1945,DH_BF_timber,base_floor,261,0.9166666666666666,-2,25,,ventilation space,ventilation space,
+ETOL_1945,DH_BF_timber,base_floor,262,1,-3,20,,interior finish,wood,boarding
+ETOL_1945,AB_SF_concrete_b,separating_floor,263,1,0,150,,load-bearing structure,reinforced concrete,
+ETOL_1945,AB_SF_concrete_b,separating_floor,264,1,1,0,,exterior finish,none,
+ETOL_1945,AB_SF_concrete_b,separating_floor,265,1,-1,0,,interior finish,none,
+ETOL_1945,AB_SF_concrete,separating_floor,266,0.1,0,150,,load-bearing structure,reinforced concrete,100x300 k 1000 reinforced concrete beams estimated
+ETOL_1945,AB_SF_concrete,separating_floor,267,0.9,0,150,,soundproofing,wood chips and sawdust,
+ETOL_1945,AB_SF_concrete,separating_floor,268,0.1,1,110,,load-bearing structure,reinforced concrete,100x300 k 1000 reinforced concrete beams estimated
+ETOL_1945,AB_SF_concrete,separating_floor,269,0.9,1,110,,ventilation space,ventilation space,
+ETOL_1945,AB_SF_concrete,separating_floor,270,1,2,70,,slab,reinforced concrete,
+ETOL_1945,AB_SF_concrete,separating_floor,271,1,3,0,,exterior finish,none,
+ETOL_1945,AB_SF_concrete,separating_floor,272,1,-1,40,,load-bearing structure,reinforced concrete,thin reinforced concrete slab
+ETOL_1945,AB_SF_concrete,separating_floor,273,1,-2,0,,interior finish,none,
+ETOL_1945,AB_R_concrete,roof,274,0.1,0,260,,load-bearing structure,reinforced concrete,100x300 k 1000 reinforced concrete beams estimated
+ETOL_1945,AB_R_concrete,roof,275,0.9,0,260,,thermal insulation,wood chips and sawdust,
+ETOL_1945,AB_R_concrete,roof,276,1,1,20,,boarding,wood,
+ETOL_1945,AB_R_concrete,roof,277,1,2,70,,slab,reinforced concrete,
+ETOL_1945,AB_R_concrete,roof,278,1,3,100,,ventilation space,ventilation space,
+ETOL_1945,AB_R_concrete,roof,279,0.08333333333333333,4,100,,roof supports,wood,50x100 k 600 estimated
+ETOL_1945,AB_R_concrete,roof,280,0.9166666666666666,4,100,,ventilation space,ventilation space,
+ETOL_1945,AB_R_concrete,roof,281,1,5,20,,boarding,wood,
+ETOL_1945,AB_R_concrete,roof,282,1,6,0,,exterior finish,none,roofing
+ETOL_1945,AB_R_concrete,roof,283,1,-1,40,,load-bearing structure,reinforced concrete,thin reinforced concrete slab
+ETOL_1945,AB_R_concrete,roof,284,1,-2,0,,interior finish,none,
+ETOL_1945,AB_PW_concrete,partition_wall,285,1,0,70,150,load-bearing structure,reinforced concrete,
+ETOL_1945,AB_PW_concrete,partition_wall,286,1,1,0,,exterior finish,none,
+ETOL_1945,AB_PW_concrete,partition_wall,287,1,-1,0,,interior finish,none,
+ETOL_1945,AB_PW_brick,partition_wall,288,1,0,240,360,load-bearing structure,brick,
+ETOL_1945,AB_PW_brick,partition_wall,289,1,1,0,,exterior finish,none,
+ETOL_1945,AB_PW_brick,partition_wall,290,1,-1,0,,interior finish,none,
+ETOL_1945,AB_EW_concrete,exterior_wall,291,1,0,130,,thermal insulation,autoclaved aerated concrete,
+ETOL_1945,AB_EW_concrete,exterior_wall,292,1,1,0,,exterior finish,plaster,
+ETOL_1945,AB_EW_concrete,exterior_wall,293,1,-1,70,150,load-bearing structure,reinforced concrete,
+ETOL_1945,AB_EW_concrete,exterior_wall,294,1,-2,0,,interior finish,none,
+ETOL_1945,AB_EW_brick,exterior_wall,295,1,0,360,360,load-bearing structure,brick,solid 1½ brick wall
+ETOL_1945,AB_EW_brick,exterior_wall,296,1,1,0,,exterior finish,none,
+ETOL_1945,AB_EW_brick,exterior_wall,297,1,-1,0,,interior finish,none,
+ETOL_1945,AB_BF_concrete,base_floor,298,1,0,100,,load-bearing structure,concrete,
+ETOL_1945,AB_BF_concrete,base_floor,299,1,1,200,,french drain layer,gravel,
+ETOL_1945,AB_BF_concrete,base_floor,300,1,2,0,,ground,none,
+ETOL_1945,AB_BF_concrete,base_floor,301,1,-1,0,,interior finish,none,
+ETOL_1960,DH_SF_timber,separating_floor,302,0.8333333333333334,0,100,,load-bearing structure,wood,50x100 k 600 planks estimated
+ETOL_1960,DH_SF_timber,separating_floor,303,0.16666666666666663,0,100,,soundproofing,mineral wool,
+ETOL_1960,DH_SF_timber,separating_floor,304,0.8333333333333334,1,100,,load-bearing structure,wood,50x100 k 600 planks estimated
+ETOL_1960,DH_SF_timber,separating_floor,305,0.16666666666666663,1,100,,ventilation space,ventilation space,
+ETOL_1960,DH_SF_timber,separating_floor,306,1,2,12,,construction board,plywood,
+ETOL_1960,DH_SF_timber,separating_floor,307,1,3,0,,exterior finish,none,
+ETOL_1960,DH_SF_timber,separating_floor,308,1,-1,12,,construction board,plywood,
+ETOL_1960,DH_SF_timber,separating_floor,309,1,-2,0,,interior finish,none,
+ETOL_1960,DH_R_timber_flat,roof,310,0.125,0,150,,load-bearing structure,wood,
+ETOL_1960,DH_R_timber_flat,roof,311,0.875,0,150,,thermal insulation,mineral wool,
+ETOL_1960,DH_R_timber_flat,roof,312,0.125,1,50,,load-bearing structure,wood,
+ETOL_1960,DH_R_timber_flat,roof,313,0.875,1,50,,ventilation space,ventilation space,
+ETOL_1960,DH_R_timber_flat,roof,314,0.08333333333333333,2,100,,furring,wood,50x100 k 600 furring estimated
+ETOL_1960,DH_R_timber_flat,roof,315,0.9166666666666666,2,100,,ventilation space,ventilation space,
+ETOL_1960,DH_R_timber_flat,roof,316,1,3,12,,windproofing,plywood,
+ETOL_1960,DH_R_timber_flat,roof,317,1,4,0,,exterior finish,none,roofing
+ETOL_1960,DH_R_timber_flat,roof,318,1,-1,12,,construction board,plywood,
+ETOL_1960,DH_R_timber_flat,roof,319,1,-2,0,,interior finish,none,
+ETOL_1960,DH_R_timber_200,roof,320,0.125,0,200,,load-bearing structure,wood,75x200 k 600 timber roof truss estimated
+ETOL_1960,DH_R_timber_200,roof,321,0.875,0,200,,thermal insulation,mineral wool,
+ETOL_1960,DH_R_timber_200,roof,322,1,1,100,,ventilation space,ventilation space,
+ETOL_1960,DH_R_timber_200,roof,323,0.125,2,200,,roof supports,wood,75x200 k 600 timber roof truss estimated
+ETOL_1960,DH_R_timber_200,roof,324,0.875,2,200,,ventilation space,ventilation space,
+ETOL_1960,DH_R_timber_200,roof,325,1,3,20,,boarding,wood,
+ETOL_1960,DH_R_timber_200,roof,326,1,4,0,,exterior finish,none,roofing
+ETOL_1960,DH_R_timber_200,roof,327,1,-1,12,,construction board,plywood,
+ETOL_1960,DH_R_timber_200,roof,328,1,-2,0,,interior finish,none,
+ETOL_1960,DH_R_timber_150,roof,329,0.125,0,150,,load-bearing structure,wood,75x200 k 600 timber roof truss estimated
+ETOL_1960,DH_R_timber_150,roof,330,0.875,0,150,,thermal insulation,mineral wool,
+ETOL_1960,DH_R_timber_150,roof,331,0.125,1,50,,load-bearing structure,wood,75x200 k 600 timber roof truss estimated
+ETOL_1960,DH_R_timber_150,roof,332,0.875,1,50,,ventilation space,ventilation space,
+ETOL_1960,DH_R_timber_150,roof,333,1,2,100,,ventilation space,ventilation space,
+ETOL_1960,DH_R_timber_150,roof,334,0.125,3,200,,roof supports,wood,75x200 k 600 timber roof truss estimated
+ETOL_1960,DH_R_timber_150,roof,335,0.875,3,200,,ventilation space,ventilation space,
+ETOL_1960,DH_R_timber_150,roof,336,1,4,20,,boarding,wood,
+ETOL_1960,DH_R_timber_150,roof,337,1,5,0,,exterior finish,none,roofing
+ETOL_1960,DH_R_timber_150,roof,338,1,-1,12,,construction board,plywood,
+ETOL_1960,DH_R_timber_150,roof,339,1,-2,0,,interior finish,none,
+ETOL_1960,DH_PW_timber_b,partition_wall,340,0.075,0,95,95,load-bearing structure,wood,45x95 k 600
+ETOL_1960,DH_PW_timber_b,partition_wall,341,0.925,0,95,95,soundproofing,mineral wool,
+ETOL_1960,DH_PW_timber_b,partition_wall,342,1,1,9,,construction board,plywood,
+ETOL_1960,DH_PW_timber_b,partition_wall,343,1,2,0,,exterior finish,none,
+ETOL_1960,DH_PW_timber_b,partition_wall,344,1,-1,9,,construction board,plywood,
+ETOL_1960,DH_PW_timber_b,partition_wall,345,1,-2,0,,interior finish,none,
+ETOL_1960,DH_PW_timber,partition_wall,346,0.08333333333333333,0,100,100,load-bearing structure,wood,50x100 k 600 timber frame assumed
+ETOL_1960,DH_PW_timber,partition_wall,347,0.9166666666666666,0,100,100,ventilation space,ventilation space,
+ETOL_1960,DH_PW_timber,partition_wall,348,1,1,0,,soundproofing,cardboard,
+ETOL_1960,DH_PW_timber,partition_wall,349,1,2,20,,boarding,wood,20x100 boarding assumed
+ETOL_1960,DH_PW_timber,partition_wall,350,1,3,0,,exterior finish,none,
+ETOL_1960,DH_PW_timber,partition_wall,351,1,-1,0,,soundproofing,cardboard,
+ETOL_1960,DH_PW_timber,partition_wall,352,1,-2,20,,boarding,wood,20x100 boarding assumed
+ETOL_1960,DH_PW_timber,partition_wall,353,1,-3,0,,interior finish,none,
+ETOL_1960,DH_EW_timber_150,exterior_wall,354,0.08333333333333333,0,150,150,load-bearing structure,wood,50x150 k 600 timber frame estimated
+ETOL_1960,DH_EW_timber_150,exterior_wall,355,0.9166666666666666,0,150,150,thermal insulation,mineral wool,
+ETOL_1960,DH_EW_timber_150,exterior_wall,356,1,1,9,,windproofing,plywood,
+ETOL_1960,DH_EW_timber_150,exterior_wall,357,0.041666666666666664,2,25,,furring,wood,25x25 k 600 furring estimated
+ETOL_1960,DH_EW_timber_150,exterior_wall,358,0.9583333333333334,2,25,,ventilation space,ventilation space,
+ETOL_1960,DH_EW_timber_150,exterior_wall,359,1,3,20,,exterior finish,wood,20x100 exterior boarding
+ETOL_1960,DH_EW_timber_150,exterior_wall,360,1,-1,0,,interior finish,none,
+ETOL_1960,DH_EW_timber_100,exterior_wall,361,0.08333333333333333,0,100,100,load-bearing structure,wood,50x100 k 600 timber frame estimated
+ETOL_1960,DH_EW_timber_100,exterior_wall,362,0.9166666666666666,0,100,100,thermal insulation,mineral wool,
+ETOL_1960,DH_EW_timber_100,exterior_wall,363,1,1,9,,windproofing,plywood,
+ETOL_1960,DH_EW_timber_100,exterior_wall,364,0.041666666666666664,2,25,,furring,wood,25x25 k 600 furring estimated
+ETOL_1960,DH_EW_timber_100,exterior_wall,365,0.9583333333333334,2,25,,ventilation space,ventilation space,
+ETOL_1960,DH_EW_timber_100,exterior_wall,366,1,3,20,,exterior finish,wood,20x100 exterior boarding
+ETOL_1960,DH_EW_timber_100,exterior_wall,367,1,-1,0,,interior finish,none,
+ETOL_1960,DH_EW_brick,exterior_wall,368,1,0,100,,thermal insulation,mineral wool,
+ETOL_1960,DH_EW_brick,exterior_wall,369,1,1,25,,ventilation space,ventilation space,
+ETOL_1960,DH_EW_brick,exterior_wall,370,1,2,130,,exterior finish,brick,
+ETOL_1960,DH_EW_brick,exterior_wall,371,1,-1,130,130,load-bearing structure,brick,
+ETOL_1960,DH_EW_brick,exterior_wall,372,1,-2,0,,interior finish,none,
+ETOL_1960,DH_BF_concrete_200,base_floor,373,0.08333333333333333,0,200,,furring,wood,2x(50x100) k 600 furring estimated
+ETOL_1960,DH_BF_concrete_200,base_floor,374,0.9166666666666666,0,200,,thermal insulation,mineral wool,
+ETOL_1960,DH_BF_concrete_200,base_floor,375,1,1,100,,load-bearing structure,reinforced concrete,
+ETOL_1960,DH_BF_concrete_200,base_floor,376,1,2,400,,french drain layer,gravel,
+ETOL_1960,DH_BF_concrete_200,base_floor,377,1,3,0,,ground,none,
+ETOL_1960,DH_BF_concrete_200,base_floor,378,1,-1,12,,construction board,plywood,
+ETOL_1960,DH_BF_concrete_200,base_floor,379,1,-2,0,,interior finish,none,
+ETOL_1960,DH_BF_concrete_100,base_floor,380,0.08333333333333333,0,100,,furring,wood,50x100 k 600 furring estimated
+ETOL_1960,DH_BF_concrete_100,base_floor,381,0.9166666666666666,0,100,,thermal insulation,mineral wool,
+ETOL_1960,DH_BF_concrete_100,base_floor,382,1,1,100,,load-bearing structure,reinforced concrete,
+ETOL_1960,DH_BF_concrete_100,base_floor,383,1,2,400,,french drain layer,gravel,
+ETOL_1960,DH_BF_concrete_100,base_floor,384,1,3,0,,ground,none,
+ETOL_1960,DH_BF_concrete_100,base_floor,385,1,-1,20,,interior finish,wood,boarding
+ETOL_1960,AB_SF_concrete_b,separating_floor,386,1,0,160,,load-bearing structure,reinforced concrete,
+ETOL_1960,AB_SF_concrete_b,separating_floor,387,1,1,100,,soundproofing,expanded polystyrene,
+ETOL_1960,AB_SF_concrete_b,separating_floor,388,1,2,50,,surface slab,reinforced concrete,
+ETOL_1960,AB_SF_concrete_b,separating_floor,389,1,3,0,,exterior finish,none,
+ETOL_1960,AB_SF_concrete_b,separating_floor,390,1,-1,0,,interior finish,none,
+ETOL_1960,AB_SF_concrete,separating_floor,391,1,0,190,,load-bearing structure,reinforced concrete,
+ETOL_1960,AB_SF_concrete,separating_floor,392,1,1,0,,exterior finish,none,
+ETOL_1960,AB_SF_concrete,separating_floor,393,1,-1,0,,interior finish,none,
+ETOL_1960,AB_R_concrete_flat,roof,394,1,0,200,,thermal insulation,expanded clay aggregate,
+ETOL_1960,AB_R_concrete_flat,roof,395,1,1,50,,surface slab,reinforced concrete,
+ETOL_1960,AB_R_concrete_flat,roof,396,1,2,0,,exterior finish,none,
+ETOL_1960,AB_R_concrete_flat,roof,397,1,-1,190,,load-bearing structure,reinforced concrete,
+ETOL_1960,AB_R_concrete_flat,roof,398,1,-2,0,,interior finish,none,
+ETOL_1960,AB_R_concrete_b,roof,399,1,0,150,,thermal insulation,expanded polystyrene,
+ETOL_1960,AB_R_concrete_b,roof,400,1,1,50,,surface slab,reinforced concrete,
+ETOL_1960,AB_R_concrete_b,roof,401,1,2,100,,ventilation space,ventilation space,
+ETOL_1960,AB_R_concrete_b,roof,402,0.125,3,200,,roof supports,wood,75x200 k 600 estimated
+ETOL_1960,AB_R_concrete_b,roof,403,0.875,3,200,,ventilation space,ventilation space,
+ETOL_1960,AB_R_concrete_b,roof,404,1,4,22,,boarding,wood,
+ETOL_1960,AB_R_concrete_b,roof,405,1,5,0,,exterior finish,none,
+ETOL_1960,AB_R_concrete_b,roof,406,1,-1,160,,load-bearing structure,reinforced concrete,
+ETOL_1960,AB_R_concrete_b,roof,407,1,-2,0,,interior finish,none,
+ETOL_1960,AB_R_concrete,roof,408,1,0,200,,thermal insulation,mineral wool,
+ETOL_1960,AB_R_concrete,roof,409,0.125,1,200,,roof supports,wood,75x200 k 600 estimated
+ETOL_1960,AB_R_concrete,roof,410,0.875,1,200,,ventilation space,ventilation space,
+ETOL_1960,AB_R_concrete,roof,411,1,2,22,,boarding,wood,
+ETOL_1960,AB_R_concrete,roof,412,1,3,0,,exterior finish,none,
+ETOL_1960,AB_R_concrete,roof,413,1,-1,190,,load-bearing structure,reinforced concrete,
+ETOL_1960,AB_R_concrete,roof,414,1,-2,0,,interior finish,none,
+ETOL_1960,AB_PW_concrete,partition_wall,415,1,0,70,150,load-bearing structure,reinforced concrete,
+ETOL_1960,AB_PW_concrete,partition_wall,416,1,1,0,,exterior finish,none,
+ETOL_1960,AB_PW_concrete,partition_wall,417,1,-1,0,,interior finish,none,
+ETOL_1960,AB_PW_brick,partition_wall,418,1,0,75,200,load-bearing structure,brick,
+ETOL_1960,AB_PW_brick,partition_wall,419,1,1,0,,exterior finish,none,
+ETOL_1960,AB_PW_brick,partition_wall,420,1,-1,0,,interior finish,none,
+ETOL_1960,AB_EW_concrete,exterior_wall,421,1,0,90,,thermal insulation,mineral wool,
+ETOL_1960,AB_EW_concrete,exterior_wall,422,1,1,50,,exterior finish,reinforced concrete,
+ETOL_1960,AB_EW_concrete,exterior_wall,423,1,-1,70,150,load-bearing structure,reinforced concrete,
+ETOL_1960,AB_EW_concrete,exterior_wall,424,1,-2,0,,interior finish,none,
+ETOL_1960,AB_EW_brick,exterior_wall,425,1,0,75,,thermal insulation,mineral wool,
+ETOL_1960,AB_EW_brick,exterior_wall,426,1,1,130,,exterior finish,brick,
+ETOL_1960,AB_EW_brick,exterior_wall,427,1,-1,85,130,load-bearing structure,brick,
+ETOL_1960,AB_EW_brick,exterior_wall,428,1,-2,0,,interior finish,plaster,
+ETOL_1960,AB_BF_concrete_b,base_floor,429,1,0,150,,thermal insulation,expanded polystyrene,
+ETOL_1960,AB_BF_concrete_b,base_floor,430,1,1,160,,load-bearing structure,reinforced concrete,
+ETOL_1960,AB_BF_concrete_b,base_floor,431,1,2,400,,french drain layer,gravel,
+ETOL_1960,AB_BF_concrete_b,base_floor,432,1,3,0,,ground,none,
+ETOL_1960,AB_BF_concrete_b,base_floor,433,1,-1,50,,surface slab,reinforced concrete,
+ETOL_1960,AB_BF_concrete_b,base_floor,434,1,-2,0,,interior finish,none,
+ETOL_1960,AB_BF_concrete,base_floor,435,1,0,50,,thermal insulation,expanded polystyrene,
+ETOL_1960,AB_BF_concrete,base_floor,436,1,1,400,,french drain layer,gravel,
+ETOL_1960,AB_BF_concrete,base_floor,437,1,2,0,,ground,none,
+ETOL_1960,AB_BF_concrete,base_floor,438,1,-1,70,,load-bearing structure,reinforced concrete,
+ETOL_1960,AB_BF_concrete,base_floor,439,1,-2,0,,interior finish,none,
+ETOL_1970,TH_SF_concrete,separating_floor,440,1,0,130,,load-bearing structure,reinforced concrete,
+ETOL_1970,TH_SF_concrete,separating_floor,441,1,1,0,,exterior finish,none,
+ETOL_1970,TH_SF_concrete,separating_floor,442,1,-1,0,,interior finish,none,
+ETOL_1970,TH_R_timber,roof,443,0.08333333333333333,0,200,,load-bearing structure,wood,50x200 k 600 timber roof truss estimated
+ETOL_1970,TH_R_timber,roof,444,0.9166666666666666,0,200,,thermal insulation,mineral wool,
+ETOL_1970,TH_R_timber,roof,445,1,1,50,,windproofing,mineral wool,
+ETOL_1970,TH_R_timber,roof,446,1,2,100,,ventilation space,ventilation space,
+ETOL_1970,TH_R_timber,roof,447,0.08333333333333333,3,200,,roof supports,wood,50x200 k 600 timber roof truss estimated
+ETOL_1970,TH_R_timber,roof,448,0.9166666666666666,3,200,,ventilation space,ventilation space,
+ETOL_1970,TH_R_timber,roof,449,1,4,20,,boarding,wood,
+ETOL_1970,TH_R_timber,roof,450,1,5,0,,exterior finish,none,roofing
+ETOL_1970,TH_R_timber,roof,451,1,-1,0,,air barrier,paper,
+ETOL_1970,TH_R_timber,roof,452,0.25,-2,20,,furring,wood,20x100 k 400 estimated
+ETOL_1970,TH_R_timber,roof,453,0.75,-2,20,,ventilation space,none,
+ETOL_1970,TH_R_timber,roof,454,1,-3,0,,interior finish,none,
+ETOL_1970,TH_R_concrete,roof,455,1,0,150,,thermal insulation,mineral wool,
+ETOL_1970,TH_R_concrete,roof,456,1,1,100,,ventilation space,ventilation space,
+ETOL_1970,TH_R_concrete,roof,457,0.08333333333333333,2,200,,roof supports,wood,50x200 k 600 timber roof truss estimated
+ETOL_1970,TH_R_concrete,roof,458,0.9166666666666666,2,200,,ventilation space,ventilation space,
+ETOL_1970,TH_R_concrete,roof,459,1,3,20,,furring,wood,20x100 boarding estimated
+ETOL_1970,TH_R_concrete,roof,460,1,4,0,,exterior finish,none,roofing
+ETOL_1970,TH_R_concrete,roof,461,1,-1,130,,load-bearing structure,reinforced concrete,
+ETOL_1970,TH_R_concrete,roof,462,1,-2,0,,interior finish,none,
+ETOL_1970,TH_PW_timber,partition_wall,463,0.08333333333333333,0,70,70,load-bearing structure,wood,50x70 k 600 estimated
+ETOL_1970,TH_PW_timber,partition_wall,464,0.9166666666666666,0,70,70,soundproofing,mineral wool,
+ETOL_1970,TH_PW_timber,partition_wall,465,1,1,25,,ventilation space,ventilation space,
+ETOL_1970,TH_PW_timber,partition_wall,466,0.08333333333333333,2,70,70,load-bearing structure,wood,50x70 k 600 estimated
+ETOL_1970,TH_PW_timber,partition_wall,467,0.9166666666666666,2,70,70,soundproofing,mineral wool,
+ETOL_1970,TH_PW_timber,partition_wall,468,1,3,13,,construction board,plasterboard,
+ETOL_1970,TH_PW_timber,partition_wall,469,1,4,10,,construction board,chipboard,
+ETOL_1970,TH_PW_timber,partition_wall,470,1,5,0,,exterior finish,none,
+ETOL_1970,TH_PW_timber,partition_wall,471,1,-1,13,,construction board,plasterboard,
+ETOL_1970,TH_PW_timber,partition_wall,472,1,-2,10,,construction board,chipboard,
+ETOL_1970,TH_PW_timber,partition_wall,473,1,-3,0,,interior finish,none,
+ETOL_1970,TH_PW_concrete,partition_wall,474,1,0,70,150,load-bearing structure,reinforced concrete,
+ETOL_1970,TH_PW_concrete,partition_wall,475,1,1,0,,exterior finish,none,
+ETOL_1970,TH_PW_concrete,partition_wall,476,1,-1,0,,interior finish,none,
+ETOL_1970,TH_EW_timber,exterior_wall,477,0.08333333333333333,0,100,100,load-bearing structure,wood,50x100 k 600
+ETOL_1970,TH_EW_timber,exterior_wall,478,0.9166666666666666,0,100,100,thermal insulation,mineral wool,
+ETOL_1970,TH_EW_timber,exterior_wall,479,1,1,12,,windproofing,wood fibre board,
+ETOL_1970,TH_EW_timber,exterior_wall,480,0.041666666666666664,2,25,,furring,wood,25x25 k 600 furring estimated
+ETOL_1970,TH_EW_timber,exterior_wall,481,0.9583333333333334,2,25,,ventilation space,ventilation space,
+ETOL_1970,TH_EW_timber,exterior_wall,482,1,3,20,,exterior finish,wood,20x100 boarding estimated
+ETOL_1970,TH_EW_timber,exterior_wall,483,0.08333333333333333,-1,50,,furring,wood,50x50 k 600
+ETOL_1970,TH_EW_timber,exterior_wall,484,0.9166666666666666,-1,50,,thermal insulation,mineral wool,
+ETOL_1970,TH_EW_timber,exterior_wall,485,1,-2,0,,air barrier,polyethylene plastic film,
+ETOL_1970,TH_EW_timber,exterior_wall,486,1,-3,12,,construction board,chipboard,
+ETOL_1970,TH_EW_timber,exterior_wall,487,1,-4,0,,interior finish,none,
+ETOL_1970,TH_EW_concrete,exterior_wall,488,1,0,80,,thermal insulation,mineral wool,
+ETOL_1970,TH_EW_concrete,exterior_wall,489,1,1,70,,surface element,reinforced concrete,
+ETOL_1970,TH_EW_concrete,exterior_wall,490,1,2,0,,exterior finish,none,
+ETOL_1970,TH_EW_concrete,exterior_wall,491,1,-1,70,150,load-bearing structure,reinforced concrete,
+ETOL_1970,TH_EW_concrete,exterior_wall,492,1,-2,0,,interior finish,none,
+ETOL_1970,TH_BF_concrete,base_floor,493,1,0,100,,thermal insulation,expanded polystyrene,
+ETOL_1970,TH_BF_concrete,base_floor,494,1,1,0.2,,filter,polyethylene plastic film,
+ETOL_1970,TH_BF_concrete,base_floor,495,1,2,400,,french drain layer,gravel,
+ETOL_1970,TH_BF_concrete,base_floor,496,1,3,0,,ground,none,
+ETOL_1970,TH_BF_concrete,base_floor,497,1,-1,100,,load-bearing structure,reinforced concrete,
+ETOL_1970,TH_BF_concrete,base_floor,498,1,-2,0,,interior finish,none,
+ETOL_1970,DH_SF_timber,separating_floor,499,0.8333333333333334,0,100,,load-bearing structure,wood,50x100 k 600 planks estimated
+ETOL_1970,DH_SF_timber,separating_floor,500,0.16666666666666663,0,100,,soundproofing,mineral wool,
+ETOL_1970,DH_SF_timber,separating_floor,501,0.8333333333333334,1,100,,load-bearing structure,wood,50x100 k 600 planks estimated
+ETOL_1970,DH_SF_timber,separating_floor,502,0.16666666666666663,1,100,,ventilation space,ventilation space,
+ETOL_1970,DH_SF_timber,separating_floor,503,1,2,12,,construction board,plywood,
+ETOL_1970,DH_SF_timber,separating_floor,504,1,3,0,,exterior finish,none,
+ETOL_1970,DH_SF_timber,separating_floor,505,1,-1,12,,construction board,plywood,
+ETOL_1970,DH_SF_timber,separating_floor,506,1,-2,0,,interior finish,none,
+ETOL_1970,DH_R_timber_flat,roof,507,1,0,300,,thermal insulation,mineral wool,
+ETOL_1970,DH_R_timber_flat,roof,508,0.08333333333333333,1,200,,load-bearing structure,wood,50x200 k 600
+ETOL_1970,DH_R_timber_flat,roof,509,0.9166666666666666,1,200,,ventilation space,ventilation space,
+ETOL_1970,DH_R_timber_flat,roof,510,1,2,12,,windproofing,wood fibre board,
+ETOL_1970,DH_R_timber_flat,roof,511,1,3,0,,exterior finish,none,roofing
+ETOL_1970,DH_R_timber_flat,roof,512,0.25,-1,22,,furring,wood,22x100 k 400
+ETOL_1970,DH_R_timber_flat,roof,513,0.75,-1,22,,ventilation space,ventilation space,
+ETOL_1970,DH_R_timber_flat,roof,514,0.08333333333333333,-2,75,,furring,wood,
+ETOL_1970,DH_R_timber_flat,roof,515,0.9166666666666666,-2,75,,ventilation space,ventilation space,
+ETOL_1970,DH_R_timber_flat,roof,516,1,-3,0,,air barrier,paper,
+ETOL_1970,DH_R_timber_flat,roof,517,1,-4,0,,interior finish,none,
+ETOL_1970,DH_R_timber_250,roof,518,0.08333333333333333,0,200,,load-bearing structure,wood,50x200 k 600 timber roof truss estimated
+ETOL_1970,DH_R_timber_250,roof,519,0.9166666666666666,0,200,,thermal insulation,mineral wool,
+ETOL_1970,DH_R_timber_250,roof,520,1,1,50,,windproofing,mineral wool,
+ETOL_1970,DH_R_timber_250,roof,521,1,2,100,,ventilation space,ventilation space,
+ETOL_1970,DH_R_timber_250,roof,522,0.08333333333333333,3,200,,roof supports,wood,50x200 k 600 timber roof truss estimated
+ETOL_1970,DH_R_timber_250,roof,523,0.9166666666666666,3,200,,ventilation space,ventilation space,
+ETOL_1970,DH_R_timber_250,roof,524,1,4,20,,boarding,wood,
+ETOL_1970,DH_R_timber_250,roof,525,1,5,0,,exterior finish,none,roofing
+ETOL_1970,DH_R_timber_250,roof,526,1,-1,0,,air barrier,paper,
+ETOL_1970,DH_R_timber_250,roof,527,1,-2,20,,interior finish,wood,board paneling
+ETOL_1970,DH_PW_timber,partition_wall,528,0.075,0,95,95,load-bearing structure,wood,45x95 k 600
+ETOL_1970,DH_PW_timber,partition_wall,529,0.925,0,95,95,soundproofing,mineral wool,
+ETOL_1970,DH_PW_timber,partition_wall,530,1,1,24,,construction board,plasterboard,double construction boards
+ETOL_1970,DH_PW_timber,partition_wall,531,1,2,0,,exterior finish,none,
+ETOL_1970,DH_PW_timber,partition_wall,532,1,-1,24,,construction board,plasterboard,double construction boards
+ETOL_1970,DH_PW_timber,partition_wall,533,1,-2,0,,interior finish,none,
+ETOL_1970,DH_PW_brick,partition_wall,534,1,0,130,130,load-bearing structure,brick,
+ETOL_1970,DH_PW_brick,partition_wall,535,1,1,0,,exterior finish,none,
+ETOL_1970,DH_PW_brick,partition_wall,536,1,-1,0,,interior finish,none,
+ETOL_1970,DH_EW_timber_150_b,exterior_wall,537,0.08333333333333333,0,100,100,load-bearing structure,wood,50x100 k 600
+ETOL_1970,DH_EW_timber_150_b,exterior_wall,538,0.9166666666666666,0,100,100,thermal insulation,mineral wool,
+ETOL_1970,DH_EW_timber_150_b,exterior_wall,539,1,1,12,,windproofing,wood fibre board,
+ETOL_1970,DH_EW_timber_150_b,exterior_wall,540,0.041666666666666664,2,25,,furring,wood,25x25 k 600 furring estimated
+ETOL_1970,DH_EW_timber_150_b,exterior_wall,541,0.9583333333333334,2,25,,ventilation space,ventilation space,
+ETOL_1970,DH_EW_timber_150_b,exterior_wall,542,1,3,100,,exterior finish,brick,
+ETOL_1970,DH_EW_timber_150_b,exterior_wall,543,0.08333333333333333,-1,50,,furring,wood,50x50 k 600
+ETOL_1970,DH_EW_timber_150_b,exterior_wall,544,0.9166666666666666,-1,50,,thermal insulation,mineral wool,
+ETOL_1970,DH_EW_timber_150_b,exterior_wall,545,1,-2,0,,air barrier,paper,
+ETOL_1970,DH_EW_timber_150_b,exterior_wall,546,0.03666666666666667,-3,22,,furring,wood,22x22 k 600 estimated
+ETOL_1970,DH_EW_timber_150_b,exterior_wall,547,0.9633333333333334,-3,22,,ventilation space,ventilation space,
+ETOL_1970,DH_EW_timber_150_b,exterior_wall,548,1,-4,13,,construction board,plasterboard,
+ETOL_1970,DH_EW_timber_150_b,exterior_wall,549,1,-5,0,,interior finish,none,
+ETOL_1970,DH_EW_timber_150,exterior_wall,550,0.08333333333333333,0,100,100,load-bearing structure,wood,50x100 k 600
+ETOL_1970,DH_EW_timber_150,exterior_wall,551,0.9166666666666666,0,100,100,thermal insulation,mineral wool,
+ETOL_1970,DH_EW_timber_150,exterior_wall,552,1,1,12,,windproofing,wood fibre board,
+ETOL_1970,DH_EW_timber_150,exterior_wall,553,0.041666666666666664,2,25,,furring,wood,25x25 k 600 furring estimated
+ETOL_1970,DH_EW_timber_150,exterior_wall,554,0.9583333333333334,2,25,,ventilation space,ventilation space,
+ETOL_1970,DH_EW_timber_150,exterior_wall,555,1,3,130,,exterior finish,brick,
+ETOL_1970,DH_EW_timber_150,exterior_wall,556,0.08333333333333333,-1,50,,furring,wood,50x50 k 600
+ETOL_1970,DH_EW_timber_150,exterior_wall,557,0.9166666666666666,-1,50,,thermal insulation,mineral wool,
+ETOL_1970,DH_EW_timber_150,exterior_wall,558,1,-2,0,,air barrier,polyethylene plastic film,
+ETOL_1970,DH_EW_timber_150,exterior_wall,559,1,-3,12,,construction board,chipboard,
+ETOL_1970,DH_EW_timber_150,exterior_wall,560,1,-4,0,,interior finish,none,
+ETOL_1970,DH_EW_brick,exterior_wall,561,1,0,150,,thermal insulation,mineral wool,
+ETOL_1970,DH_EW_brick,exterior_wall,562,1,1,20,,ventilation space,ventilation space,
+ETOL_1970,DH_EW_brick,exterior_wall,563,1,2,130,,exterior finish,brick,
+ETOL_1970,DH_EW_brick,exterior_wall,564,1,-1,130,130,load-bearing structure,brick,
+ETOL_1970,DH_EW_brick,exterior_wall,565,1,-2,0,,interior finish,none,
+ETOL_1970,DH_BF_concrete_100_b,base_floor,566,1,0,100,,thermal insulation,expanded polystyrene,
+ETOL_1970,DH_BF_concrete_100_b,base_floor,567,1,1,400,,french drain layer,gravel,
+ETOL_1970,DH_BF_concrete_100_b,base_floor,568,1,2,0,,ground,none,
+ETOL_1970,DH_BF_concrete_100_b,base_floor,569,1,-1,70,,load-bearing structure,reinforced concrete,
+ETOL_1970,DH_BF_concrete_100_b,base_floor,570,1,-2,0,,interior finish,none,
+ETOL_1970,DH_BF_concrete_100,base_floor,571,0.08333333333333333,0,100,,furring,wood,50x100 k 600 furring estimated
+ETOL_1970,DH_BF_concrete_100,base_floor,572,0.9166666666666666,0,100,,thermal insulation,mineral wool,
+ETOL_1970,DH_BF_concrete_100,base_floor,573,1,1,160,,load-bearing structure,reinforced concrete,
+ETOL_1970,DH_BF_concrete_100,base_floor,574,1,2,400,,french drain layer,gravel,
+ETOL_1970,DH_BF_concrete_100,base_floor,575,1,3,0,,ground,none,
+ETOL_1970,DH_BF_concrete_100,base_floor,576,1,-1,0,,interior finish,wood,boarding
+ETOL_1970,AB_SF_concrete_b,separating_floor,577,1,0,265,,load-bearing structure,hollow-core concrete,
+ETOL_1970,AB_SF_concrete_b,separating_floor,578,1,1,0,,exterior finish,none,
+ETOL_1970,AB_SF_concrete_b,separating_floor,579,1,-1,0,,interior finish,none,
+ETOL_1970,AB_SF_concrete,separating_floor,580,1,0,190,,load-bearing structure,reinforced concrete,
+ETOL_1970,AB_SF_concrete,separating_floor,581,1,1,0,,exterior finish,none,
+ETOL_1970,AB_SF_concrete,separating_floor,582,1,-1,0,,interior finish,none,
+ETOL_1970,AB_R_concrete_b,roof,583,1,0,200,,thermal insulation,mineral wool,
+ETOL_1970,AB_R_concrete_b,roof,584,0.125,1,200,,roof supports,wood,75x200 k 600 estimated
+ETOL_1970,AB_R_concrete_b,roof,585,0.875,1,200,,ventilation space,ventilation space,
+ETOL_1970,AB_R_concrete_b,roof,586,1,2,22,,boarding,wood,
+ETOL_1970,AB_R_concrete_b,roof,587,1,3,0,,exterior finish,none,
+ETOL_1970,AB_R_concrete_b,roof,588,1,-1,265,,load-bearing structure,hollow-core concrete,
+ETOL_1970,AB_R_concrete_b,roof,589,1,-2,0,,interior finish,none,
+ETOL_1970,AB_R_concrete,roof,590,1,0,310,,thermal insulation,expanded clay aggregate,
+ETOL_1970,AB_R_concrete,roof,591,1,1,0,,exterior finish,none,
+ETOL_1970,AB_R_concrete,roof,592,1,-1,160,,load-bearing structure,reinforced concrete,
+ETOL_1970,AB_R_concrete,roof,593,1,-2,0,,interior finish,none,
+ETOL_1970,AB_PW_concrete,partition_wall,594,1,0,70,160,load-bearing structure,reinforced concrete,
+ETOL_1970,AB_PW_concrete,partition_wall,595,1,1,0,,exterior finish,none,
+ETOL_1970,AB_PW_concrete,partition_wall,596,1,-1,0,,interior finish,none,
+ETOL_1970,AB_EW_concrete_b,exterior_wall,597,1,0,90,,thermal insulation,mineral wool,
+ETOL_1970,AB_EW_concrete_b,exterior_wall,598,1,1,60,,exterior finish,reinforced concrete,
+ETOL_1970,AB_EW_concrete_b,exterior_wall,599,1,-1,70,160,load-bearing structure,reinforced concrete,
+ETOL_1970,AB_EW_concrete_b,exterior_wall,600,1,-2,0,,interior finish,none,
+ETOL_1970,AB_EW_concrete,exterior_wall,601,1,0,120,,thermal insulation,mineral wool,
+ETOL_1970,AB_EW_concrete,exterior_wall,602,1,1,60,,exterior finish,reinforced concrete,
+ETOL_1970,AB_EW_concrete,exterior_wall,603,1,-1,70,160,load-bearing structure,reinforced concrete,
+ETOL_1970,AB_EW_concrete,exterior_wall,604,1,-2,0,,interior finish,none,
+ETOL_1970,AB_BF_concrete_b,base_floor,605,1,0,75,,thermal insulation,expanded polystyrene,
+ETOL_1970,AB_BF_concrete_b,base_floor,606,1,1,0.2,,air barrier,polyethylene plastic film,
+ETOL_1970,AB_BF_concrete_b,base_floor,607,1,2,400,,french drain layer,gravel,
+ETOL_1970,AB_BF_concrete_b,base_floor,608,1,3,0,,ground,none,
+ETOL_1970,AB_BF_concrete_b,base_floor,609,1,-1,120,,load-bearing structure,reinforced concrete,
+ETOL_1970,AB_BF_concrete_b,base_floor,610,1,-2,0,,interior finish,none,
+ETOL_1970,AB_BF_concrete,base_floor,611,1,0,50,,thermal insulation,expanded polystyrene,
+ETOL_1970,AB_BF_concrete,base_floor,612,1,1,400,,french drain layer,gravel,
+ETOL_1970,AB_BF_concrete,base_floor,613,1,2,0,,ground,none,
+ETOL_1970,AB_BF_concrete,base_floor,614,1,-1,0,,filter,paper,
+ETOL_1970,AB_BF_concrete,base_floor,615,1,-2,80,,load-bearing structure,reinforced concrete,
+ETOL_1970,AB_BF_concrete,base_floor,616,1,-3,0,,interior finish,none,
+ETOL_1980,TH_R_timber,roof,617,0.08333333333333333,0,200,,load-bearing structure,wood,50x200 k 600 timber roof truss estimated
+ETOL_1980,TH_R_timber,roof,618,0.9166666666666666,0,200,,thermal insulation,mineral wool,
+ETOL_1980,TH_R_timber,roof,619,1,1,50,,windproofing,mineral wool,
+ETOL_1980,TH_R_timber,roof,620,1,2,100,,ventilation space,ventilation space,
+ETOL_1980,TH_R_timber,roof,621,0.08333333333333333,3,200,,roof supports,wood,50x200 k 600 timber roof truss estimated
+ETOL_1980,TH_R_timber,roof,622,0.9166666666666666,3,200,,ventilation space,ventilation space,
+ETOL_1980,TH_R_timber,roof,623,1,4,20,,boarding,wood,
+ETOL_1980,TH_R_timber,roof,624,1,5,0,,exterior finish,none,roofing
+ETOL_1980,TH_R_timber,roof,625,1,-1,0,,air barrier,paper,
+ETOL_1980,TH_R_timber,roof,626,0.25,-2,20,,furring,wood,20x100 k 400 estimated
+ETOL_1980,TH_R_timber,roof,627,0.75,-2,20,,ventilation space,none,
+ETOL_1980,TH_R_timber,roof,628,1,-3,0,,interior finish,none,
+ETOL_1980,TH_PW_timber,partition_wall,629,0.08333333333333333,0,70,70,load-bearing structure,wood,50x70 k 600 estimated
+ETOL_1980,TH_PW_timber,partition_wall,630,0.9166666666666666,0,70,70,soundproofing,mineral wool,
+ETOL_1980,TH_PW_timber,partition_wall,631,1,1,25,,ventilation space,ventilation space,
+ETOL_1980,TH_PW_timber,partition_wall,632,0.08333333333333333,2,70,70,load-bearing structure,wood,50x70 k 600 estimated
+ETOL_1980,TH_PW_timber,partition_wall,633,0.9166666666666666,2,70,70,soundproofing,mineral wool,
+ETOL_1980,TH_PW_timber,partition_wall,634,1,3,13,,construction board,plasterboard,
+ETOL_1980,TH_PW_timber,partition_wall,635,1,4,10,,construction board,chipboard,
+ETOL_1980,TH_PW_timber,partition_wall,636,1,5,0,,exterior finish,none,
+ETOL_1980,TH_PW_timber,partition_wall,637,1,-1,13,,construction board,plasterboard,
+ETOL_1980,TH_PW_timber,partition_wall,638,1,-2,10,,construction board,chipboard,
+ETOL_1980,TH_PW_timber,partition_wall,639,1,-3,0,,interior finish,none,
+ETOL_1980,TH_EW_timber,exterior_wall,640,0.08333333333333333,0,100,100,load-bearing structure,wood,50x100 k 600
+ETOL_1980,TH_EW_timber,exterior_wall,641,0.9166666666666666,0,100,100,thermal insulation,mineral wool,
+ETOL_1980,TH_EW_timber,exterior_wall,642,1,1,12,,windproofing,wood fibre board,
+ETOL_1980,TH_EW_timber,exterior_wall,643,0.041666666666666664,2,25,,furring,wood,25x25 k 600 furring estimated
+ETOL_1980,TH_EW_timber,exterior_wall,644,0.9583333333333334,2,25,,ventilation space,ventilation space,
+ETOL_1980,TH_EW_timber,exterior_wall,645,1,3,20,,exterior finish,wood,20x100 boarding estimated
+ETOL_1980,TH_EW_timber,exterior_wall,646,0.08333333333333333,-1,65,,furring,wood,50x65 k 600
+ETOL_1980,TH_EW_timber,exterior_wall,647,0.9166666666666666,-1,65,,thermal insulation,mineral wool,
+ETOL_1980,TH_EW_timber,exterior_wall,648,1,-2,0,,air barrier,polyethylene plastic film,
+ETOL_1980,TH_EW_timber,exterior_wall,649,1,-3,12,,construction board,chipboard,
+ETOL_1980,TH_EW_timber,exterior_wall,650,1,-4,0,,interior finish,none,
+ETOL_1980,TH_BF_concrete,base_floor,651,1,0,100,,thermal insulation,expanded polystyrene,
+ETOL_1980,TH_BF_concrete,base_floor,652,1,1,0.2,,filter,polyethylene plastic film,
+ETOL_1980,TH_BF_concrete,base_floor,653,1,2,800,,french drain layer,gravel,
+ETOL_1980,TH_BF_concrete,base_floor,654,1,3,0,,ground,none,
+ETOL_1980,TH_BF_concrete,base_floor,655,1,-1,100,,load-bearing structure,reinforced concrete,
+ETOL_1980,TH_BF_concrete,base_floor,656,1,-2,0,,interior finish,none,
+ETOL_1980,DH_SF_timber,separating_floor,657,0.8333333333333334,0,100,,load-bearing structure,wood,50x100 k 600 planks estimated
+ETOL_1980,DH_SF_timber,separating_floor,658,0.16666666666666663,0,100,,soundproofing,mineral wool,
+ETOL_1980,DH_SF_timber,separating_floor,659,0.8333333333333334,1,100,,load-bearing structure,wood,50x100 k 600 planks estimated
+ETOL_1980,DH_SF_timber,separating_floor,660,0.16666666666666663,1,100,,ventilation space,ventilation space,
+ETOL_1980,DH_SF_timber,separating_floor,661,1,2,12,,construction board,plywood,
+ETOL_1980,DH_SF_timber,separating_floor,662,1,3,0,,exterior finish,none,
+ETOL_1980,DH_SF_timber,separating_floor,663,1,-1,12,,construction board,plywood,
+ETOL_1980,DH_SF_timber,separating_floor,664,1,-2,0,,interior finish,none,
+ETOL_1980,DH_R_timber,roof,665,0.08333333333333333,0,200,,load-bearing structure,wood,50x200 k 600 timber roof truss estimated
+ETOL_1980,DH_R_timber,roof,666,0.9166666666666666,0,200,,thermal insulation,mineral wool,
+ETOL_1980,DH_R_timber,roof,667,1,1,100,,windproofing,mineral wool,
+ETOL_1980,DH_R_timber,roof,668,1,2,100,,ventilation space,ventilation space,
+ETOL_1980,DH_R_timber,roof,669,0.08333333333333333,3,200,,roof supports,wood,50x200 k 600 timber roof truss estimated
+ETOL_1980,DH_R_timber,roof,670,0.9166666666666666,3,200,,ventilation space,ventilation space,
+ETOL_1980,DH_R_timber,roof,671,0.8333333333333334,4,20,,furring,wood,20x100 k 120 estimated
+ETOL_1980,DH_R_timber,roof,672,0.16666666666666663,4,20,,ventilation space,ventilation space,
+ETOL_1980,DH_R_timber,roof,673,1,5,0,,exterior finish,none,roofing
+ETOL_1980,DH_R_timber,roof,674,1,-1,0.2,,air barrier,polyethylene plastic film,
+ETOL_1980,DH_R_timber,roof,675,0.25,-2,20,,furring,wood,20x100 k 400 estimated
+ETOL_1980,DH_R_timber,roof,676,0.75,-2,20,,ventilation space,ventilation space,
+ETOL_1980,DH_R_timber,roof,677,1,-3,0,,interior finish,none,
+ETOL_1980,DH_PW_timber,partition_wall,678,0.075,0,95,95,load-bearing structure,wood,45x95 k 600
+ETOL_1980,DH_PW_timber,partition_wall,679,0.925,0,95,95,soundproofing,mineral wool,
+ETOL_1980,DH_PW_timber,partition_wall,680,1,1,24,,construction board,plasterboard,double construction boards
+ETOL_1980,DH_PW_timber,partition_wall,681,1,2,0,,exterior finish,none,
+ETOL_1980,DH_PW_timber,partition_wall,682,1,-1,24,,construction board,plasterboard,double construction boards
+ETOL_1980,DH_PW_timber,partition_wall,683,1,-2,0,,interior finish,none,
+ETOL_1980,DH_EW_timber,exterior_wall,684,0.08333333333333333,0,150,150,load-bearing structure,wood,50x150 k 600 estimated
+ETOL_1980,DH_EW_timber,exterior_wall,685,0.9166666666666666,0,150,150,thermal insulation,mineral wool,
+ETOL_1980,DH_EW_timber,exterior_wall,686,0.08333333333333333,1,50,,furring,wood,50x50 k 600 estimated
+ETOL_1980,DH_EW_timber,exterior_wall,687,0.9166666666666666,1,50,,thermal insulation,mineral wool,
+ETOL_1980,DH_EW_timber,exterior_wall,688,1,2,12,,windproofing,wood fibre board,
+ETOL_1980,DH_EW_timber,exterior_wall,689,0.20833333333333334,3,19,,furring,wood,19x125 k 600 furring estimated
+ETOL_1980,DH_EW_timber,exterior_wall,690,0.7916666666666666,3,19,,ventilation space,ventilation space,
+ETOL_1980,DH_EW_timber,exterior_wall,691,1,4,19,,exterior finish,wood,19x100 boarding
+ETOL_1980,DH_EW_timber,exterior_wall,692,1,-1,0.2,,air barrier,polyethylene plastic film,
+ETOL_1980,DH_EW_timber,exterior_wall,693,1,-2,13,,construction board,chipboard,
+ETOL_1980,DH_EW_timber,exterior_wall,694,1,-3,0,,interior finish,none,
+ETOL_1980,DH_BF_concrete,base_floor,695,1,0,100,,thermal insulation,expanded polystyrene,
+ETOL_1980,DH_BF_concrete,base_floor,696,1,1,0.2,,filter,polyethylene plastic film,
+ETOL_1980,DH_BF_concrete,base_floor,697,1,2,800,,french drain layer,gravel,
+ETOL_1980,DH_BF_concrete,base_floor,698,1,3,0,,ground,none,
+ETOL_1980,DH_BF_concrete,base_floor,699,1,-1,50,,load-bearing structure,reinforced concrete,
+ETOL_1980,DH_BF_concrete,base_floor,700,1,-2,0,,interior finish,none,
+ETOL_1980,AB_SF_concrete_b,separating_floor,701,1,0,265,,load-bearing structure,hollow-core concrete,
+ETOL_1980,AB_SF_concrete_b,separating_floor,702,1,1,0,,exterior finish,none,
+ETOL_1980,AB_SF_concrete_b,separating_floor,703,1,-1,0,,interior finish,none,
+ETOL_1980,AB_SF_concrete,separating_floor,704,1,0,190,,load-bearing structure,reinforced concrete,
+ETOL_1980,AB_SF_concrete,separating_floor,705,1,1,0,,exterior finish,none,
+ETOL_1980,AB_SF_concrete,separating_floor,706,1,-1,0,,interior finish,none,
+ETOL_1980,AB_R_concrete_b,roof,707,1,0,200,,thermal insulation,mineral wool,
+ETOL_1980,AB_R_concrete_b,roof,708,0.125,1,200,,roof supports,wood,75x200 k 600 estimated
+ETOL_1980,AB_R_concrete_b,roof,709,0.875,1,200,,ventilation space,ventilation space,
+ETOL_1980,AB_R_concrete_b,roof,710,1,2,22,,boarding,wood,
+ETOL_1980,AB_R_concrete_b,roof,711,1,3,0,,exterior finish,none,
+ETOL_1980,AB_R_concrete_b,roof,712,1,-1,265,,load-bearing structure,hollow-core concrete,
+ETOL_1980,AB_R_concrete_b,roof,713,1,-2,0,,interior finish,none,
+ETOL_1980,AB_R_concrete,roof,714,1,0,200,,thermal insulation,mineral wool,
+ETOL_1980,AB_R_concrete,roof,715,1,1,100,,ventilation space,ventilation space,
+ETOL_1980,AB_R_concrete,roof,716,0.125,2,200,,roof supports,wood,75x200 k 600 estimated
+ETOL_1980,AB_R_concrete,roof,717,0.875,2,200,,ventilation space,ventilation space,
+ETOL_1980,AB_R_concrete,roof,718,1,3,0.2,,air barrier,polyethylene plastic film,
+ETOL_1980,AB_R_concrete,roof,719,0.25,4,22,,furring,wood,22x100 k 400 estimated
+ETOL_1980,AB_R_concrete,roof,720,0.75,4,22,,ventilation space,ventilation space,
+ETOL_1980,AB_R_concrete,roof,721,1,5,0,,exterior finish,none,
+ETOL_1980,AB_R_concrete,roof,722,1,-1,190,,load-bearing structure,reinforced concrete,
+ETOL_1980,AB_R_concrete,roof,723,1,-2,0,,interior finish,none,
+ETOL_1980,AB_PW_concrete,partition_wall,724,1,0,70,160,load-bearing structure,reinforced concrete,
+ETOL_1980,AB_PW_concrete,partition_wall,725,1,1,0,,exterior finish,none,
+ETOL_1980,AB_PW_concrete,partition_wall,726,1,-1,0,,interior finish,none,
+ETOL_1980,AB_EW_concrete,exterior_wall,727,1,0,120,,thermal insulation,mineral wool,
+ETOL_1980,AB_EW_concrete,exterior_wall,728,1,1,60,,exterior finish,reinforced concrete,
+ETOL_1980,AB_EW_concrete,exterior_wall,729,1,-1,70,160,load-bearing structure,reinforced concrete,
+ETOL_1980,AB_EW_concrete,exterior_wall,730,1,-2,0,,interior finish,none,
+ETOL_1980,AB_BF_concrete_b,base_floor,731,1,0,75,,thermal insulation,expanded polystyrene,
+ETOL_1980,AB_BF_concrete_b,base_floor,732,1,1,0.2,,air barrier,polyethylene plastic film,
+ETOL_1980,AB_BF_concrete_b,base_floor,733,1,2,400,,french drain layer,gravel,
+ETOL_1980,AB_BF_concrete_b,base_floor,734,1,3,0,,ground,none,
+ETOL_1980,AB_BF_concrete_b,base_floor,735,1,-1,120,,load-bearing structure,reinforced concrete,
+ETOL_1980,AB_BF_concrete_b,base_floor,736,1,-2,0,,interior finish,none,
+ETOL_1980,AB_BF_concrete,base_floor,737,1,0,50,,thermal insulation,expanded polystyrene,
+ETOL_1980,AB_BF_concrete,base_floor,738,1,1,400,,french drain layer,gravel,
+ETOL_1980,AB_BF_concrete,base_floor,739,1,2,0,,ground,none,
+ETOL_1980,AB_BF_concrete,base_floor,740,1,-1,0.2,,filter,polyethylene plastic film,
+ETOL_1980,AB_BF_concrete,base_floor,741,1,-2,70,,load-bearing structure,reinforced concrete,
+ETOL_1980,AB_BF_concrete,base_floor,742,1,-3,0,,interior finish,none,
+Default_1985,TH_R_timber,roof,743,0.08333333333333333,0,200,,load-bearing structure,wood,50x200 k 600 timber roof truss estimated
+Default_1985,TH_R_timber,roof,744,0.9166666666666666,0,200,,thermal insulation,mineral wool,
+Default_1985,TH_R_timber,roof,745,1,1,50,,windproofing,mineral wool,
+Default_1985,TH_R_timber,roof,746,1,2,100,,ventilation space,ventilation space,
+Default_1985,TH_R_timber,roof,747,0.08333333333333333,3,200,,roof supports,wood,50x200 k 600 timber roof truss estimated
+Default_1985,TH_R_timber,roof,748,0.9166666666666666,3,200,,ventilation space,ventilation space,
+Default_1985,TH_R_timber,roof,749,1,4,20,,boarding,wood,
+Default_1985,TH_R_timber,roof,750,1,5,0,,exterior finish,none,roofing
+Default_1985,TH_R_timber,roof,751,1,-1,0,,air barrier,paper,
+Default_1985,TH_R_timber,roof,752,0.25,-2,20,,furring,wood,20x100 k 400 estimated
+Default_1985,TH_R_timber,roof,753,0.75,-2,20,,ventilation space,none,
+Default_1985,TH_R_timber,roof,754,1,-3,0,,interior finish,none,
+Default_1985,TH_PW_timber,partition_wall,755,0.08333333333333333,0,70,70,load-bearing structure,wood,50x70 k 600 estimated
+Default_1985,TH_PW_timber,partition_wall,756,0.9166666666666666,0,70,70,soundproofing,mineral wool,
+Default_1985,TH_PW_timber,partition_wall,757,1,1,25,,ventilation space,ventilation space,
+Default_1985,TH_PW_timber,partition_wall,758,0.08333333333333333,2,70,70,load-bearing structure,wood,50x70 k 600 estimated
+Default_1985,TH_PW_timber,partition_wall,759,0.9166666666666666,2,70,70,soundproofing,mineral wool,
+Default_1985,TH_PW_timber,partition_wall,760,1,3,13,,construction board,plasterboard,
+Default_1985,TH_PW_timber,partition_wall,761,1,4,10,,construction board,chipboard,
+Default_1985,TH_PW_timber,partition_wall,762,1,5,0,,exterior finish,none,
+Default_1985,TH_PW_timber,partition_wall,763,1,-1,13,,construction board,plasterboard,
+Default_1985,TH_PW_timber,partition_wall,764,1,-2,10,,construction board,chipboard,
+Default_1985,TH_PW_timber,partition_wall,765,1,-3,0,,interior finish,none,
+Default_1985,TH_EW_timber,exterior_wall,766,0.08333333333333333,0,100,100,load-bearing structure,wood,50x100 k 600
+Default_1985,TH_EW_timber,exterior_wall,767,0.9166666666666666,0,100,100,thermal insulation,mineral wool,
+Default_1985,TH_EW_timber,exterior_wall,768,1,1,12,,windproofing,wood fibre board,
+Default_1985,TH_EW_timber,exterior_wall,769,0.041666666666666664,2,25,,furring,wood,25x25 k 600 furring estimated
+Default_1985,TH_EW_timber,exterior_wall,770,0.9583333333333334,2,25,,ventilation space,ventilation space,
+Default_1985,TH_EW_timber,exterior_wall,771,1,3,20,,exterior finish,wood,20x100 boarding estimated
+Default_1985,TH_EW_timber,exterior_wall,772,0.08333333333333333,-1,65,,furring,wood,50x65 k 600
+Default_1985,TH_EW_timber,exterior_wall,773,0.9166666666666666,-1,65,,thermal insulation,mineral wool,
+Default_1985,TH_EW_timber,exterior_wall,774,1,-2,0,,air barrier,polyethylene plastic film,
+Default_1985,TH_EW_timber,exterior_wall,775,1,-3,12,,construction board,chipboard,
+Default_1985,TH_EW_timber,exterior_wall,776,1,-4,0,,interior finish,none,
+Default_1985,TH_BF_concrete,base_floor,777,1,0,100,,thermal insulation,expanded polystyrene,
+Default_1985,TH_BF_concrete,base_floor,778,1,1,0.2,,filter,polyethylene plastic film,
+Default_1985,TH_BF_concrete,base_floor,779,1,2,800,,french drain layer,gravel,
+Default_1985,TH_BF_concrete,base_floor,780,1,3,0,,ground,none,
+Default_1985,TH_BF_concrete,base_floor,781,1,-1,100,,load-bearing structure,reinforced concrete,
+Default_1985,TH_BF_concrete,base_floor,782,1,-2,0,,interior finish,none,
+Default_1985,DH_SF_timber,separating_floor,783,0.8333333333333334,0,100,,load-bearing structure,wood,50x100 k 600 planks estimated
+Default_1985,DH_SF_timber,separating_floor,784,0.16666666666666663,0,100,,soundproofing,mineral wool,
+Default_1985,DH_SF_timber,separating_floor,785,0.8333333333333334,1,100,,load-bearing structure,wood,50x100 k 600 planks estimated
+Default_1985,DH_SF_timber,separating_floor,786,0.16666666666666663,1,100,,ventilation space,ventilation space,
+Default_1985,DH_SF_timber,separating_floor,787,1,2,12,,construction board,plywood,
+Default_1985,DH_SF_timber,separating_floor,788,1,3,0,,exterior finish,none,
+Default_1985,DH_SF_timber,separating_floor,789,1,-1,12,,construction board,plywood,
+Default_1985,DH_SF_timber,separating_floor,790,1,-2,0,,interior finish,none,
+Default_1985,DH_R_timber,roof,791,0.08333333333333333,0,200,,load-bearing structure,wood,50x200 k 600 timber roof truss estimated
+Default_1985,DH_R_timber,roof,792,0.9166666666666666,0,200,,thermal insulation,mineral wool,
+Default_1985,DH_R_timber,roof,793,1,1,100,,windproofing,mineral wool,
+Default_1985,DH_R_timber,roof,794,1,2,100,,ventilation space,ventilation space,
+Default_1985,DH_R_timber,roof,795,0.08333333333333333,3,200,,roof supports,wood,50x200 k 600 timber roof truss estimated
+Default_1985,DH_R_timber,roof,796,0.9166666666666666,3,200,,ventilation space,ventilation space,
+Default_1985,DH_R_timber,roof,797,0.8333333333333334,4,20,,furring,wood,20x100 k 120 estimated
+Default_1985,DH_R_timber,roof,798,0.16666666666666663,4,20,,ventilation space,ventilation space,
+Default_1985,DH_R_timber,roof,799,1,5,0,,exterior finish,none,roofing
+Default_1985,DH_R_timber,roof,800,1,-1,0.2,,air barrier,polyethylene plastic film,
+Default_1985,DH_R_timber,roof,801,0.25,-2,20,,furring,wood,20x100 k 400 estimated
+Default_1985,DH_R_timber,roof,802,0.75,-2,20,,ventilation space,ventilation space,
+Default_1985,DH_R_timber,roof,803,1,-3,0,,interior finish,none,
+Default_1985,DH_PW_timber,partition_wall,804,0.075,0,95,95,load-bearing structure,wood,45x95 k 600
+Default_1985,DH_PW_timber,partition_wall,805,0.925,0,95,95,soundproofing,mineral wool,
+Default_1985,DH_PW_timber,partition_wall,806,1,1,24,,construction board,plasterboard,double construction boards
+Default_1985,DH_PW_timber,partition_wall,807,1,2,0,,exterior finish,none,
+Default_1985,DH_PW_timber,partition_wall,808,1,-1,24,,construction board,plasterboard,double construction boards
+Default_1985,DH_PW_timber,partition_wall,809,1,-2,0,,interior finish,none,
+Default_1985,DH_EW_timber,exterior_wall,810,0.08333333333333333,0,150,150,load-bearing structure,wood,50x150 k 600 estimated
+Default_1985,DH_EW_timber,exterior_wall,811,0.9166666666666666,0,150,150,thermal insulation,mineral wool,
+Default_1985,DH_EW_timber,exterior_wall,812,0.08333333333333333,1,50,,furring,wood,50x50 k 600 estimated
+Default_1985,DH_EW_timber,exterior_wall,813,0.9166666666666666,1,50,,thermal insulation,mineral wool,
+Default_1985,DH_EW_timber,exterior_wall,814,1,2,12,,windproofing,wood fibre board,
+Default_1985,DH_EW_timber,exterior_wall,815,0.20833333333333334,3,19,,furring,wood,19x125 k 600 furring estimated
+Default_1985,DH_EW_timber,exterior_wall,816,0.7916666666666666,3,19,,ventilation space,ventilation space,
+Default_1985,DH_EW_timber,exterior_wall,817,1,4,19,,exterior finish,wood,19x100 boarding
+Default_1985,DH_EW_timber,exterior_wall,818,1,-1,0.2,,air barrier,polyethylene plastic film,
+Default_1985,DH_EW_timber,exterior_wall,819,1,-2,13,,construction board,chipboard,
+Default_1985,DH_EW_timber,exterior_wall,820,1,-3,0,,interior finish,none,
+Default_1985,DH_BF_concrete,base_floor,821,1,0,100,,thermal insulation,expanded polystyrene,
+Default_1985,DH_BF_concrete,base_floor,822,1,1,0.2,,filter,polyethylene plastic film,
+Default_1985,DH_BF_concrete,base_floor,823,1,2,800,,french drain layer,gravel,
+Default_1985,DH_BF_concrete,base_floor,824,1,3,0,,ground,none,
+Default_1985,DH_BF_concrete,base_floor,825,1,-1,50,,load-bearing structure,reinforced concrete,
+Default_1985,DH_BF_concrete,base_floor,826,1,-2,0,,interior finish,none,
+Default_1985,AB_SF_concrete_b,separating_floor,827,1,0,265,,load-bearing structure,hollow-core concrete,
+Default_1985,AB_SF_concrete_b,separating_floor,828,1,1,0,,exterior finish,none,
+Default_1985,AB_SF_concrete_b,separating_floor,829,1,-1,0,,interior finish,none,
+Default_1985,AB_SF_concrete,separating_floor,830,1,0,190,,load-bearing structure,reinforced concrete,
+Default_1985,AB_SF_concrete,separating_floor,831,1,1,0,,exterior finish,none,
+Default_1985,AB_SF_concrete,separating_floor,832,1,-1,0,,interior finish,none,
+Default_1985,AB_R_concrete_b,roof,833,1,0,200,,thermal insulation,mineral wool,
+Default_1985,AB_R_concrete_b,roof,834,0.125,1,200,,roof supports,wood,75x200 k 600 estimated
+Default_1985,AB_R_concrete_b,roof,835,0.875,1,200,,ventilation space,ventilation space,
+Default_1985,AB_R_concrete_b,roof,836,1,2,22,,boarding,wood,
+Default_1985,AB_R_concrete_b,roof,837,1,3,0,,exterior finish,none,
+Default_1985,AB_R_concrete_b,roof,838,1,-1,265,,load-bearing structure,hollow-core concrete,
+Default_1985,AB_R_concrete_b,roof,839,1,-2,0,,interior finish,none,
+Default_1985,AB_R_concrete,roof,840,1,0,200,,thermal insulation,mineral wool,
+Default_1985,AB_R_concrete,roof,841,1,1,100,,ventilation space,ventilation space,
+Default_1985,AB_R_concrete,roof,842,0.125,2,200,,roof supports,wood,75x200 k 600 estimated
+Default_1985,AB_R_concrete,roof,843,0.875,2,200,,ventilation space,ventilation space,
+Default_1985,AB_R_concrete,roof,844,1,3,0.2,,air barrier,polyethylene plastic film,
+Default_1985,AB_R_concrete,roof,845,0.25,4,22,,furring,wood,22x100 k 400 estimated
+Default_1985,AB_R_concrete,roof,846,0.75,4,22,,ventilation space,ventilation space,
+Default_1985,AB_R_concrete,roof,847,1,5,0,,exterior finish,none,
+Default_1985,AB_R_concrete,roof,848,1,-1,190,,load-bearing structure,reinforced concrete,
+Default_1985,AB_R_concrete,roof,849,1,-2,0,,interior finish,none,
+Default_1985,AB_PW_concrete,partition_wall,850,1,0,70,160,load-bearing structure,reinforced concrete,
+Default_1985,AB_PW_concrete,partition_wall,851,1,1,0,,exterior finish,none,
+Default_1985,AB_PW_concrete,partition_wall,852,1,-1,0,,interior finish,none,
+Default_1985,AB_EW_concrete,exterior_wall,853,1,0,120,,thermal insulation,mineral wool,
+Default_1985,AB_EW_concrete,exterior_wall,854,1,1,60,,exterior finish,reinforced concrete,
+Default_1985,AB_EW_concrete,exterior_wall,855,1,-1,70,160,load-bearing structure,reinforced concrete,
+Default_1985,AB_EW_concrete,exterior_wall,856,1,-2,0,,interior finish,none,
+Default_1985,AB_BF_concrete_b,base_floor,857,1,0,75,,thermal insulation,expanded polystyrene,
+Default_1985,AB_BF_concrete_b,base_floor,858,1,1,0.2,,air barrier,polyethylene plastic film,
+Default_1985,AB_BF_concrete_b,base_floor,859,1,2,400,,french drain layer,gravel,
+Default_1985,AB_BF_concrete_b,base_floor,860,1,3,0,,ground,none,
+Default_1985,AB_BF_concrete_b,base_floor,861,1,-1,120,,load-bearing structure,reinforced concrete,
+Default_1985,AB_BF_concrete_b,base_floor,862,1,-2,0,,interior finish,none,
+Default_1985,AB_BF_concrete,base_floor,863,1,0,50,,thermal insulation,expanded polystyrene,
+Default_1985,AB_BF_concrete,base_floor,864,1,1,400,,french drain layer,gravel,
+Default_1985,AB_BF_concrete,base_floor,865,1,2,0,,ground,none,
+Default_1985,AB_BF_concrete,base_floor,866,1,-1,0.2,,filter,polyethylene plastic film,
+Default_1985,AB_BF_concrete,base_floor,867,1,-2,70,,load-bearing structure,reinforced concrete,
+Default_1985,AB_BF_concrete,base_floor,868,1,-3,0,,interior finish,none,
+Default_2003,TH_R_timber,roof,869,0.08333333333333333,0,200,,load-bearing structure,wood,50x200 k 600 timber roof truss estimated
+Default_2003,TH_R_timber,roof,870,0.9166666666666666,0,200,,thermal insulation,mineral wool,
+Default_2003,TH_R_timber,roof,871,1,1,50,,windproofing,mineral wool,
+Default_2003,TH_R_timber,roof,872,1,2,100,,ventilation space,ventilation space,
+Default_2003,TH_R_timber,roof,873,0.08333333333333333,3,200,,roof supports,wood,50x200 k 600 timber roof truss estimated
+Default_2003,TH_R_timber,roof,874,0.9166666666666666,3,200,,ventilation space,ventilation space,
+Default_2003,TH_R_timber,roof,875,1,4,20,,boarding,wood,
+Default_2003,TH_R_timber,roof,876,1,5,0,,exterior finish,none,roofing
+Default_2003,TH_R_timber,roof,877,1,-1,0,,air barrier,paper,
+Default_2003,TH_R_timber,roof,878,0.25,-2,20,,furring,wood,20x100 k 400 estimated
+Default_2003,TH_R_timber,roof,879,0.75,-2,20,,ventilation space,none,
+Default_2003,TH_R_timber,roof,880,1,-3,0,,interior finish,none,
+Default_2003,TH_PW_timber,partition_wall,881,0.08333333333333333,0,70,70,load-bearing structure,wood,50x70 k 600 estimated
+Default_2003,TH_PW_timber,partition_wall,882,0.9166666666666666,0,70,70,soundproofing,mineral wool,
+Default_2003,TH_PW_timber,partition_wall,883,1,1,25,,ventilation space,ventilation space,
+Default_2003,TH_PW_timber,partition_wall,884,0.08333333333333333,2,70,70,load-bearing structure,wood,50x70 k 600 estimated
+Default_2003,TH_PW_timber,partition_wall,885,0.9166666666666666,2,70,70,soundproofing,mineral wool,
+Default_2003,TH_PW_timber,partition_wall,886,1,3,13,,construction board,plasterboard,
+Default_2003,TH_PW_timber,partition_wall,887,1,4,10,,construction board,chipboard,
+Default_2003,TH_PW_timber,partition_wall,888,1,5,0,,exterior finish,none,
+Default_2003,TH_PW_timber,partition_wall,889,1,-1,13,,construction board,plasterboard,
+Default_2003,TH_PW_timber,partition_wall,890,1,-2,10,,construction board,chipboard,
+Default_2003,TH_PW_timber,partition_wall,891,1,-3,0,,interior finish,none,
+Default_2003,TH_EW_timber,exterior_wall,892,0.08333333333333333,0,100,100,load-bearing structure,wood,50x100 k 600
+Default_2003,TH_EW_timber,exterior_wall,893,0.9166666666666666,0,100,100,thermal insulation,mineral wool,
+Default_2003,TH_EW_timber,exterior_wall,894,1,1,12,,windproofing,wood fibre board,
+Default_2003,TH_EW_timber,exterior_wall,895,0.041666666666666664,2,25,,furring,wood,25x25 k 600 furring estimated
+Default_2003,TH_EW_timber,exterior_wall,896,0.9583333333333334,2,25,,ventilation space,ventilation space,
+Default_2003,TH_EW_timber,exterior_wall,897,1,3,20,,exterior finish,wood,20x100 boarding estimated
+Default_2003,TH_EW_timber,exterior_wall,898,0.08333333333333333,-1,65,,furring,wood,50x65 k 600
+Default_2003,TH_EW_timber,exterior_wall,899,0.9166666666666666,-1,65,,thermal insulation,mineral wool,
+Default_2003,TH_EW_timber,exterior_wall,900,1,-2,0,,air barrier,polyethylene plastic film,
+Default_2003,TH_EW_timber,exterior_wall,901,1,-3,12,,construction board,chipboard,
+Default_2003,TH_EW_timber,exterior_wall,902,1,-4,0,,interior finish,none,
+Default_2003,TH_BF_concrete,base_floor,903,1,0,100,,thermal insulation,expanded polystyrene,
+Default_2003,TH_BF_concrete,base_floor,904,1,1,0.2,,filter,polyethylene plastic film,
+Default_2003,TH_BF_concrete,base_floor,905,1,2,800,,french drain layer,gravel,
+Default_2003,TH_BF_concrete,base_floor,906,1,3,0,,ground,none,
+Default_2003,TH_BF_concrete,base_floor,907,1,-1,100,,load-bearing structure,reinforced concrete,
+Default_2003,TH_BF_concrete,base_floor,908,1,-2,0,,interior finish,none,
+Default_2003,DH_SF_timber,separating_floor,909,0.8333333333333334,0,100,,load-bearing structure,wood,50x100 k 600 planks estimated
+Default_2003,DH_SF_timber,separating_floor,910,0.16666666666666663,0,100,,soundproofing,mineral wool,
+Default_2003,DH_SF_timber,separating_floor,911,0.8333333333333334,1,100,,load-bearing structure,wood,50x100 k 600 planks estimated
+Default_2003,DH_SF_timber,separating_floor,912,0.16666666666666663,1,100,,ventilation space,ventilation space,
+Default_2003,DH_SF_timber,separating_floor,913,1,2,12,,construction board,plywood,
+Default_2003,DH_SF_timber,separating_floor,914,1,3,0,,exterior finish,none,
+Default_2003,DH_SF_timber,separating_floor,915,1,-1,12,,construction board,plywood,
+Default_2003,DH_SF_timber,separating_floor,916,1,-2,0,,interior finish,none,
+Default_2003,DH_R_timber,roof,917,0.08333333333333333,0,200,,load-bearing structure,wood,50x200 k 600 timber roof truss estimated
+Default_2003,DH_R_timber,roof,918,0.9166666666666666,0,200,,thermal insulation,mineral wool,
+Default_2003,DH_R_timber,roof,919,1,1,100,,windproofing,mineral wool,
+Default_2003,DH_R_timber,roof,920,1,2,100,,ventilation space,ventilation space,
+Default_2003,DH_R_timber,roof,921,0.08333333333333333,3,200,,roof supports,wood,50x200 k 600 timber roof truss estimated
+Default_2003,DH_R_timber,roof,922,0.9166666666666666,3,200,,ventilation space,ventilation space,
+Default_2003,DH_R_timber,roof,923,0.8333333333333334,4,20,,furring,wood,20x100 k 120 estimated
+Default_2003,DH_R_timber,roof,924,0.16666666666666663,4,20,,ventilation space,ventilation space,
+Default_2003,DH_R_timber,roof,925,1,5,0,,exterior finish,none,roofing
+Default_2003,DH_R_timber,roof,926,1,-1,0.2,,air barrier,polyethylene plastic film,
+Default_2003,DH_R_timber,roof,927,0.25,-2,20,,furring,wood,20x100 k 400 estimated
+Default_2003,DH_R_timber,roof,928,0.75,-2,20,,ventilation space,ventilation space,
+Default_2003,DH_R_timber,roof,929,1,-3,0,,interior finish,none,
+Default_2003,DH_PW_timber,partition_wall,930,0.075,0,95,95,load-bearing structure,wood,45x95 k 600
+Default_2003,DH_PW_timber,partition_wall,931,0.925,0,95,95,soundproofing,mineral wool,
+Default_2003,DH_PW_timber,partition_wall,932,1,1,24,,construction board,plasterboard,double construction boards
+Default_2003,DH_PW_timber,partition_wall,933,1,2,0,,exterior finish,none,
+Default_2003,DH_PW_timber,partition_wall,934,1,-1,24,,construction board,plasterboard,double construction boards
+Default_2003,DH_PW_timber,partition_wall,935,1,-2,0,,interior finish,none,
+Default_2003,DH_EW_timber,exterior_wall,936,0.08333333333333333,0,150,150,load-bearing structure,wood,50x150 k 600 estimated
+Default_2003,DH_EW_timber,exterior_wall,937,0.9166666666666666,0,150,150,thermal insulation,mineral wool,
+Default_2003,DH_EW_timber,exterior_wall,938,0.08333333333333333,1,50,,furring,wood,50x50 k 600 estimated
+Default_2003,DH_EW_timber,exterior_wall,939,0.9166666666666666,1,50,,thermal insulation,mineral wool,
+Default_2003,DH_EW_timber,exterior_wall,940,1,2,12,,windproofing,wood fibre board,
+Default_2003,DH_EW_timber,exterior_wall,941,0.20833333333333334,3,19,,furring,wood,19x125 k 600 furring estimated
+Default_2003,DH_EW_timber,exterior_wall,942,0.7916666666666666,3,19,,ventilation space,ventilation space,
+Default_2003,DH_EW_timber,exterior_wall,943,1,4,19,,exterior finish,wood,19x100 boarding
+Default_2003,DH_EW_timber,exterior_wall,944,1,-1,0.2,,air barrier,polyethylene plastic film,
+Default_2003,DH_EW_timber,exterior_wall,945,1,-2,13,,construction board,chipboard,
+Default_2003,DH_EW_timber,exterior_wall,946,1,-3,0,,interior finish,none,
+Default_2003,DH_BF_concrete,base_floor,947,1,0,100,,thermal insulation,expanded polystyrene,
+Default_2003,DH_BF_concrete,base_floor,948,1,1,0.2,,filter,polyethylene plastic film,
+Default_2003,DH_BF_concrete,base_floor,949,1,2,800,,french drain layer,gravel,
+Default_2003,DH_BF_concrete,base_floor,950,1,3,0,,ground,none,
+Default_2003,DH_BF_concrete,base_floor,951,1,-1,50,,load-bearing structure,reinforced concrete,
+Default_2003,DH_BF_concrete,base_floor,952,1,-2,0,,interior finish,none,
+Default_2003,AB_SF_concrete_b,separating_floor,953,1,0,265,,load-bearing structure,hollow-core concrete,
+Default_2003,AB_SF_concrete_b,separating_floor,954,1,1,0,,exterior finish,none,
+Default_2003,AB_SF_concrete_b,separating_floor,955,1,-1,0,,interior finish,none,
+Default_2003,AB_SF_concrete,separating_floor,956,1,0,190,,load-bearing structure,reinforced concrete,
+Default_2003,AB_SF_concrete,separating_floor,957,1,1,0,,exterior finish,none,
+Default_2003,AB_SF_concrete,separating_floor,958,1,-1,0,,interior finish,none,
+Default_2003,AB_R_concrete_b,roof,959,1,0,200,,thermal insulation,mineral wool,
+Default_2003,AB_R_concrete_b,roof,960,0.125,1,200,,roof supports,wood,75x200 k 600 estimated
+Default_2003,AB_R_concrete_b,roof,961,0.875,1,200,,ventilation space,ventilation space,
+Default_2003,AB_R_concrete_b,roof,962,1,2,22,,boarding,wood,
+Default_2003,AB_R_concrete_b,roof,963,1,3,0,,exterior finish,none,
+Default_2003,AB_R_concrete_b,roof,964,1,-1,265,,load-bearing structure,hollow-core concrete,
+Default_2003,AB_R_concrete_b,roof,965,1,-2,0,,interior finish,none,
+Default_2003,AB_R_concrete,roof,966,1,0,200,,thermal insulation,mineral wool,
+Default_2003,AB_R_concrete,roof,967,1,1,100,,ventilation space,ventilation space,
+Default_2003,AB_R_concrete,roof,968,0.125,2,200,,roof supports,wood,75x200 k 600 estimated
+Default_2003,AB_R_concrete,roof,969,0.875,2,200,,ventilation space,ventilation space,
+Default_2003,AB_R_concrete,roof,970,1,3,0.2,,air barrier,polyethylene plastic film,
+Default_2003,AB_R_concrete,roof,971,0.25,4,22,,furring,wood,22x100 k 400 estimated
+Default_2003,AB_R_concrete,roof,972,0.75,4,22,,ventilation space,ventilation space,
+Default_2003,AB_R_concrete,roof,973,1,5,0,,exterior finish,none,
+Default_2003,AB_R_concrete,roof,974,1,-1,190,,load-bearing structure,reinforced concrete,
+Default_2003,AB_R_concrete,roof,975,1,-2,0,,interior finish,none,
+Default_2003,AB_PW_concrete,partition_wall,976,1,0,70,160,load-bearing structure,reinforced concrete,
+Default_2003,AB_PW_concrete,partition_wall,977,1,1,0,,exterior finish,none,
+Default_2003,AB_PW_concrete,partition_wall,978,1,-1,0,,interior finish,none,
+Default_2003,AB_EW_concrete,exterior_wall,979,1,0,130,,thermal insulation,mineral wool,
+Default_2003,AB_EW_concrete,exterior_wall,980,1,1,60,,exterior finish,reinforced concrete,
+Default_2003,AB_EW_concrete,exterior_wall,981,1,-1,70,160,load-bearing structure,reinforced concrete,
+Default_2003,AB_EW_concrete,exterior_wall,982,1,-2,0,,interior finish,none,
+Default_2003,AB_BF_concrete_b,base_floor,983,1,0,75,,thermal insulation,expanded polystyrene,
+Default_2003,AB_BF_concrete_b,base_floor,984,1,1,0.2,,air barrier,polyethylene plastic film,
+Default_2003,AB_BF_concrete_b,base_floor,985,1,2,400,,french drain layer,gravel,
+Default_2003,AB_BF_concrete_b,base_floor,986,1,3,0,,ground,none,
+Default_2003,AB_BF_concrete_b,base_floor,987,1,-1,120,,load-bearing structure,reinforced concrete,
+Default_2003,AB_BF_concrete_b,base_floor,988,1,-2,0,,interior finish,none,
+Default_2003,AB_BF_concrete,base_floor,989,1,0,50,,thermal insulation,expanded polystyrene,
+Default_2003,AB_BF_concrete,base_floor,990,1,1,400,,french drain layer,gravel,
+Default_2003,AB_BF_concrete,base_floor,991,1,2,0,,ground,none,
+Default_2003,AB_BF_concrete,base_floor,992,1,-1,0.2,,filter,polyethylene plastic film,
+Default_2003,AB_BF_concrete,base_floor,993,1,-2,70,,load-bearing structure,reinforced concrete,
+Default_2003,AB_BF_concrete,base_floor,994,1,-3,0,,interior finish,none,
+Default_2007,TH_R_timber,roof,995,0.08333333333333333,0,200,,load-bearing structure,wood,50x200 k 600 timber roof truss estimated
+Default_2007,TH_R_timber,roof,996,0.9166666666666666,0,200,,thermal insulation,mineral wool,
+Default_2007,TH_R_timber,roof,997,1,1,50,,windproofing,mineral wool,
+Default_2007,TH_R_timber,roof,998,1,2,100,,ventilation space,ventilation space,
+Default_2007,TH_R_timber,roof,999,0.08333333333333333,3,200,,roof supports,wood,50x200 k 600 timber roof truss estimated
+Default_2007,TH_R_timber,roof,1000,0.9166666666666666,3,200,,ventilation space,ventilation space,
+Default_2007,TH_R_timber,roof,1001,1,4,20,,boarding,wood,
+Default_2007,TH_R_timber,roof,1002,1,5,0,,exterior finish,none,roofing
+Default_2007,TH_R_timber,roof,1003,1,-1,0,,air barrier,paper,
+Default_2007,TH_R_timber,roof,1004,0.25,-2,20,,furring,wood,20x100 k 400 estimated
+Default_2007,TH_R_timber,roof,1005,0.75,-2,20,,ventilation space,none,
+Default_2007,TH_R_timber,roof,1006,1,-3,0,,interior finish,none,
+Default_2007,TH_PW_timber,partition_wall,1007,0.08333333333333333,0,70,70,load-bearing structure,wood,50x70 k 600 estimated
+Default_2007,TH_PW_timber,partition_wall,1008,0.9166666666666666,0,70,70,soundproofing,mineral wool,
+Default_2007,TH_PW_timber,partition_wall,1009,1,1,25,,ventilation space,ventilation space,
+Default_2007,TH_PW_timber,partition_wall,1010,0.08333333333333333,2,70,70,load-bearing structure,wood,50x70 k 600 estimated
+Default_2007,TH_PW_timber,partition_wall,1011,0.9166666666666666,2,70,70,soundproofing,mineral wool,
+Default_2007,TH_PW_timber,partition_wall,1012,1,3,13,,construction board,plasterboard,
+Default_2007,TH_PW_timber,partition_wall,1013,1,4,10,,construction board,chipboard,
+Default_2007,TH_PW_timber,partition_wall,1014,1,5,0,,exterior finish,none,
+Default_2007,TH_PW_timber,partition_wall,1015,1,-1,13,,construction board,plasterboard,
+Default_2007,TH_PW_timber,partition_wall,1016,1,-2,10,,construction board,chipboard,
+Default_2007,TH_PW_timber,partition_wall,1017,1,-3,0,,interior finish,none,
+Default_2007,TH_EW_timber,exterior_wall,1018,0.08333333333333333,0,100,100,load-bearing structure,wood,50x100 k 600
+Default_2007,TH_EW_timber,exterior_wall,1019,0.9166666666666666,0,100,100,thermal insulation,mineral wool,
+Default_2007,TH_EW_timber,exterior_wall,1020,1,1,12,,windproofing,wood fibre board,
+Default_2007,TH_EW_timber,exterior_wall,1021,0.041666666666666664,2,25,,furring,wood,25x25 k 600 furring estimated
+Default_2007,TH_EW_timber,exterior_wall,1022,0.9583333333333334,2,25,,ventilation space,ventilation space,
+Default_2007,TH_EW_timber,exterior_wall,1023,1,3,20,,exterior finish,wood,20x100 boarding estimated
+Default_2007,TH_EW_timber,exterior_wall,1024,0.08333333333333333,-1,65,,furring,wood,50x65 k 600
+Default_2007,TH_EW_timber,exterior_wall,1025,0.9166666666666666,-1,65,,thermal insulation,mineral wool,
+Default_2007,TH_EW_timber,exterior_wall,1026,1,-2,0,,air barrier,polyethylene plastic film,
+Default_2007,TH_EW_timber,exterior_wall,1027,1,-3,12,,construction board,chipboard,
+Default_2007,TH_EW_timber,exterior_wall,1028,1,-4,0,,interior finish,none,
+Default_2007,TH_BF_concrete,base_floor,1029,1,0,100,,thermal insulation,expanded polystyrene,
+Default_2007,TH_BF_concrete,base_floor,1030,1,1,0.2,,filter,polyethylene plastic film,
+Default_2007,TH_BF_concrete,base_floor,1031,1,2,800,,french drain layer,gravel,
+Default_2007,TH_BF_concrete,base_floor,1032,1,3,0,,ground,none,
+Default_2007,TH_BF_concrete,base_floor,1033,1,-1,100,,load-bearing structure,reinforced concrete,
+Default_2007,TH_BF_concrete,base_floor,1034,1,-2,0,,interior finish,none,
+Default_2007,DH_SF_timber,separating_floor,1035,0.8333333333333334,0,100,,load-bearing structure,wood,50x100 k 600 planks estimated
+Default_2007,DH_SF_timber,separating_floor,1036,0.16666666666666663,0,100,,soundproofing,mineral wool,
+Default_2007,DH_SF_timber,separating_floor,1037,0.8333333333333334,1,100,,load-bearing structure,wood,50x100 k 600 planks estimated
+Default_2007,DH_SF_timber,separating_floor,1038,0.16666666666666663,1,100,,ventilation space,ventilation space,
+Default_2007,DH_SF_timber,separating_floor,1039,1,2,12,,construction board,plywood,
+Default_2007,DH_SF_timber,separating_floor,1040,1,3,0,,exterior finish,none,
+Default_2007,DH_SF_timber,separating_floor,1041,1,-1,12,,construction board,plywood,
+Default_2007,DH_SF_timber,separating_floor,1042,1,-2,0,,interior finish,none,
+Default_2007,DH_R_timber,roof,1043,0.08333333333333333,0,200,,load-bearing structure,wood,50x200 k 600 timber roof truss estimated
+Default_2007,DH_R_timber,roof,1044,0.9166666666666666,0,200,,thermal insulation,mineral wool,
+Default_2007,DH_R_timber,roof,1045,1,1,100,,windproofing,mineral wool,
+Default_2007,DH_R_timber,roof,1046,1,2,100,,ventilation space,ventilation space,
+Default_2007,DH_R_timber,roof,1047,0.08333333333333333,3,200,,roof supports,wood,50x200 k 600 timber roof truss estimated
+Default_2007,DH_R_timber,roof,1048,0.9166666666666666,3,200,,ventilation space,ventilation space,
+Default_2007,DH_R_timber,roof,1049,0.8333333333333334,4,20,,furring,wood,20x100 k 120 estimated
+Default_2007,DH_R_timber,roof,1050,0.16666666666666663,4,20,,ventilation space,ventilation space,
+Default_2007,DH_R_timber,roof,1051,1,5,0,,exterior finish,none,roofing
+Default_2007,DH_R_timber,roof,1052,1,-1,0.2,,air barrier,polyethylene plastic film,
+Default_2007,DH_R_timber,roof,1053,0.25,-2,20,,furring,wood,20x100 k 400 estimated
+Default_2007,DH_R_timber,roof,1054,0.75,-2,20,,ventilation space,ventilation space,
+Default_2007,DH_R_timber,roof,1055,1,-3,0,,interior finish,none,
+Default_2007,DH_PW_timber,partition_wall,1056,0.075,0,95,95,load-bearing structure,wood,45x95 k 600
+Default_2007,DH_PW_timber,partition_wall,1057,0.925,0,95,95,soundproofing,mineral wool,
+Default_2007,DH_PW_timber,partition_wall,1058,1,1,24,,construction board,plasterboard,double construction boards
+Default_2007,DH_PW_timber,partition_wall,1059,1,2,0,,exterior finish,none,
+Default_2007,DH_PW_timber,partition_wall,1060,1,-1,24,,construction board,plasterboard,double construction boards
+Default_2007,DH_PW_timber,partition_wall,1061,1,-2,0,,interior finish,none,
+Default_2007,DH_EW_timber,exterior_wall,1062,0.08333333333333333,0,150,150,load-bearing structure,wood,50x150 k 600 estimated
+Default_2007,DH_EW_timber,exterior_wall,1063,0.9166666666666666,0,150,150,thermal insulation,mineral wool,
+Default_2007,DH_EW_timber,exterior_wall,1064,0.08333333333333333,1,50,,furring,wood,50x50 k 600 estimated
+Default_2007,DH_EW_timber,exterior_wall,1065,0.9166666666666666,1,50,,thermal insulation,mineral wool,
+Default_2007,DH_EW_timber,exterior_wall,1066,1,2,12,,windproofing,wood fibre board,
+Default_2007,DH_EW_timber,exterior_wall,1067,0.20833333333333334,3,19,,furring,wood,19x125 k 600 furring estimated
+Default_2007,DH_EW_timber,exterior_wall,1068,0.7916666666666666,3,19,,ventilation space,ventilation space,
+Default_2007,DH_EW_timber,exterior_wall,1069,1,4,19,,exterior finish,wood,19x100 boarding
+Default_2007,DH_EW_timber,exterior_wall,1070,1,-1,0.2,,air barrier,polyethylene plastic film,
+Default_2007,DH_EW_timber,exterior_wall,1071,1,-2,13,,construction board,chipboard,
+Default_2007,DH_EW_timber,exterior_wall,1072,1,-3,0,,interior finish,none,
+Default_2007,DH_BF_concrete,base_floor,1073,1,0,100,,thermal insulation,expanded polystyrene,
+Default_2007,DH_BF_concrete,base_floor,1074,1,1,0.2,,filter,polyethylene plastic film,
+Default_2007,DH_BF_concrete,base_floor,1075,1,2,800,,french drain layer,gravel,
+Default_2007,DH_BF_concrete,base_floor,1076,1,3,0,,ground,none,
+Default_2007,DH_BF_concrete,base_floor,1077,1,-1,50,,load-bearing structure,reinforced concrete,
+Default_2007,DH_BF_concrete,base_floor,1078,1,-2,0,,interior finish,none,
+Default_2007,AB_SF_concrete_b,separating_floor,1079,1,0,265,,load-bearing structure,hollow-core concrete,
+Default_2007,AB_SF_concrete_b,separating_floor,1080,1,1,0,,exterior finish,none,
+Default_2007,AB_SF_concrete_b,separating_floor,1081,1,-1,0,,interior finish,none,
+Default_2007,AB_SF_concrete,separating_floor,1082,1,0,190,,load-bearing structure,reinforced concrete,
+Default_2007,AB_SF_concrete,separating_floor,1083,1,1,0,,exterior finish,none,
+Default_2007,AB_SF_concrete,separating_floor,1084,1,-1,0,,interior finish,none,
+Default_2007,AB_R_concrete_b,roof,1085,1,0,200,,thermal insulation,mineral wool,
+Default_2007,AB_R_concrete_b,roof,1086,0.125,1,200,,roof supports,wood,75x200 k 600 estimated
+Default_2007,AB_R_concrete_b,roof,1087,0.875,1,200,,ventilation space,ventilation space,
+Default_2007,AB_R_concrete_b,roof,1088,1,2,22,,boarding,wood,
+Default_2007,AB_R_concrete_b,roof,1089,1,3,0,,exterior finish,none,
+Default_2007,AB_R_concrete_b,roof,1090,1,-1,265,,load-bearing structure,hollow-core concrete,
+Default_2007,AB_R_concrete_b,roof,1091,1,-2,0,,interior finish,none,
+Default_2007,AB_R_concrete,roof,1092,1,0,200,,thermal insulation,mineral wool,
+Default_2007,AB_R_concrete,roof,1093,1,1,100,,ventilation space,ventilation space,
+Default_2007,AB_R_concrete,roof,1094,0.125,2,200,,roof supports,wood,75x200 k 600 estimated
+Default_2007,AB_R_concrete,roof,1095,0.875,2,200,,ventilation space,ventilation space,
+Default_2007,AB_R_concrete,roof,1096,1,3,0.2,,air barrier,polyethylene plastic film,
+Default_2007,AB_R_concrete,roof,1097,0.25,4,22,,furring,wood,22x100 k 400 estimated
+Default_2007,AB_R_concrete,roof,1098,0.75,4,22,,ventilation space,ventilation space,
+Default_2007,AB_R_concrete,roof,1099,1,5,0,,exterior finish,none,
+Default_2007,AB_R_concrete,roof,1100,1,-1,190,,load-bearing structure,reinforced concrete,
+Default_2007,AB_R_concrete,roof,1101,1,-2,0,,interior finish,none,
+Default_2007,AB_PW_concrete,partition_wall,1102,1,0,70,160,load-bearing structure,reinforced concrete,
+Default_2007,AB_PW_concrete,partition_wall,1103,1,1,0,,exterior finish,none,
+Default_2007,AB_PW_concrete,partition_wall,1104,1,-1,0,,interior finish,none,
+Default_2007,AB_EW_concrete,exterior_wall,1105,1,0,140,,thermal insulation,mineral wool,
+Default_2007,AB_EW_concrete,exterior_wall,1106,1,1,60,,exterior finish,reinforced concrete,
+Default_2007,AB_EW_concrete,exterior_wall,1107,1,-1,70,160,load-bearing structure,reinforced concrete,
+Default_2007,AB_EW_concrete,exterior_wall,1108,1,-2,0,,interior finish,none,
+Default_2007,AB_BF_concrete_b,base_floor,1109,1,0,75,,thermal insulation,expanded polystyrene,
+Default_2007,AB_BF_concrete_b,base_floor,1110,1,1,0.2,,air barrier,polyethylene plastic film,
+Default_2007,AB_BF_concrete_b,base_floor,1111,1,2,400,,french drain layer,gravel,
+Default_2007,AB_BF_concrete_b,base_floor,1112,1,3,0,,ground,none,
+Default_2007,AB_BF_concrete_b,base_floor,1113,1,-1,120,,load-bearing structure,reinforced concrete,
+Default_2007,AB_BF_concrete_b,base_floor,1114,1,-2,0,,interior finish,none,
+Default_2007,AB_BF_concrete,base_floor,1115,1,0,50,,thermal insulation,expanded polystyrene,
+Default_2007,AB_BF_concrete,base_floor,1116,1,1,400,,french drain layer,gravel,
+Default_2007,AB_BF_concrete,base_floor,1117,1,2,0,,ground,none,
+Default_2007,AB_BF_concrete,base_floor,1118,1,-1,0.2,,filter,polyethylene plastic film,
+Default_2007,AB_BF_concrete,base_floor,1119,1,-2,70,,load-bearing structure,reinforced concrete,
+Default_2007,AB_BF_concrete,base_floor,1120,1,-3,0,,interior finish,none,
+Default_2010,TH_R_timber,roof,1121,0.08333333333333333,0,200,,load-bearing structure,wood,50x200 k 600 timber roof truss estimated
+Default_2010,TH_R_timber,roof,1122,0.9166666666666666,0,200,,thermal insulation,mineral wool,
+Default_2010,TH_R_timber,roof,1123,1,1,200,,windproofing,mineral wool,
+Default_2010,TH_R_timber,roof,1124,1,2,100,,ventilation space,ventilation space,
+Default_2010,TH_R_timber,roof,1125,0.08333333333333333,3,200,,roof supports,wood,50x200 k 600 timber roof truss estimated
+Default_2010,TH_R_timber,roof,1126,0.9166666666666666,3,200,,ventilation space,ventilation space,
+Default_2010,TH_R_timber,roof,1127,1,4,20,,boarding,wood,
+Default_2010,TH_R_timber,roof,1128,1,5,0,,exterior finish,none,roofing
+Default_2010,TH_R_timber,roof,1129,1,-1,0,,air barrier,paper,
+Default_2010,TH_R_timber,roof,1130,0.25,-2,20,,furring,wood,20x100 k 400 estimated
+Default_2010,TH_R_timber,roof,1131,0.75,-2,20,,ventilation space,none,
+Default_2010,TH_R_timber,roof,1132,1,-3,0,,interior finish,none,
+Default_2010,TH_PW_timber,partition_wall,1133,0.08333333333333333,0,70,70,load-bearing structure,wood,50x70 k 600 estimated
+Default_2010,TH_PW_timber,partition_wall,1134,0.9166666666666666,0,70,70,soundproofing,mineral wool,
+Default_2010,TH_PW_timber,partition_wall,1135,1,1,25,,ventilation space,ventilation space,
+Default_2010,TH_PW_timber,partition_wall,1136,0.08333333333333333,2,70,70,load-bearing structure,wood,50x70 k 600 estimated
+Default_2010,TH_PW_timber,partition_wall,1137,0.9166666666666666,2,70,70,soundproofing,mineral wool,
+Default_2010,TH_PW_timber,partition_wall,1138,1,3,13,,construction board,plasterboard,
+Default_2010,TH_PW_timber,partition_wall,1139,1,4,10,,construction board,chipboard,
+Default_2010,TH_PW_timber,partition_wall,1140,1,5,0,,exterior finish,none,
+Default_2010,TH_PW_timber,partition_wall,1141,1,-1,13,,construction board,plasterboard,
+Default_2010,TH_PW_timber,partition_wall,1142,1,-2,10,,construction board,chipboard,
+Default_2010,TH_PW_timber,partition_wall,1143,1,-3,0,,interior finish,none,
+Default_2010,TH_EW_timber,exterior_wall,1144,0.08333333333333333,0,125,125,load-bearing structure,wood,50x125 k 600
+Default_2010,TH_EW_timber,exterior_wall,1145,0.9166666666666666,0,125,125,thermal insulation,mineral wool,
+Default_2010,TH_EW_timber,exterior_wall,1146,1,1,12,,windproofing,wood fibre board,
+Default_2010,TH_EW_timber,exterior_wall,1147,0.041666666666666664,2,25,,furring,wood,25x25 k 600 furring estimated
+Default_2010,TH_EW_timber,exterior_wall,1148,0.9583333333333334,2,25,,ventilation space,ventilation space,
+Default_2010,TH_EW_timber,exterior_wall,1149,1,3,20,,exterior finish,wood,20x100 boarding estimated
+Default_2010,TH_EW_timber,exterior_wall,1150,0.08333333333333333,-1,100,,furring,wood,50x100 k 600
+Default_2010,TH_EW_timber,exterior_wall,1151,0.9166666666666666,-1,100,,thermal insulation,mineral wool,
+Default_2010,TH_EW_timber,exterior_wall,1152,1,-2,0,,air barrier,polyethylene plastic film,
+Default_2010,TH_EW_timber,exterior_wall,1153,1,-3,12,,construction board,chipboard,
+Default_2010,TH_EW_timber,exterior_wall,1154,1,-4,0,,interior finish,none,
+Default_2010,TH_BF_concrete,base_floor,1155,1,0,100,,thermal insulation,expanded polystyrene,
+Default_2010,TH_BF_concrete,base_floor,1156,1,1,0.2,,filter,polyethylene plastic film,
+Default_2010,TH_BF_concrete,base_floor,1157,1,2,800,,french drain layer,gravel,
+Default_2010,TH_BF_concrete,base_floor,1158,1,3,0,,ground,none,
+Default_2010,TH_BF_concrete,base_floor,1159,1,-1,100,,load-bearing structure,reinforced concrete,
+Default_2010,TH_BF_concrete,base_floor,1160,1,-2,0,,interior finish,none,
+Default_2010,DH_SF_timber,separating_floor,1161,0.8333333333333334,0,100,,load-bearing structure,wood,50x100 k 600 planks estimated
+Default_2010,DH_SF_timber,separating_floor,1162,0.16666666666666663,0,100,,soundproofing,mineral wool,
+Default_2010,DH_SF_timber,separating_floor,1163,0.8333333333333334,1,100,,load-bearing structure,wood,50x100 k 600 planks estimated
+Default_2010,DH_SF_timber,separating_floor,1164,0.16666666666666663,1,100,,ventilation space,ventilation space,
+Default_2010,DH_SF_timber,separating_floor,1165,1,2,12,,construction board,plywood,
+Default_2010,DH_SF_timber,separating_floor,1166,1,3,0,,exterior finish,none,
+Default_2010,DH_SF_timber,separating_floor,1167,1,-1,12,,construction board,plywood,
+Default_2010,DH_SF_timber,separating_floor,1168,1,-2,0,,interior finish,none,
+Default_2010,DH_R_timber,roof,1169,0.08333333333333333,0,200,,load-bearing structure,wood,50x200 k 600 timber roof truss estimated
+Default_2010,DH_R_timber,roof,1170,0.9166666666666666,0,200,,thermal insulation,mineral wool,
+Default_2010,DH_R_timber,roof,1171,1,1,200,,windproofing,mineral wool,
+Default_2010,DH_R_timber,roof,1172,1,2,100,,ventilation space,ventilation space,
+Default_2010,DH_R_timber,roof,1173,0.08333333333333333,3,200,,roof supports,wood,50x200 k 600 timber roof truss estimated
+Default_2010,DH_R_timber,roof,1174,0.9166666666666666,3,200,,ventilation space,ventilation space,
+Default_2010,DH_R_timber,roof,1175,0.8333333333333334,4,20,,furring,wood,20x100 k 120 estimated
+Default_2010,DH_R_timber,roof,1176,0.16666666666666663,4,20,,ventilation space,ventilation space,
+Default_2010,DH_R_timber,roof,1177,1,5,0,,exterior finish,none,roofing
+Default_2010,DH_R_timber,roof,1178,1,-1,0.2,,air barrier,polyethylene plastic film,
+Default_2010,DH_R_timber,roof,1179,0.25,-2,20,,furring,wood,20x100 k 400 estimated
+Default_2010,DH_R_timber,roof,1180,0.75,-2,20,,ventilation space,ventilation space,
+Default_2010,DH_R_timber,roof,1181,1,-3,0,,interior finish,none,
+Default_2010,DH_PW_timber,partition_wall,1182,0.075,0,95,95,load-bearing structure,wood,45x95 k 600
+Default_2010,DH_PW_timber,partition_wall,1183,0.925,0,95,95,soundproofing,mineral wool,
+Default_2010,DH_PW_timber,partition_wall,1184,1,1,24,,construction board,plasterboard,double construction boards
+Default_2010,DH_PW_timber,partition_wall,1185,1,2,0,,exterior finish,none,
+Default_2010,DH_PW_timber,partition_wall,1186,1,-1,24,,construction board,plasterboard,double construction boards
+Default_2010,DH_PW_timber,partition_wall,1187,1,-2,0,,interior finish,none,
+Default_2010,DH_EW_timber,exterior_wall,1188,0.08333333333333333,0,175,175,load-bearing structure,wood,50x175 k 600 estimated
+Default_2010,DH_EW_timber,exterior_wall,1189,0.9166666666666666,0,175,175,thermal insulation,mineral wool,
+Default_2010,DH_EW_timber,exterior_wall,1190,0.08333333333333333,1,50,,furring,wood,50x50 k 600 estimated
+Default_2010,DH_EW_timber,exterior_wall,1191,0.9166666666666666,1,50,,thermal insulation,mineral wool,
+Default_2010,DH_EW_timber,exterior_wall,1192,1,2,12,,windproofing,wood fibre board,
+Default_2010,DH_EW_timber,exterior_wall,1193,0.20833333333333334,3,19,,furring,wood,19x125 k 600 furring estimated
+Default_2010,DH_EW_timber,exterior_wall,1194,0.7916666666666666,3,19,,ventilation space,ventilation space,
+Default_2010,DH_EW_timber,exterior_wall,1195,1,4,19,,exterior finish,wood,19x100 boarding
+Default_2010,DH_EW_timber,exterior_wall,1196,1,-1,0.2,,air barrier,polyethylene plastic film,
+Default_2010,DH_EW_timber,exterior_wall,1197,1,-2,13,,construction board,chipboard,
+Default_2010,DH_EW_timber,exterior_wall,1198,1,-3,0,,interior finish,none,
+Default_2010,DH_BF_concrete,base_floor,1199,1,0,100,,thermal insulation,expanded polystyrene,
+Default_2010,DH_BF_concrete,base_floor,1200,1,1,0.2,,filter,polyethylene plastic film,
+Default_2010,DH_BF_concrete,base_floor,1201,1,2,800,,french drain layer,gravel,
+Default_2010,DH_BF_concrete,base_floor,1202,1,3,0,,ground,none,
+Default_2010,DH_BF_concrete,base_floor,1203,1,-1,50,,load-bearing structure,reinforced concrete,
+Default_2010,DH_BF_concrete,base_floor,1204,1,-2,0,,interior finish,none,
+Default_2010,AB_SF_concrete_b,separating_floor,1205,1,0,265,,load-bearing structure,hollow-core concrete,
+Default_2010,AB_SF_concrete_b,separating_floor,1206,1,1,0,,exterior finish,none,
+Default_2010,AB_SF_concrete_b,separating_floor,1207,1,-1,0,,interior finish,none,
+Default_2010,AB_SF_concrete,separating_floor,1208,1,0,190,,load-bearing structure,reinforced concrete,
+Default_2010,AB_SF_concrete,separating_floor,1209,1,1,0,,exterior finish,none,
+Default_2010,AB_SF_concrete,separating_floor,1210,1,-1,0,,interior finish,none,
+Default_2010,AB_R_concrete_b,roof,1211,1,0,400,,thermal insulation,mineral wool,
+Default_2010,AB_R_concrete_b,roof,1212,0.125,1,200,,roof supports,wood,75x200 k 600 estimated
+Default_2010,AB_R_concrete_b,roof,1213,0.875,1,200,,ventilation space,ventilation space,
+Default_2010,AB_R_concrete_b,roof,1214,1,2,22,,boarding,wood,
+Default_2010,AB_R_concrete_b,roof,1215,1,3,0,,exterior finish,none,
+Default_2010,AB_R_concrete_b,roof,1216,1,-1,265,,load-bearing structure,hollow-core concrete,
+Default_2010,AB_R_concrete_b,roof,1217,1,-2,0,,interior finish,none,
+Default_2010,AB_R_concrete,roof,1218,1,0,400,,thermal insulation,mineral wool,
+Default_2010,AB_R_concrete,roof,1219,1,1,100,,ventilation space,ventilation space,
+Default_2010,AB_R_concrete,roof,1220,0.125,2,200,,roof supports,wood,75x200 k 600 estimated
+Default_2010,AB_R_concrete,roof,1221,0.875,2,200,,ventilation space,ventilation space,
+Default_2010,AB_R_concrete,roof,1222,1,3,0.2,,air barrier,polyethylene plastic film,
+Default_2010,AB_R_concrete,roof,1223,0.25,4,22,,furring,wood,22x100 k 400 estimated
+Default_2010,AB_R_concrete,roof,1224,0.75,4,22,,ventilation space,ventilation space,
+Default_2010,AB_R_concrete,roof,1225,1,5,0,,exterior finish,none,
+Default_2010,AB_R_concrete,roof,1226,1,-1,190,,load-bearing structure,reinforced concrete,
+Default_2010,AB_R_concrete,roof,1227,1,-2,0,,interior finish,none,
+Default_2010,AB_PW_concrete,partition_wall,1228,1,0,70,160,load-bearing structure,reinforced concrete,
+Default_2010,AB_PW_concrete,partition_wall,1229,1,1,0,,exterior finish,none,
+Default_2010,AB_PW_concrete,partition_wall,1230,1,-1,0,,interior finish,none,
+Default_2010,AB_EW_concrete,exterior_wall,1231,1,0,200,,thermal insulation,mineral wool,
+Default_2010,AB_EW_concrete,exterior_wall,1232,1,1,60,,exterior finish,reinforced concrete,
+Default_2010,AB_EW_concrete,exterior_wall,1233,1,-1,70,160,load-bearing structure,reinforced concrete,
+Default_2010,AB_EW_concrete,exterior_wall,1234,1,-2,0,,interior finish,none,
+Default_2010,AB_BF_concrete_b,base_floor,1235,1,0,75,,thermal insulation,expanded polystyrene,
+Default_2010,AB_BF_concrete_b,base_floor,1236,1,1,0.2,,air barrier,polyethylene plastic film,
+Default_2010,AB_BF_concrete_b,base_floor,1237,1,2,400,,french drain layer,gravel,
+Default_2010,AB_BF_concrete_b,base_floor,1238,1,3,0,,ground,none,
+Default_2010,AB_BF_concrete_b,base_floor,1239,1,-1,120,,load-bearing structure,reinforced concrete,
+Default_2010,AB_BF_concrete_b,base_floor,1240,1,-2,0,,interior finish,none,
+Default_2010,AB_BF_concrete,base_floor,1241,1,0,75,,thermal insulation,expanded polystyrene,
+Default_2010,AB_BF_concrete,base_floor,1242,1,1,400,,french drain layer,gravel,
+Default_2010,AB_BF_concrete,base_floor,1243,1,2,0,,ground,none,
+Default_2010,AB_BF_concrete,base_floor,1244,1,-1,0.2,,filter,polyethylene plastic film,
+Default_2010,AB_BF_concrete,base_floor,1245,1,-2,70,,load-bearing structure,reinforced concrete,
+Default_2010,AB_BF_concrete,base_floor,1246,1,-3,0,,interior finish,none,
+Default_2012,TH_R_timber,roof,1247,0.08333333333333333,0,200,,load-bearing structure,wood,50x200 k 600 timber roof truss estimated
+Default_2012,TH_R_timber,roof,1248,0.9166666666666666,0,200,,thermal insulation,mineral wool,
+Default_2012,TH_R_timber,roof,1249,1,1,200,,windproofing,mineral wool,
+Default_2012,TH_R_timber,roof,1250,1,2,100,,ventilation space,ventilation space,
+Default_2012,TH_R_timber,roof,1251,0.08333333333333333,3,200,,roof supports,wood,50x200 k 600 timber roof truss estimated
+Default_2012,TH_R_timber,roof,1252,0.9166666666666666,3,200,,ventilation space,ventilation space,
+Default_2012,TH_R_timber,roof,1253,1,4,20,,boarding,wood,
+Default_2012,TH_R_timber,roof,1254,1,5,0,,exterior finish,none,roofing
+Default_2012,TH_R_timber,roof,1255,1,-1,0,,air barrier,paper,
+Default_2012,TH_R_timber,roof,1256,0.25,-2,20,,furring,wood,20x100 k 400 estimated
+Default_2012,TH_R_timber,roof,1257,0.75,-2,20,,ventilation space,none,
+Default_2012,TH_R_timber,roof,1258,1,-3,0,,interior finish,none,
+Default_2012,TH_PW_timber,partition_wall,1259,0.08333333333333333,0,70,70,load-bearing structure,wood,50x70 k 600 estimated
+Default_2012,TH_PW_timber,partition_wall,1260,0.9166666666666666,0,70,70,soundproofing,mineral wool,
+Default_2012,TH_PW_timber,partition_wall,1261,1,1,25,,ventilation space,ventilation space,
+Default_2012,TH_PW_timber,partition_wall,1262,0.08333333333333333,2,70,70,load-bearing structure,wood,50x70 k 600 estimated
+Default_2012,TH_PW_timber,partition_wall,1263,0.9166666666666666,2,70,70,soundproofing,mineral wool,
+Default_2012,TH_PW_timber,partition_wall,1264,1,3,13,,construction board,plasterboard,
+Default_2012,TH_PW_timber,partition_wall,1265,1,4,10,,construction board,chipboard,
+Default_2012,TH_PW_timber,partition_wall,1266,1,5,0,,exterior finish,none,
+Default_2012,TH_PW_timber,partition_wall,1267,1,-1,13,,construction board,plasterboard,
+Default_2012,TH_PW_timber,partition_wall,1268,1,-2,10,,construction board,chipboard,
+Default_2012,TH_PW_timber,partition_wall,1269,1,-3,0,,interior finish,none,
+Default_2012,TH_EW_timber,exterior_wall,1270,0.08333333333333333,0,125,125,load-bearing structure,wood,50x125 k 600
+Default_2012,TH_EW_timber,exterior_wall,1271,0.9166666666666666,0,125,125,thermal insulation,mineral wool,
+Default_2012,TH_EW_timber,exterior_wall,1272,1,1,12,,windproofing,wood fibre board,
+Default_2012,TH_EW_timber,exterior_wall,1273,0.041666666666666664,2,25,,furring,wood,25x25 k 600 furring estimated
+Default_2012,TH_EW_timber,exterior_wall,1274,0.9583333333333334,2,25,,ventilation space,ventilation space,
+Default_2012,TH_EW_timber,exterior_wall,1275,1,3,20,,exterior finish,wood,20x100 boarding estimated
+Default_2012,TH_EW_timber,exterior_wall,1276,0.08333333333333333,-1,100,,furring,wood,50x100 k 600
+Default_2012,TH_EW_timber,exterior_wall,1277,0.9166666666666666,-1,100,,thermal insulation,mineral wool,
+Default_2012,TH_EW_timber,exterior_wall,1278,1,-2,0,,air barrier,polyethylene plastic film,
+Default_2012,TH_EW_timber,exterior_wall,1279,1,-3,12,,construction board,chipboard,
+Default_2012,TH_EW_timber,exterior_wall,1280,1,-4,0,,interior finish,none,
+Default_2012,TH_BF_concrete,base_floor,1281,1,0,100,,thermal insulation,expanded polystyrene,
+Default_2012,TH_BF_concrete,base_floor,1282,1,1,0.2,,filter,polyethylene plastic film,
+Default_2012,TH_BF_concrete,base_floor,1283,1,2,800,,french drain layer,gravel,
+Default_2012,TH_BF_concrete,base_floor,1284,1,3,0,,ground,none,
+Default_2012,TH_BF_concrete,base_floor,1285,1,-1,100,,load-bearing structure,reinforced concrete,
+Default_2012,TH_BF_concrete,base_floor,1286,1,-2,0,,interior finish,none,
+Default_2012,DH_SF_timber,separating_floor,1287,0.8333333333333334,0,100,,load-bearing structure,wood,50x100 k 600 planks estimated
+Default_2012,DH_SF_timber,separating_floor,1288,0.16666666666666663,0,100,,soundproofing,mineral wool,
+Default_2012,DH_SF_timber,separating_floor,1289,0.8333333333333334,1,100,,load-bearing structure,wood,50x100 k 600 planks estimated
+Default_2012,DH_SF_timber,separating_floor,1290,0.16666666666666663,1,100,,ventilation space,ventilation space,
+Default_2012,DH_SF_timber,separating_floor,1291,1,2,12,,construction board,plywood,
+Default_2012,DH_SF_timber,separating_floor,1292,1,3,0,,exterior finish,none,
+Default_2012,DH_SF_timber,separating_floor,1293,1,-1,12,,construction board,plywood,
+Default_2012,DH_SF_timber,separating_floor,1294,1,-2,0,,interior finish,none,
+Default_2012,DH_R_timber,roof,1295,0.08333333333333333,0,200,,load-bearing structure,wood,50x200 k 600 timber roof truss estimated
+Default_2012,DH_R_timber,roof,1296,0.9166666666666666,0,200,,thermal insulation,mineral wool,
+Default_2012,DH_R_timber,roof,1297,1,1,200,,windproofing,mineral wool,
+Default_2012,DH_R_timber,roof,1298,1,2,100,,ventilation space,ventilation space,
+Default_2012,DH_R_timber,roof,1299,0.08333333333333333,3,200,,roof supports,wood,50x200 k 600 timber roof truss estimated
+Default_2012,DH_R_timber,roof,1300,0.9166666666666666,3,200,,ventilation space,ventilation space,
+Default_2012,DH_R_timber,roof,1301,0.8333333333333334,4,20,,furring,wood,20x100 k 120 estimated
+Default_2012,DH_R_timber,roof,1302,0.16666666666666663,4,20,,ventilation space,ventilation space,
+Default_2012,DH_R_timber,roof,1303,1,5,0,,exterior finish,none,roofing
+Default_2012,DH_R_timber,roof,1304,1,-1,0.2,,air barrier,polyethylene plastic film,
+Default_2012,DH_R_timber,roof,1305,0.25,-2,20,,furring,wood,20x100 k 400 estimated
+Default_2012,DH_R_timber,roof,1306,0.75,-2,20,,ventilation space,ventilation space,
+Default_2012,DH_R_timber,roof,1307,1,-3,0,,interior finish,none,
+Default_2012,DH_PW_timber,partition_wall,1308,0.075,0,95,95,load-bearing structure,wood,45x95 k 600
+Default_2012,DH_PW_timber,partition_wall,1309,0.925,0,95,95,soundproofing,mineral wool,
+Default_2012,DH_PW_timber,partition_wall,1310,1,1,24,,construction board,plasterboard,double construction boards
+Default_2012,DH_PW_timber,partition_wall,1311,1,2,0,,exterior finish,none,
+Default_2012,DH_PW_timber,partition_wall,1312,1,-1,24,,construction board,plasterboard,double construction boards
+Default_2012,DH_PW_timber,partition_wall,1313,1,-2,0,,interior finish,none,
+Default_2012,DH_EW_timber,exterior_wall,1314,0.08333333333333333,0,150,150,load-bearing structure,wood,50x150 k 600 estimated
+Default_2012,DH_EW_timber,exterior_wall,1315,0.9166666666666666,0,150,150,thermal insulation,mineral wool,
+Default_2012,DH_EW_timber,exterior_wall,1316,0.08333333333333333,1,75,,furring,wood,50x75 k 600 estimated
+Default_2012,DH_EW_timber,exterior_wall,1317,0.9166666666666666,1,75,,thermal insulation,mineral wool,
+Default_2012,DH_EW_timber,exterior_wall,1318,1,2,12,,windproofing,wood fibre board,
+Default_2012,DH_EW_timber,exterior_wall,1319,0.20833333333333334,3,19,,furring,wood,19x125 k 600 furring estimated
+Default_2012,DH_EW_timber,exterior_wall,1320,0.7916666666666666,3,19,,ventilation space,ventilation space,
+Default_2012,DH_EW_timber,exterior_wall,1321,1,4,19,,exterior finish,wood,19x100 boarding
+Default_2012,DH_EW_timber,exterior_wall,1322,1,-1,0.2,,air barrier,polyethylene plastic film,
+Default_2012,DH_EW_timber,exterior_wall,1323,1,-2,13,,construction board,chipboard,
+Default_2012,DH_EW_timber,exterior_wall,1324,1,-3,0,,interior finish,none,
+Default_2012,DH_BF_concrete,base_floor,1325,1,0,100,,thermal insulation,expanded polystyrene,
+Default_2012,DH_BF_concrete,base_floor,1326,1,1,0.2,,filter,polyethylene plastic film,
+Default_2012,DH_BF_concrete,base_floor,1327,1,2,800,,french drain layer,gravel,
+Default_2012,DH_BF_concrete,base_floor,1328,1,3,0,,ground,none,
+Default_2012,DH_BF_concrete,base_floor,1329,1,-1,50,,load-bearing structure,reinforced concrete,
+Default_2012,DH_BF_concrete,base_floor,1330,1,-2,0,,interior finish,none,
+Default_2012,AB_SF_concrete_b,separating_floor,1331,1,0,265,,load-bearing structure,hollow-core concrete,
+Default_2012,AB_SF_concrete_b,separating_floor,1332,1,1,0,,exterior finish,none,
+Default_2012,AB_SF_concrete_b,separating_floor,1333,1,-1,0,,interior finish,none,
+Default_2012,AB_SF_concrete,separating_floor,1334,1,0,190,,load-bearing structure,reinforced concrete,
+Default_2012,AB_SF_concrete,separating_floor,1335,1,1,0,,exterior finish,none,
+Default_2012,AB_SF_concrete,separating_floor,1336,1,-1,0,,interior finish,none,
+Default_2012,AB_R_concrete_b,roof,1337,1,0,400,,thermal insulation,mineral wool,
+Default_2012,AB_R_concrete_b,roof,1338,0.125,1,200,,roof supports,wood,75x200 k 600 estimated
+Default_2012,AB_R_concrete_b,roof,1339,0.875,1,200,,ventilation space,ventilation space,
+Default_2012,AB_R_concrete_b,roof,1340,1,2,22,,boarding,wood,
+Default_2012,AB_R_concrete_b,roof,1341,1,3,0,,exterior finish,none,
+Default_2012,AB_R_concrete_b,roof,1342,1,-1,265,,load-bearing structure,hollow-core concrete,
+Default_2012,AB_R_concrete_b,roof,1343,1,-2,0,,interior finish,none,
+Default_2012,AB_R_concrete,roof,1344,1,0,400,,thermal insulation,mineral wool,
+Default_2012,AB_R_concrete,roof,1345,1,1,100,,ventilation space,ventilation space,
+Default_2012,AB_R_concrete,roof,1346,0.125,2,200,,roof supports,wood,75x200 k 600 estimated
+Default_2012,AB_R_concrete,roof,1347,0.875,2,200,,ventilation space,ventilation space,
+Default_2012,AB_R_concrete,roof,1348,1,3,0.2,,air barrier,polyethylene plastic film,
+Default_2012,AB_R_concrete,roof,1349,0.25,4,22,,furring,wood,22x100 k 400 estimated
+Default_2012,AB_R_concrete,roof,1350,0.75,4,22,,ventilation space,ventilation space,
+Default_2012,AB_R_concrete,roof,1351,1,5,0,,exterior finish,none,
+Default_2012,AB_R_concrete,roof,1352,1,-1,190,,load-bearing structure,reinforced concrete,
+Default_2012,AB_R_concrete,roof,1353,1,-2,0,,interior finish,none,
+Default_2012,AB_PW_concrete,partition_wall,1354,1,0,70,160,load-bearing structure,reinforced concrete,
+Default_2012,AB_PW_concrete,partition_wall,1355,1,1,0,,exterior finish,none,
+Default_2012,AB_PW_concrete,partition_wall,1356,1,-1,0,,interior finish,none,
+Default_2012,AB_EW_concrete,exterior_wall,1357,1,0,200,,thermal insulation,mineral wool,
+Default_2012,AB_EW_concrete,exterior_wall,1358,1,1,60,,exterior finish,reinforced concrete,
+Default_2012,AB_EW_concrete,exterior_wall,1359,1,-1,70,160,load-bearing structure,reinforced concrete,
+Default_2012,AB_EW_concrete,exterior_wall,1360,1,-2,0,,interior finish,none,
+Default_2012,AB_BF_concrete_b,base_floor,1361,1,0,75,,thermal insulation,expanded polystyrene,
+Default_2012,AB_BF_concrete_b,base_floor,1362,1,1,0.2,,air barrier,polyethylene plastic film,
+Default_2012,AB_BF_concrete_b,base_floor,1363,1,2,400,,french drain layer,gravel,
+Default_2012,AB_BF_concrete_b,base_floor,1364,1,3,0,,ground,none,
+Default_2012,AB_BF_concrete_b,base_floor,1365,1,-1,120,,load-bearing structure,reinforced concrete,
+Default_2012,AB_BF_concrete_b,base_floor,1366,1,-2,0,,interior finish,none,
+Default_2012,AB_BF_concrete,base_floor,1367,1,0,75,,thermal insulation,expanded polystyrene,
+Default_2012,AB_BF_concrete,base_floor,1368,1,1,400,,french drain layer,gravel,
+Default_2012,AB_BF_concrete,base_floor,1369,1,2,0,,ground,none,
+Default_2012,AB_BF_concrete,base_floor,1370,1,-1,0.2,,filter,polyethylene plastic film,
+Default_2012,AB_BF_concrete,base_floor,1371,1,-2,70,,load-bearing structure,reinforced concrete,
+Default_2012,AB_BF_concrete,base_floor,1372,1,-3,0,,interior finish,none,

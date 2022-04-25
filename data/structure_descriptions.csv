@@ -1,0 +1,192 @@
+source,structure,design_U_W_m2K,structure_description,detached_house,terraced_house,apartment_block,office_building,service_building,communal_building,structure_notes
+ETOL_1900,DH_EW_log,0.76,"Solid 150 mm log wall, no additional insulation, no notable exterior or interior finish",1,1,,,1,1,"Detached house, 1½ floors, log frame, -1920"
+ETOL_1900,DH_SF_log,,"Log supported separating floor, wood chip and sawdust insulation with sand, boarding finish",1,1,1,1,1,1,"Detached house, 1½ floors, log frame, -1920"
+ETOL_1900,DH_R_log,0.41,"Log supported attic floor,  wood chip and sawdust insulation with sand, roof supports and boarding",1,1,,,1,1,"Detached house, 1½ floors, log frame, -1920"
+ETOL_1900,DH_BF_log,0.47,"Log supported floor, wood chip and sawdust insulation with sand, ventilated crawl space",1,1,1,1,1,1,"Detached house, 1½ floors, log frame, -1920"
+ETOL_1900,DH_PW_log,,Solid log walls for load-bearing partition walls,1,1,,,1,1,"Detached house, 1½ floors, log frame, -1920"
+ETOL_1900,DH_PW_timber,,Timber frame light partition wall with boarding,1,1,1,1,1,1,"Detached house, 1½ floors, log frame, -1920"
+ETOL_1900,AB_EW_brick,1.11,Solid 600 mm brick wall,,,1,1,1,1,"Apartment block, 4 floors, brick frame, -1920"
+ETOL_1900,AB_R_log,0.41,"Log supported attic floor,  wood chip and sawdust insulation with sand, brick flooring, roof supports and boarding",,,1,1,1,1,"Detached house, 1½ floors, log frame, -1920, with brick fireproofing often required for large buildings"
+ETOL_1900,AB_BF_brick,0.64,Brick arch floor over basement,,,1,1,1,1,"Apartment block, 4 floors, brick frame, -1920"
+ETOL_1900,AB_PW_brick,,"Brick partition walls, thickness varies between load-bearing and non-load bearing walls.",,,1,1,1,1,"Apartment block, 4 floors, brick frame, -1920"
+ETOL_1920,DH_EW_log,0.55,"Solid 200 mm log wall, no additional insulation, boarding finish",1,1,1,1,1,1,"Detached house, 1½ floors, timber frame, 1921-1945"
+ETOL_1920,DH_SF_timber,,"Timber frame separating floor, wood chip and sawdust insulation with sand, boarding finish",1,1,1,1,1,1,"Detached house, 1½ floors, timber frame, 1921-1945"
+ETOL_1920,DH_R_timber,0.45,"Timber supported attic floor, 150 mm  wood chip and sawdust insulation with sand, roof supports and boarding",1,1,,,1,1,"Detached house, 1½ floors, timber frame, 1921-1945"
+ETOL_1920,DH_BF_timber_b,0.33,"Timber supported floor, 200 mm wood chip and sawdust insulation with sand, basement",1,1,,,1,1,"Detached house, 1½ floors + basement, timber frame, 1921-1945"
+ETOL_1920,DH_BF_timber,0.33,"Timber supported floor, 200 mm wood chip and sawdust insulation with sand, ventilated crawl space",1,1,,,1,1,"Detached house, 1½ floors, timber frame, 1921-1945"
+ETOL_1920,DH_PW_log,,Solid log walls for load-bearing partition walls,1,1,1,1,1,1,"Detached house, 1½ floors, timber frame, 1921-1945"
+ETOL_1920,DH_PW_timber,,Timber frame light partition wall with boarding,1,1,1,1,1,1,"Detached house, 1½ floors, timber frame, 1921-1945"
+ETOL_1920,AB_EW_brick,1.11,Solid 600 mm brick wall,,,1,1,1,1,Based on the 1920 structures
+ETOL_1920,AB_SF_concrete,,"Reinforced concrete beams, thin lower slab, wood chip and sawdust soundproofing with sand, floor boarding",,,1,1,1,1,"Based on a master's thesis by Suvi Takko: ""Asuinkerrostalojen välipohjarakenteet 1890-1960 ja niiden korjaaminen"""
+ETOL_1920,AB_R_timber,0.45,"Timber supported attic floor, 150 mm  wood chip and sawdust insulation with sand, brick flooring, roof supports and boarding",,,1,1,1,1,Based on the 1920 structures
+ETOL_1920,AB_BF_brick,0.64,Brick arch floor over basement,,,1,1,1,1,"Detached house, 1½ floors, timber frame, 1921-1945, but with brick fireproofing often required for large buildings"
+ETOL_1920,AB_BF_concrete,1.8,"Concrete slab-on-grade, uninsulated",,,1,1,1,1,"Apartment block, 2 floors, 1921-1945"
+ETOL_1920,AB_PW_brick,,"Brick partition walls, thickness varies between load-bearing and non-load bearing walls.",,,1,1,1,1,Based on the 1920 structures
+ETOL_1945,DH_EW_timber_125,0.43,"Timber frame wall, 125 mm wood chip and sawdust insulation, boarding finish",1,1,,,1,1,"Detached house 1½ floors + basement, timber frame, 1946-1960"
+ETOL_1945,DH_EW_timber_100,0.5,"Timber frame wall, 100 mm wood chip and sawdust insulation, boarding finish",1,1,0.5,0.5,1,1,"Detached house 1½ floors, timber frame, 1946-1960"
+ETOL_1945,DH_SF_timber,,"Timber frame separating floor, wood chip and sawdust insulation with sand, boarding finish",1,1,0.5,0.5,1,1,"Detached house 1½ floors, timber frame, 1946-1960"
+ETOL_1945,DH_R_timber_200,0.35,"Timber supported attic floor, 200 mm  wood chip and sawdust insulation with sand, roof supports and boarding",1,1,0.5,0.5,1,1,"Detached house 1½ floors + basement, timber frame, 1946-1960"
+ETOL_1945,DH_R_timber_150,0.47,"Timber supported attic floor, 150 mm  wood chip and sawdust insulation with sand, roof supports and boarding",1,1,0.5,0.5,1,1,"Detached house 1½ floors, timber frame, 1946-1960"
+ETOL_1945,DH_BF_timber_b,0.19,"Timber supported floor, 400 mm wood chip and sawdust insulation with sand, basement",1,1,,,1,1,"Detached house 1½ floors + basement, timber frame, 1946-1960"
+ETOL_1945,DH_BF_timber,0.33,"Timber supported floor, 200 mm wood chip and sawdust insulation with sand, ventilated crawl space",1,1,,,1,1,"Detached house 1½ floors, timber frame, 1946-1960"
+ETOL_1945,DH_PW_timber,,Timber frame light partition wall with boarding,1,1,1,1,1,1,"Detached house 1½ floors + basement, timber frame, 1946-1960"
+ETOL_1945,DH_PW_timber_b,,Timber frame light partition wall with boarding and a separate finish,1,1,1,1,1,1,"Detached house 1½ floors, timber frame, 1946-1960"
+ETOL_1945,AB_EW_brick,1.2,Solid 360 mm brick wall,,,1,1,1,1,"Apartment block, 3 floors, brick frame, 1946-1960"
+ETOL_1945,AB_EW_concrete,0.81,"Reinforced concrete wall, exterior autoclaved aerated concrete insulation, plaster finish",,,1,1,1,1,"Based on a bachelor's thesis by Tomi Paajanen: ""1900-luvun kerrostalojen yleisimmät rakenteet ja niissä ilmeneviä ongelmia"""
+ETOL_1945,AB_SF_concrete,,"Reinforced concrete beams, two-layer concrete slab",,,1,1,1,1,"Apartment block, 3 floors, brick frame, 1946-1960"
+ETOL_1945,AB_SF_concrete_b,,Reinforced concrete slab,,,1,1,1,1,"Based on a master's thesis by Suvi Takko: ""Asuinkerrostalojen välipohjarakenteet 1890-1960 ja niiden korjaaminen"""
+ETOL_1945,AB_R_concrete,0.58,"Timber frame on two-layer concrete slabs, 260 mm wood chip and sawdust insulation",,,1,1,1,1,"Apartment block, 3 floors, brick frame, 1946-1960"
+ETOL_1945,AB_BF_concrete,1.8,"Concrete slab-on-grade, uninsulated",,,1,1,1,1,"Apartment block, 3 floors, brick frame, 1946-1960"
+ETOL_1945,AB_PW_brick,,"Brick partition walls, thickness varies between load-bearing and light walls",,,1,1,1,1,"Apartment block, 3 floors, brick frame, 1946-1960"
+ETOL_1945,AB_PW_concrete,,"Reinforced concrete partition walls, thickness varies between load-bearing and light walls",,,1,1,1,1,"Based on a bachelor's thesis by Tomi Paajanen: ""1900-luvun kerrostalojen yleisimmät rakenteet ja niissä ilmeneviä ongelmia"""
+ETOL_1960,DH_EW_timber_100,0.32,"Timber frame wall, 100 mm mineral wool insulation, boarding finish",1,1,,,1,1,"Detached house, 1 floor + basement, timber frame, 1961-1970"
+ETOL_1960,DH_EW_timber_150,0.26,"Timber frame wall, 150 mm mineral wool insulation, boarding finish",1,1,,,1,1,"Detached house, 1 floor, timber frame, 1961-1970"
+ETOL_1960,DH_EW_brick,0.36,"Brick wall, 100 mm mineral wool insulation, brick finish",0.1,0.5,,,1,1,"Detached house, 1 floor, brick frame, 1961-1970"
+ETOL_1960,DH_SF_timber,,"Timber frame separating floor, mineral wool insulation, construction board finish",1,1,,,1,1,"Detached house, 1 floor, timber frame, 1961-1970"
+ETOL_1960,DH_R_timber_200,0.2,"Timber frame, 200 mm mineral wool insulation, ventilated timber roof truss, roofing",1,1,,,1,1,"Detached house, 1 floor + basement, timber frame, 1961-1970"
+ETOL_1960,DH_R_timber_150,0.25,"Timber frame, 150 mm mineral wool insulation, ventilated timber roof truss, roofing",1,1,,,1,1,"Detached house, 1 floor, timber frame, 1961-1970"
+ETOL_1960,DH_R_timber_flat,0.25,"Timber frame, 150 mm mineral wool insulation, felt roofing",0.1,0.5,,,1,1,"Detached house, 1 floor, brick frame, 1961-1970"
+ETOL_1960,DH_BF_concrete_100,0.29,"Concrete slab-on-grade, 100 mm mineral wool insulation on top, interior boarding",1,1,,,1,1,"Detached house, 1 floor + basement, timber frame, 1961-1970"
+ETOL_1960,DH_BF_concrete_200,0.19,"Concrete slab-on-grade, 200 mm mineral wool insulation on top, interior finish",1,1,,,1,1,"Detached house, 1 floor, timber frame, 1961-1970"
+ETOL_1960,DH_PW_timber,,Timber frame light partition wall with boarding and a separate finish,1,1,,,1,1,"Detached house, 1 floor, timber frame, 1961-1970"
+ETOL_1960,DH_PW_timber_b,,"Timber frame light partition wall, mineral wool soundproofing, finish",1,1,1,1,1,1,"Detached house, 1 floor, timber frame, 1961-1970"
+ETOL_1960,AB_EW_concrete,0.41,"Reinforced concrete wall, mineral wool insulation, concrete surface",,,1,1,1,1,"Apartment block, 5 floors, concrete frame single-staircase building, 1961-1970"
+ETOL_1960,AB_EW_brick,0.42,"Brick wall, 75 mm mineral wool insulation, outer brick wall, plaster finish",,,1,1,1,1,"Apartment block, 6 floors, 3-stairways, 1961-1970"
+ETOL_1960,AB_SF_concrete,,Reinforced concrete slab,,,1,1,1,1,"Apartment block, 3 floors, concrete frame ""lamellitalo"", 1961-1970"
+ETOL_1960,AB_SF_concrete_b,,"Reinforced concrete slab, soundproofing, floating surface slab",,,1,1,1,1,"Apartment block, 6 floors, 3-stairways, 1961-1970"
+ETOL_1960,AB_R_concrete_flat,0.44,"Reinforced concrete slab, expanded clay aggregate insulation, felt roofing",,,1,1,1,1,"Apartment block, 3 floors, concrete frame ""lamellitalo"", 1961-1970"
+ETOL_1960,AB_R_concrete,0.2,"Reinforced concrete slab, mineral wool insulation, ventilated timber roof supports",,,1,1,1,1,"Apartment block, 5 floors, concrete frame single-staircase building, 1961-1970"
+ETOL_1960,AB_R_concrete_b,0.23,"Reinforced concrete slab, expanded polystyrene insulation, attic floor slab, ventilated timber roof truss",,,1,1,1,1,"Apartment block, 6 floors, 3-stairways, 1961-1970"
+ETOL_1960,AB_BF_concrete,0.53,"Concrete slab-on-grade, bottom expanded polystyrene insulation",,,1,1,1,1,"Apartment block, 3 floors, concrete frame ""lamellitalo"", 1961-1970"
+ETOL_1960,AB_BF_concrete_b,0.22,"Concrete slab-on-grade, expanded polystyrene insulation, floating surface slab",,,1,1,1,1,"Apartment block, 6 floors, 3-stairways, 1961-1970"
+ETOL_1960,AB_PW_concrete,,"Reinforced concrete partition walls, thickness varies between load-bearing and light walls",,,1,1,1,1,"Apartment block, 3 floors, concrete frame ""lamellitalo"", 1961-1970"
+ETOL_1960,AB_PW_brick,,"Brick partition walls, thickness varies between load-bearing and light walls",,,1,1,1,1,"Apartment block, 6 floors, 3-stairways, 1961-1970"
+ETOL_1970,DH_EW_timber_150,0.25,"Timber frame wall, 150 mm mineral wool insualtion, 130 mm brick finish",1,,,,1,1,"Detached house, 1 floor, timber frame, brick facade, 1971-1980"
+ETOL_1970,DH_EW_timber_150_b,0.24,"Timber frame wall, 150 mm mineral wool insulation, 100 mm brick finish",1,,,,1,1,"Detached house, 2 floor, timber frame, 1971-1980"
+ETOL_1970,DH_EW_brick,0.25,"Brick wall, 150 mm mineral wool insulation, brick finish",0.1,1,,,1,1,"Detached house, 1 floor, brick frame, 1971-1980"
+ETOL_1970,DH_SF_timber,,"Timber frame separating floor, mineral wool insulation, construction board finish",1,1,,,1,1,"Detached house, 2 floor, timber frame, 1971-1980"
+ETOL_1970,DH_R_timber_250,0.16,"Timber frame, 250 mm mineral wool insulation, ventilated timber roof truss, roofing",1,,,,1,1,"Detached house, 1 floor, timber frame, brick facade, 1971-1980"
+ETOL_1970,DH_R_timber_flat,0.14,"Timber frame, 300 mm mineral wool insulation, roofing",0.1,,,,1,1,"Detached house, 1 floor, brick frame, 1971-1980"
+ETOL_1970,DH_BF_concrete_100_b,0.32,"Concrete slab-on-grade, 100 mm bottom expanded polystyrene insulation",1,,,,1,1,"Detached house, 1 floor, timber frame, brick facade, 1971-1980"
+ETOL_1970,DH_BF_concrete_100,0.31,"Concrete slab-on-grade, 100 mm top mineral wool insulation",0.5,,,,1,1,"Detached house, 1 floor, brick frame, 1971-1980"
+ETOL_1970,DH_PW_timber,,"Timber frame light partition wall, mineral wool soundproofing, double construction board finish",1,1,1,1,1,1,"Detached house, 1 floor, timber frame, brick facade, 1971-1980"
+ETOL_1970,DH_PW_brick,,Light partition brick wall,0.1,1,,,1,1,"Detached house, 1 floor, brick frame, 1971-1980"
+ETOL_1970,TH_EW_concrete,0.45,"Concrete element wall, mineral wool insulation, concrete finish",,1,,,1,1,"Terraced house, 1 floor, concrete frame, 1971-1980"
+ETOL_1970,TH_EW_timber,0.25,"Timber frame wall, 150 mm mineral wool insulation, board finish",,1,,,1,1,"Terraced house, 1 floor, timber frame, 1971-1980"
+ETOL_1970,TH_SF_concrete,,Reinforced concrete slab,,1,,,1,1,"Terraced house, 1 floor, concrete frame, 1971-1980"
+ETOL_1970,TH_R_concrete,0.26,"Reinforced concrete slab, 150 mm mineral wool insulation, ventilated timber roof truss, roofing",,1,,,1,1,"Terraced house, 1 floor, concrete frame, 1971-1980"
+ETOL_1970,TH_R_timber,0.16,"Timber frame, 250 mm mineral wool insulation, ventlated timber roof truss, roofing",,1,,,1,1,"Terraced house, 1 floor, timber frame, 1971-1980"
+ETOL_1970,TH_BF_concrete,0.32,"Concrete slab-on-grade, 100 mm bottom expanded polystyrene insulation",,1,,,1,1,"Terraced house, 1 floor, concrete frame, 1971-1980"
+ETOL_1970,TH_PW_concrete,,Load-bearing reinforced concrete partition wall,,1,,,1,1,"Terraced house, 1 floor, concrete frame, 1971-1980"
+ETOL_1970,TH_PW_timber,,Load-bearing timber partition wall,,1,,,1,1,"Terraced house, 1 floor, timber frame, 1971-1980"
+ETOL_1970,AB_EW_concrete,0.32,"Reinforced concrete wall, 120 mm mineral wool insulation, concrete surface",,,1,1,1,1,"Apartment block, 3 floors, concrete frame ""lamelli"", 1971-1980"
+ETOL_1970,AB_EW_concrete_b,0.44,"Reinforced concrete wall, 90 mm mineral wool insulation, concrete surface",,,1,1,1,1,"Apartment block, 6 floors, concrete frame ""lamellitalo"", 1971-1980"
+ETOL_1970,AB_SF_concrete,,Reinforced concrete slab,,,1,1,1,1,"Apartment block, 3 floors, concrete frame ""lamelli"", 1971-1980"
+ETOL_1970,AB_SF_concrete_b,,Hollow-core concrete slab,,,1,1,1,1,"Apartment block, 6 floors, concrete frame ""lamellitalo"", 1971-1980"
+ETOL_1970,AB_R_concrete,0.36,"Reinforced concrete slab, autoclaved aerated concrete insulation",,,1,1,1,1,"Apartment block, 3 floors, concrete frame ""lamelli"", 1971-1980"
+ETOL_1970,AB_R_concrete_b,0.15,"Hollow-core concrete slab, mineral wool insulation, ventilated timber roof supports",,,1,1,1,1,"Apartment block, 6 floors, concrete frame ""lamellitalo"", 1971-1980"
+ETOL_1970,AB_BF_concrete,0.53,"Concrete slab-on-grade, 50 mm bottom expanded polystyrene insulation",,,1,1,1,1,"Apartment block, 3 floors, concrete frame ""lamelli"", 1971-1980"
+ETOL_1970,AB_BF_concrete_b,0.39,"Concrete slab-on-grade, 75 mm bottom expanded polystyrene insulation",,,1,1,1,1,"Apartment block, 6 floors, concrete frame single-staircase, 1971-1980"
+ETOL_1970,AB_PW_concrete,,"Reinforced concrete partition walls, thickness varies between load-bearing and light walls",,,1,1,1,1,"Apartment block, 3 floors, concrete frame ""lamelli"", 1971-1980"
+ETOL_1980,DH_EW_timber,0.19,"Timber frame wall, 200 mm mineral wool insulation, board finish",1,,,,1,1,"Detached house, 1 floor, timber frame, 1981-1985"
+ETOL_1980,DH_SF_timber,,"Timber frame separating floor, mineral wool insulation, construction board finish",1,1,,,1,1,"Detached house, 1 floor, timber frame, 1981-1985"
+ETOL_1980,DH_R_timber,0.14,"Timber frame, 300 mm mineral wool insulation, ventilated timber roof truss, roofing",1,,,,1,1,"Detached house, 1 floor, timber frame, 1981-1985"
+ETOL_1980,DH_BF_concrete,0.3,"Concrete-slab-on-grade, 100 mm bottom expanded polystyrene insulation",1,,,,1,1,"Detached house, 1 floor, timber frame, 1981-1985"
+ETOL_1980,DH_PW_timber,,"Timber frame light partition wall, mineral wool soundproofing, double construction board finish",1,1,1,1,1,1,"Detached house, 1 floor, timber frame, 1981-1985"
+ETOL_1980,TH_EW_timber,0.23,"Timber frame wall, 165 mm mineral wool insulation, board finish",,1,,,1,1,"Terraced house, 1 floor, timber frame, 1981-1985"
+ETOL_1980,TH_R_timber,0.17,"Timber frame, 250 mm mineral wool insulation, ventlated timber roof truss, roofing",,1,,,1,1,"Terraced house, 1 floor, timber frame, 1981-1985"
+ETOL_1980,TH_BF_concrete,0.32,"Concrete slab-on-grade, 100 mm bottom expanded polystyrene insulation",,1,,,1,1,"Terraced house, 1 floor, timber frame, 1981-1985"
+ETOL_1980,TH_PW_timber,,Load-bearing timber partition wall,,1,,,1,1,"Terraced house, 1 floor, timber frame, 1971-1980"
+ETOL_1980,AB_EW_concrete,0.32,"Reinforced concrete wall, 120 mm mineral wool insulation, concrete surface",,,1,1,1,1,"Apartment block, 3 floors, concrete frame ""lamelli"", 1981-1985"
+ETOL_1980,AB_SF_concrete,,Reinforced concrete slab,,,1,1,1,1,"Apartment block, 3 floors, concrete frame ""lamelli"", 1981-1985"
+ETOL_1980,AB_SF_concrete_b,,Hollow-core concrete slab,,,1,1,1,1,Guesstimated based on earlier examples
+ETOL_1980,AB_R_concrete,0.2,"Reinforced concrete slab, mineral wool insulation, ventilated timber roof truss",,,1,1,1,1,"Apartment block, 3 floors, concrete frame ""lamelli"", 1981-1985"
+ETOL_1980,AB_R_concrete_b,0.15,"Hollow-core concrete slab, mineral wool insulation, ventilated timber roof supports",,,1,1,1,1,Guesstimated based on earlier examples
+ETOL_1980,AB_BF_concrete,0.53,"Concrete slab-on-grade, 50 mm bottom expanded polystyrene insulation",,,1,1,1,1,"Apartment block, 3 floors, concrete frame ""lamelli"", 1981-1985"
+ETOL_1980,AB_BF_concrete_b,0.39,"Concrete slab-on-grade, 75 mm bottom expanded polystyrene insulation",,,1,1,1,1,Guesstimated based on earlier examples
+ETOL_1980,AB_PW_concrete,,"Reinforced concrete partition walls, thickness varies between load-bearing and light walls",,,1,1,1,1,"Apartment block, 3 floors, concrete frame ""lamelli"", 1981-1985"
+Default_1985,DH_EW_timber,0.28,"Timber frame wall, 200 mm mineral wool insulation, board finish",1,,,,1,1,Based on earlier examples with insulation thicknesses tweaked to meet the requirements.
+Default_1985,DH_SF_timber,,"Timber frame separating floor, mineral wool insulation, construction board finish",1,1,,,1,1,Based on earlier examples with insulation thicknesses tweaked to meet the requirements.
+Default_1985,DH_R_timber,0.22,"Timber frame, 300 mm mineral wool insulation, ventilated timber roof truss, roofing",1,,,,1,1,Based on earlier examples with insulation thicknesses tweaked to meet the requirements.
+Default_1985,DH_BF_concrete,0.36,"Concrete-slab-on-grade, 100 mm bottom expanded polystyrene insulation",1,,,,1,1,Based on earlier examples with insulation thicknesses tweaked to meet the requirements.
+Default_1985,DH_PW_timber,,"Timber frame light partition wall, mineral wool soundproofing, double construction board finish",1,1,1,1,1,1,Based on earlier examples with insulation thicknesses tweaked to meet the requirements.
+Default_1985,TH_EW_timber,0.28,"Timber frame wall, 165 mm mineral wool insulation, board finish",,1,,,1,1,Based on earlier examples with insulation thicknesses tweaked to meet the requirements.
+Default_1985,TH_R_timber,0.22,"Timber frame, 250 mm mineral wool insulation, ventlated timber roof truss, roofing",,1,,,1,1,Based on earlier examples with insulation thicknesses tweaked to meet the requirements.
+Default_1985,TH_BF_concrete,0.36,"Concrete slab-on-grade, 100 mm bottom expanded polystyrene insulation",,1,,,1,1,Based on earlier examples with insulation thicknesses tweaked to meet the requirements.
+Default_1985,TH_PW_timber,,Load-bearing timber partition wall,,1,,,1,1,Based on earlier examples with insulation thicknesses tweaked to meet the requirements.
+Default_1985,AB_EW_concrete,0.28,"Reinforced concrete wall, 120 mm mineral wool insulation, concrete surface",,,1,1,1,1,Based on earlier examples with insulation thicknesses tweaked to meet the requirements.
+Default_1985,AB_SF_concrete,,Reinforced concrete slab,,,1,1,1,1,Based on earlier examples with insulation thicknesses tweaked to meet the requirements.
+Default_1985,AB_SF_concrete_b,,Hollow-core concrete slab,,,1,1,1,1,Based on earlier examples with insulation thicknesses tweaked to meet the requirements.
+Default_1985,AB_R_concrete,0.22,"Reinforced concrete slab, mineral wool insulation, ventilated timber roof truss",,,1,1,1,1,Based on earlier examples with insulation thicknesses tweaked to meet the requirements.
+Default_1985,AB_R_concrete_b,0.22,"Hollow-core concrete slab, mineral wool insulation, ventilated timber roof supports",,,1,1,1,1,Based on earlier examples with insulation thicknesses tweaked to meet the requirements.
+Default_1985,AB_BF_concrete,0.36,"Concrete slab-on-grade, 50 mm bottom expanded polystyrene insulation",,,1,1,1,1,Based on earlier examples with insulation thicknesses tweaked to meet the requirements.
+Default_1985,AB_BF_concrete_b,0.36,"Concrete slab-on-grade, 75 mm bottom expanded polystyrene insulation",,,1,1,1,1,Based on earlier examples with insulation thicknesses tweaked to meet the requirements.
+Default_1985,AB_PW_concrete,,"Reinforced concrete partition walls, thickness varies between load-bearing and light walls",,,1,1,1,1,Based on earlier examples with insulation thicknesses tweaked to meet the requirements.
+Default_2003,DH_EW_timber,0.25,"Timber frame wall, 200 mm mineral wool insulation, board finish",1,,,,1,1,Based on earlier examples with insulation thicknesses tweaked to meet the requirements.
+Default_2003,DH_SF_timber,,"Timber frame separating floor, mineral wool insulation, construction board finish",1,1,,,1,1,Based on earlier examples with insulation thicknesses tweaked to meet the requirements.
+Default_2003,DH_R_timber,0.16,"Timber frame, 300 mm mineral wool insulation, ventilated timber roof truss, roofing",1,,,,1,1,Based on earlier examples with insulation thicknesses tweaked to meet the requirements.
+Default_2003,DH_BF_concrete,0.25,"Concrete-slab-on-grade, 100 mm bottom expanded polystyrene insulation",1,,,,1,1,Based on earlier examples with insulation thicknesses tweaked to meet the requirements.
+Default_2003,DH_PW_timber,,"Timber frame light partition wall, mineral wool soundproofing, double construction board finish",1,1,1,1,1,1,Based on earlier examples with insulation thicknesses tweaked to meet the requirements.
+Default_2003,TH_EW_timber,0.25,"Timber frame wall, 165 mm mineral wool insulation, board finish",,1,,,1,1,Based on earlier examples with insulation thicknesses tweaked to meet the requirements.
+Default_2003,TH_R_timber,0.16,"Timber frame, 250 mm mineral wool insulation, ventlated timber roof truss, roofing",,1,,,1,1,Based on earlier examples with insulation thicknesses tweaked to meet the requirements.
+Default_2003,TH_BF_concrete,0.25,"Concrete slab-on-grade, 100 mm bottom expanded polystyrene insulation",,1,,,1,1,Based on earlier examples with insulation thicknesses tweaked to meet the requirements.
+Default_2003,TH_PW_timber,,Load-bearing timber partition wall,,1,,,1,1,Based on earlier examples with insulation thicknesses tweaked to meet the requirements.
+Default_2003,AB_EW_concrete,0.25,"Reinforced concrete wall, 130 mm mineral wool insulation, concrete surface",,,1,1,1,1,Based on earlier examples with insulation thicknesses tweaked to meet the requirements.
+Default_2003,AB_SF_concrete,,Reinforced concrete slab,,,1,1,1,1,Based on earlier examples with insulation thicknesses tweaked to meet the requirements.
+Default_2003,AB_SF_concrete_b,,Hollow-core concrete slab,,,1,1,1,1,Based on earlier examples with insulation thicknesses tweaked to meet the requirements.
+Default_2003,AB_R_concrete,0.16,"Reinforced concrete slab, mineral wool insulation, ventilated timber roof truss",,,1,1,1,1,Based on earlier examples with insulation thicknesses tweaked to meet the requirements.
+Default_2003,AB_R_concrete_b,0.16,"Hollow-core concrete slab, mineral wool insulation, ventilated timber roof supports",,,1,1,1,1,Based on earlier examples with insulation thicknesses tweaked to meet the requirements.
+Default_2003,AB_BF_concrete,0.25,"Concrete slab-on-grade, 50 mm bottom expanded polystyrene insulation",,,1,1,1,1,Based on earlier examples with insulation thicknesses tweaked to meet the requirements.
+Default_2003,AB_BF_concrete_b,0.25,"Concrete slab-on-grade, 75 mm bottom expanded polystyrene insulation",,,1,1,1,1,Based on earlier examples with insulation thicknesses tweaked to meet the requirements.
+Default_2003,AB_PW_concrete,,"Reinforced concrete partition walls, thickness varies between load-bearing and light walls",,,1,1,1,1,Based on earlier examples with insulation thicknesses tweaked to meet the requirements.
+Default_2007,DH_EW_timber,0.24,"Timber frame wall, 200 mm mineral wool insulation, board finish",1,,,,1,1,Based on earlier examples with insulation thicknesses tweaked to meet the requirements.
+Default_2007,DH_SF_timber,,"Timber frame separating floor, mineral wool insulation, construction board finish",1,1,,,1,1,Based on earlier examples with insulation thicknesses tweaked to meet the requirements.
+Default_2007,DH_R_timber,0.15,"Timber frame, 300 mm mineral wool insulation, ventilated timber roof truss, roofing",1,,,,1,1,Based on earlier examples with insulation thicknesses tweaked to meet the requirements.
+Default_2007,DH_BF_concrete,0.24,"Concrete-slab-on-grade, 100 mm bottom expanded polystyrene insulation",1,,,,1,1,Based on earlier examples with insulation thicknesses tweaked to meet the requirements.
+Default_2007,DH_PW_timber,,"Timber frame light partition wall, mineral wool soundproofing, double construction board finish",1,1,1,1,1,1,Based on earlier examples with insulation thicknesses tweaked to meet the requirements.
+Default_2007,TH_EW_timber,0.24,"Timber frame wall, 165 mm mineral wool insulation, board finish",,1,,,1,1,Based on earlier examples with insulation thicknesses tweaked to meet the requirements.
+Default_2007,TH_R_timber,0.15,"Timber frame, 250 mm mineral wool insulation, ventlated timber roof truss, roofing",,1,,,1,1,Based on earlier examples with insulation thicknesses tweaked to meet the requirements.
+Default_2007,TH_BF_concrete,0.24,"Concrete slab-on-grade, 100 mm bottom expanded polystyrene insulation",,1,,,1,1,Based on earlier examples with insulation thicknesses tweaked to meet the requirements.
+Default_2007,TH_PW_timber,,Load-bearing timber partition wall,,1,,,1,1,Based on earlier examples with insulation thicknesses tweaked to meet the requirements.
+Default_2007,AB_EW_concrete,0.24,"Reinforced concrete wall, 140 mm mineral wool insulation, concrete surface",,,1,1,1,1,Based on earlier examples with insulation thicknesses tweaked to meet the requirements.
+Default_2007,AB_SF_concrete,,Reinforced concrete slab,,,1,1,1,1,Based on earlier examples with insulation thicknesses tweaked to meet the requirements.
+Default_2007,AB_SF_concrete_b,,Hollow-core concrete slab,,,1,1,1,1,Based on earlier examples with insulation thicknesses tweaked to meet the requirements.
+Default_2007,AB_R_concrete,0.15,"Reinforced concrete slab, mineral wool insulation, ventilated timber roof truss",,,1,1,1,1,Based on earlier examples with insulation thicknesses tweaked to meet the requirements.
+Default_2007,AB_R_concrete_b,0.15,"Hollow-core concrete slab, mineral wool insulation, ventilated timber roof supports",,,1,1,1,1,Based on earlier examples with insulation thicknesses tweaked to meet the requirements.
+Default_2007,AB_BF_concrete,0.24,"Concrete slab-on-grade, 50 mm bottom expanded polystyrene insulation",,,1,1,1,1,Based on earlier examples with insulation thicknesses tweaked to meet the requirements.
+Default_2007,AB_BF_concrete_b,0.24,"Concrete slab-on-grade, 75 mm bottom expanded polystyrene insulation",,,1,1,1,1,Based on earlier examples with insulation thicknesses tweaked to meet the requirements.
+Default_2007,AB_PW_concrete,,"Reinforced concrete partition walls, thickness varies between load-bearing and light walls",,,1,1,1,1,Based on earlier examples with insulation thicknesses tweaked to meet the requirements.
+Default_2010,DH_EW_timber,0.17,"Timber frame wall, 225 mm mineral wool insulation, board finish",1,,,,1,1,Based on earlier examples with insulation thicknesses tweaked to meet the requirements.
+Default_2010,DH_SF_timber,,"Timber frame separating floor, mineral wool insulation, construction board finish",1,1,,,1,1,Based on earlier examples with insulation thicknesses tweaked to meet the requirements.
+Default_2010,DH_R_timber,0.09,"Timber frame, 400 mm mineral wool insulation, ventilated timber roof truss, roofing",1,,,,1,1,Based on earlier examples with insulation thicknesses tweaked to meet the requirements.
+Default_2010,DH_BF_concrete,0.17,"Concrete-slab-on-grade, 100 mm bottom expanded polystyrene insulation",1,,,,1,1,Based on earlier examples with insulation thicknesses tweaked to meet the requirements.
+Default_2010,DH_PW_timber,,"Timber frame light partition wall, mineral wool soundproofing, double construction board finish",1,1,1,1,1,1,Based on earlier examples with insulation thicknesses tweaked to meet the requirements.
+Default_2010,TH_EW_timber,0.17,"Timber frame wall, 225 mm mineral wool insulation, board finish",,1,,,1,1,Based on earlier examples with insulation thicknesses tweaked to meet the requirements.
+Default_2010,TH_R_timber,0.09,"Timber frame, 400 mm mineral wool insulation, ventlated timber roof truss, roofing",,1,,,1,1,Based on earlier examples with insulation thicknesses tweaked to meet the requirements.
+Default_2010,TH_BF_concrete,0.17,"Concrete slab-on-grade, 100 mm bottom expanded polystyrene insulation",,1,,,1,1,Based on earlier examples with insulation thicknesses tweaked to meet the requirements.
+Default_2010,TH_PW_timber,,Load-bearing timber partition wall,,1,,,1,1,Based on earlier examples with insulation thicknesses tweaked to meet the requirements.
+Default_2010,AB_EW_concrete,0.17,"Reinforced concrete wall, 200 mm mineral wool insulation, concrete surface",,,1,1,1,1,Based on earlier examples with insulation thicknesses tweaked to meet the requirements.
+Default_2010,AB_SF_concrete,,Reinforced concrete slab,,,1,1,1,1,Based on earlier examples with insulation thicknesses tweaked to meet the requirements.
+Default_2010,AB_SF_concrete_b,,Hollow-core concrete slab,,,1,1,1,1,Based on earlier examples with insulation thicknesses tweaked to meet the requirements.
+Default_2010,AB_R_concrete,0.09,"Reinforced concrete slab, 400 mm mineral wool insulation, ventilated timber roof truss",,,1,1,1,1,Based on earlier examples with insulation thicknesses tweaked to meet the requirements.
+Default_2010,AB_R_concrete_b,0.09,"Hollow-core concrete slab, 400 mm mineral wool insulation, ventilated timber roof supports",,,1,1,1,1,Based on earlier examples with insulation thicknesses tweaked to meet the requirements.
+Default_2010,AB_BF_concrete,0.17,"Concrete slab-on-grade, 75 mm bottom expanded polystyrene insulation",,,1,1,1,1,Based on earlier examples with insulation thicknesses tweaked to meet the requirements.
+Default_2010,AB_BF_concrete_b,0.17,"Concrete slab-on-grade, 75 mm bottom expanded polystyrene insulation",,,1,1,1,1,Based on earlier examples with insulation thicknesses tweaked to meet the requirements.
+Default_2010,AB_PW_concrete,,"Reinforced concrete partition walls, thickness varies between load-bearing and light walls",,,1,1,1,1,Based on earlier examples with insulation thicknesses tweaked to meet the requirements.
+Default_2012,DH_EW_timber,0.17,"Timber frame wall, 225 mm mineral wool insulation, board finish",1,,,,1,1,Based on earlier examples with insulation thicknesses tweaked to meet the requirements.
+Default_2012,DH_SF_timber,,"Timber frame separating floor, mineral wool insulation, construction board finish",1,1,,,1,1,Based on earlier examples with insulation thicknesses tweaked to meet the requirements.
+Default_2012,DH_R_timber,0.09,"Timber frame, 400 mm mineral wool insulation, ventilated timber roof truss, roofing",1,,,,1,1,Based on earlier examples with insulation thicknesses tweaked to meet the requirements.
+Default_2012,DH_BF_concrete,0.17,"Concrete-slab-on-grade, 100 mm bottom expanded polystyrene insulation",1,,,,1,1,Based on earlier examples with insulation thicknesses tweaked to meet the requirements.
+Default_2012,DH_PW_timber,,"Timber frame light partition wall, mineral wool soundproofing, double construction board finish",1,1,1,1,1,1,Based on earlier examples with insulation thicknesses tweaked to meet the requirements.
+Default_2012,TH_EW_timber,0.17,"Timber frame wall, 225 mm mineral wool insulation, board finish",,1,,,1,1,Based on earlier examples with insulation thicknesses tweaked to meet the requirements.
+Default_2012,TH_R_timber,0.09,"Timber frame, 400 mm mineral wool insulation, ventlated timber roof truss, roofing",,1,,,1,1,Based on earlier examples with insulation thicknesses tweaked to meet the requirements.
+Default_2012,TH_BF_concrete,0.17,"Concrete slab-on-grade, 100 mm bottom expanded polystyrene insulation",,1,,,1,1,Based on earlier examples with insulation thicknesses tweaked to meet the requirements.
+Default_2012,TH_PW_timber,,Load-bearing timber partition wall,,1,,,1,1,Based on earlier examples with insulation thicknesses tweaked to meet the requirements.
+Default_2012,AB_EW_concrete,0.17,"Reinforced concrete wall, 200 mm mineral wool insulation, concrete surface",,,1,1,1,1,Based on earlier examples with insulation thicknesses tweaked to meet the requirements.
+Default_2012,AB_SF_concrete,,Reinforced concrete slab,,,1,1,1,1,Based on earlier examples with insulation thicknesses tweaked to meet the requirements.
+Default_2012,AB_SF_concrete_b,,Hollow-core concrete slab,,,1,1,1,1,Based on earlier examples with insulation thicknesses tweaked to meet the requirements.
+Default_2012,AB_R_concrete,0.09,"Reinforced concrete slab, 400 mm mineral wool insulation, ventilated timber roof truss",,,1,1,1,1,Based on earlier examples with insulation thicknesses tweaked to meet the requirements.
+Default_2012,AB_R_concrete_b,0.09,"Hollow-core concrete slab, 400 mm mineral wool insulation, ventilated timber roof supports",,,1,1,1,1,Based on earlier examples with insulation thicknesses tweaked to meet the requirements.
+Default_2012,AB_BF_concrete,0.17,"Concrete slab-on-grade, 75 mm bottom expanded polystyrene insulation",,,1,1,1,1,Based on earlier examples with insulation thicknesses tweaked to meet the requirements.
+Default_2012,AB_BF_concrete_b,0.17,"Concrete slab-on-grade, 75 mm bottom expanded polystyrene insulation",,,1,1,1,1,Based on earlier examples with insulation thicknesses tweaked to meet the requirements.
+Default_2012,AB_PW_concrete,,"Reinforced concrete partition walls, thickness varies between load-bearing and light walls",,,1,1,1,1,Based on earlier examples with insulation thicknesses tweaked to meet the requirements.

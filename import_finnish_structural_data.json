@@ -1,0 +1,734 @@
+{
+    "name": "import_finnish_structural_data",
+    "item_type": "Importer",
+    "mapping": {
+        "table_mappings": {
+            "fenestration": [
+                {
+                    "Mapping 2": {
+                        "mapping": [
+                            {
+                                "map_type": "RelationshipClass",
+                                "position": "hidden",
+                                "value": "fenestration_source__building_type"
+                            },
+                            {
+                                "map_type": "RelationshipClassObjectClass",
+                                "position": "header",
+                                "value": 0
+                            },
+                            {
+                                "map_type": "RelationshipClassObjectClass",
+                                "position": "header",
+                                "value": 1
+                            },
+                            {
+                                "map_type": "Relationship",
+                                "position": "hidden",
+                                "value": "relationship"
+                            },
+                            {
+                                "map_type": "RelationshipObject",
+                                "position": 0,
+                                "import_objects": true
+                            },
+                            {
+                                "map_type": "RelationshipObject",
+                                "position": 1,
+                                "import_objects": true
+                            },
+                            {
+                                "map_type": "RelationshipMetadata",
+                                "position": "hidden"
+                            },
+                            {
+                                "map_type": "ParameterDefinition",
+                                "position": "header"
+                            },
+                            {
+                                "map_type": "Alternative",
+                                "position": "hidden"
+                            },
+                            {
+                                "map_type": "ParameterValueMetadata",
+                                "position": "hidden"
+                            },
+                            {
+                                "map_type": "ParameterValue",
+                                "position": "hidden"
+                            }
+                        ]
+                    }
+                }
+            ],
+            "materials": [
+                {
+                    "Mapping 2": {
+                        "mapping": [
+                            {
+                                "map_type": "ObjectClass",
+                                "position": "header",
+                                "value": 0,
+                                "skip_columns": [
+                                    1
+                                ]
+                            },
+                            {
+                                "map_type": "Object",
+                                "position": 0
+                            },
+                            {
+                                "map_type": "ObjectMetadata",
+                                "position": "hidden"
+                            },
+                            {
+                                "map_type": "ParameterDefinition",
+                                "position": "header"
+                            },
+                            {
+                                "map_type": "Alternative",
+                                "position": "hidden"
+                            },
+                            {
+                                "map_type": "ParameterValueMetadata",
+                                "position": "hidden"
+                            },
+                            {
+                                "map_type": "ParameterValue",
+                                "position": "hidden"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "Mapping 3": {
+                        "mapping": [
+                            {
+                                "map_type": "RelationshipClass",
+                                "position": "hidden",
+                                "value": "structure_material__frame_material"
+                            },
+                            {
+                                "map_type": "RelationshipClassObjectClass",
+                                "position": "header",
+                                "value": 0
+                            },
+                            {
+                                "map_type": "RelationshipClassObjectClass",
+                                "position": "header",
+                                "value": 1
+                            },
+                            {
+                                "map_type": "Relationship",
+                                "position": "hidden",
+                                "value": "relationship"
+                            },
+                            {
+                                "map_type": "RelationshipObject",
+                                "position": 0,
+                                "import_objects": true
+                            },
+                            {
+                                "map_type": "RelationshipObject",
+                                "position": 1,
+                                "import_objects": true
+                            },
+                            {
+                                "map_type": "RelationshipMetadata",
+                                "position": "hidden"
+                            }
+                        ]
+                    }
+                }
+            ],
+            "sources": [
+                {
+                    "Mapping 2": {
+                        "mapping": [
+                            {
+                                "map_type": "ObjectClass",
+                                "position": "header",
+                                "value": 0
+                            },
+                            {
+                                "map_type": "Object",
+                                "position": 0
+                            },
+                            {
+                                "map_type": "ObjectMetadata",
+                                "position": "hidden"
+                            },
+                            {
+                                "map_type": "ParameterDefinition",
+                                "position": "header"
+                            },
+                            {
+                                "map_type": "Alternative",
+                                "position": "hidden"
+                            },
+                            {
+                                "map_type": "ParameterValueMetadata",
+                                "position": "hidden"
+                            },
+                            {
+                                "map_type": "ParameterValue",
+                                "position": "hidden"
+                            }
+                        ]
+                    }
+                }
+            ],
+            "structure_descriptions": [
+                {
+                    "Mapping 2": {
+                        "mapping": [
+                            {
+                                "map_type": "RelationshipClass",
+                                "position": "hidden",
+                                "value": "source__structure",
+                                "skip_columns": [
+                                    4,
+                                    5,
+                                    6,
+                                    7,
+                                    8,
+                                    9
+                                ]
+                            },
+                            {
+                                "map_type": "RelationshipClassObjectClass",
+                                "position": "header",
+                                "value": 0
+                            },
+                            {
+                                "map_type": "RelationshipClassObjectClass",
+                                "position": "header",
+                                "value": 1
+                            },
+                            {
+                                "map_type": "Relationship",
+                                "position": "hidden",
+                                "value": "relationship"
+                            },
+                            {
+                                "map_type": "RelationshipObject",
+                                "position": 0,
+                                "import_objects": true
+                            },
+                            {
+                                "map_type": "RelationshipObject",
+                                "position": 1,
+                                "import_objects": true
+                            },
+                            {
+                                "map_type": "RelationshipMetadata",
+                                "position": "hidden"
+                            },
+                            {
+                                "map_type": "ParameterDefinition",
+                                "position": "header"
+                            },
+                            {
+                                "map_type": "Alternative",
+                                "position": "hidden"
+                            },
+                            {
+                                "map_type": "ParameterValueMetadata",
+                                "position": "hidden"
+                            },
+                            {
+                                "map_type": "ParameterValue",
+                                "position": "hidden"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "Mapping 3": {
+                        "mapping": [
+                            {
+                                "map_type": "RelationshipClass",
+                                "position": "hidden",
+                                "value": "source__structure__building_type",
+                                "skip_columns": [
+                                    10,
+                                    2,
+                                    3
+                                ]
+                            },
+                            {
+                                "map_type": "RelationshipClassObjectClass",
+                                "position": "header",
+                                "value": 0
+                            },
+                            {
+                                "map_type": "RelationshipClassObjectClass",
+                                "position": "header",
+                                "value": 1
+                            },
+                            {
+                                "map_type": "RelationshipClassObjectClass",
+                                "position": "hidden",
+                                "value": "building_type"
+                            },
+                            {
+                                "map_type": "Relationship",
+                                "position": "hidden",
+                                "value": "relationship"
+                            },
+                            {
+                                "map_type": "RelationshipObject",
+                                "position": 0,
+                                "import_objects": true
+                            },
+                            {
+                                "map_type": "RelationshipObject",
+                                "position": 1,
+                                "import_objects": true
+                            },
+                            {
+                                "map_type": "RelationshipObject",
+                                "position": "header",
+                                "import_objects": true
+                            },
+                            {
+                                "map_type": "RelationshipMetadata",
+                                "position": "hidden"
+                            },
+                            {
+                                "map_type": "ParameterDefinition",
+                                "position": "hidden",
+                                "value": "building_type_weight"
+                            },
+                            {
+                                "map_type": "Alternative",
+                                "position": "hidden"
+                            },
+                            {
+                                "map_type": "ParameterValueMetadata",
+                                "position": "hidden"
+                            },
+                            {
+                                "map_type": "ParameterValue",
+                                "position": "hidden"
+                            }
+                        ]
+                    }
+                }
+            ],
+            "structure_layers": [
+                {
+                    "Mapping 2": {
+                        "mapping": [
+                            {
+                                "map_type": "RelationshipClass",
+                                "position": "hidden",
+                                "value": "source__structure__layer_id__structure_material",
+                                "skip_columns": [
+                                    2
+                                ]
+                            },
+                            {
+                                "map_type": "RelationshipClassObjectClass",
+                                "position": "header",
+                                "value": 0
+                            },
+                            {
+                                "map_type": "RelationshipClassObjectClass",
+                                "position": "header",
+                                "value": 1
+                            },
+                            {
+                                "map_type": "RelationshipClassObjectClass",
+                                "position": "header",
+                                "value": 3
+                            },
+                            {
+                                "map_type": "RelationshipClassObjectClass",
+                                "position": "header",
+                                "value": 9
+                            },
+                            {
+                                "map_type": "Relationship",
+                                "position": "hidden",
+                                "value": "relationship"
+                            },
+                            {
+                                "map_type": "RelationshipObject",
+                                "position": 0,
+                                "import_objects": true
+                            },
+                            {
+                                "map_type": "RelationshipObject",
+                                "position": 1,
+                                "import_objects": true
+                            },
+                            {
+                                "map_type": "RelationshipObject",
+                                "position": 3,
+                                "import_objects": true
+                            },
+                            {
+                                "map_type": "RelationshipObject",
+                                "position": 9,
+                                "import_objects": true
+                            },
+                            {
+                                "map_type": "RelationshipMetadata",
+                                "position": "hidden"
+                            },
+                            {
+                                "map_type": "ParameterDefinition",
+                                "position": "header"
+                            },
+                            {
+                                "map_type": "Alternative",
+                                "position": "hidden"
+                            },
+                            {
+                                "map_type": "ParameterValueMetadata",
+                                "position": "hidden"
+                            },
+                            {
+                                "map_type": "ParameterValue",
+                                "position": "hidden"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "Mapping 3": {
+                        "mapping": [
+                            {
+                                "map_type": "RelationshipClass",
+                                "position": "hidden",
+                                "value": "structure__structure_type"
+                            },
+                            {
+                                "map_type": "RelationshipClassObjectClass",
+                                "position": "header",
+                                "value": 1
+                            },
+                            {
+                                "map_type": "RelationshipClassObjectClass",
+                                "position": "header",
+                                "value": 2
+                            },
+                            {
+                                "map_type": "Relationship",
+                                "position": "hidden",
+                                "value": "relationship"
+                            },
+                            {
+                                "map_type": "RelationshipObject",
+                                "position": 1,
+                                "import_objects": true
+                            },
+                            {
+                                "map_type": "RelationshipObject",
+                                "position": 2,
+                                "import_objects": true
+                            },
+                            {
+                                "map_type": "RelationshipMetadata",
+                                "position": "hidden"
+                            }
+                        ]
+                    }
+                }
+            ],
+            "types": [
+                {
+                    "Mapping 2": {
+                        "mapping": [
+                            {
+                                "map_type": "ObjectClass",
+                                "position": "header",
+                                "value": 0,
+                                "skip_columns": [
+                                    5
+                                ]
+                            },
+                            {
+                                "map_type": "Object",
+                                "position": 0
+                            },
+                            {
+                                "map_type": "ObjectMetadata",
+                                "position": "hidden"
+                            },
+                            {
+                                "map_type": "ParameterDefinition",
+                                "position": "header"
+                            },
+                            {
+                                "map_type": "Alternative",
+                                "position": "hidden"
+                            },
+                            {
+                                "map_type": "ParameterValueMetadata",
+                                "position": "hidden"
+                            },
+                            {
+                                "map_type": "ParameterValue",
+                                "position": "hidden"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "Mapping 3": {
+                        "mapping": [
+                            {
+                                "map_type": "RelationshipClass",
+                                "position": "hidden",
+                                "value": "structure_type__ventilation_space_heat_flow_direction"
+                            },
+                            {
+                                "map_type": "RelationshipClassObjectClass",
+                                "position": "header",
+                                "value": 0
+                            },
+                            {
+                                "map_type": "RelationshipClassObjectClass",
+                                "position": "header",
+                                "value": 5
+                            },
+                            {
+                                "map_type": "Relationship",
+                                "position": "hidden",
+                                "value": "relationship"
+                            },
+                            {
+                                "map_type": "RelationshipObject",
+                                "position": 0,
+                                "import_objects": true
+                            },
+                            {
+                                "map_type": "RelationshipObject",
+                                "position": 5,
+                                "import_objects": true
+                            },
+                            {
+                                "map_type": "RelationshipMetadata",
+                                "position": "hidden"
+                            }
+                        ]
+                    }
+                }
+            ],
+            "ventilation": [
+                {
+                    "Mapping 2": {
+                        "mapping": [
+                            {
+                                "map_type": "RelationshipClass",
+                                "position": "hidden",
+                                "value": "ventilation_source__building_type"
+                            },
+                            {
+                                "map_type": "RelationshipClassObjectClass",
+                                "position": "header",
+                                "value": 0
+                            },
+                            {
+                                "map_type": "RelationshipClassObjectClass",
+                                "position": "header",
+                                "value": 1
+                            },
+                            {
+                                "map_type": "Relationship",
+                                "position": "hidden",
+                                "value": "relationship"
+                            },
+                            {
+                                "map_type": "RelationshipObject",
+                                "position": 0,
+                                "import_objects": true
+                            },
+                            {
+                                "map_type": "RelationshipObject",
+                                "position": 1,
+                                "import_objects": true
+                            },
+                            {
+                                "map_type": "RelationshipMetadata",
+                                "position": "hidden"
+                            },
+                            {
+                                "map_type": "ParameterDefinition",
+                                "position": "header"
+                            },
+                            {
+                                "map_type": "Alternative",
+                                "position": "hidden"
+                            },
+                            {
+                                "map_type": "ParameterValueMetadata",
+                                "position": "hidden"
+                            },
+                            {
+                                "map_type": "ParameterValue",
+                                "position": "hidden"
+                            }
+                        ]
+                    }
+                }
+            ],
+            "ventilation_spaces": [
+                {
+                    "Mapping 0": {
+                        "mapping": [
+                            {
+                                "map_type": "ObjectClass",
+                                "position": "hidden",
+                                "value": "ventilation_space_heat_flow_direction",
+                                "skip_columns": [
+                                    4
+                                ]
+                            },
+                            {
+                                "map_type": "Object",
+                                "position": "header"
+                            },
+                            {
+                                "map_type": "ObjectMetadata",
+                                "position": "hidden"
+                            },
+                            {
+                                "map_type": "ParameterDefinition",
+                                "position": "hidden",
+                                "value": "thermal_resistance_m2K_W"
+                            },
+                            {
+                                "map_type": "Alternative",
+                                "position": "hidden"
+                            },
+                            {
+                                "map_type": "ParameterValueMetadata",
+                                "position": "hidden"
+                            },
+                            {
+                                "map_type": "ParameterValueType",
+                                "position": "hidden",
+                                "value": "map"
+                            },
+                            {
+                                "map_type": "ParameterValueIndex",
+                                "position": 0
+                            },
+                            {
+                                "map_type": "ExpandedValue",
+                                "position": "hidden"
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        "selected_tables": [
+            "fenestration",
+            "materials",
+            "sources",
+            "structure_descriptions",
+            "structure_layers",
+            "types",
+            "ventilation",
+            "ventilation_spaces"
+        ],
+        "table_options": {
+            "fenestration": {},
+            "materials": {},
+            "sources": {},
+            "structure_descriptions": {},
+            "structure_layers": {},
+            "types": {},
+            "ventilation": {},
+            "ventilation_spaces": {}
+        },
+        "table_types": {
+            "fenestration": {
+                "0": "string",
+                "1": "string",
+                "2": "float",
+                "3": "float",
+                "4": "float",
+                "5": "string"
+            },
+            "materials": {
+                "0": "string",
+                "1": "string",
+                "2": "float",
+                "3": "float",
+                "4": "float",
+                "5": "float",
+                "6": "float",
+                "7": "float",
+                "8": "string"
+            },
+            "sources": {
+                "0": "string",
+                "1": "float",
+                "2": "string"
+            },
+            "structure_descriptions": {
+                "0": "string",
+                "1": "string",
+                "2": "float",
+                "3": "string",
+                "4": "float",
+                "5": "float",
+                "6": "float",
+                "7": "float",
+                "8": "float",
+                "9": "float",
+                "10": "string"
+            },
+            "structure_layers": {
+                "0": "string",
+                "1": "string",
+                "2": "string",
+                "3": "float",
+                "4": "float",
+                "5": "float",
+                "6": "float",
+                "7": "float",
+                "8": "string",
+                "9": "string",
+                "10": "string"
+            },
+            "types": {
+                "0": "string",
+                "1": "float",
+                "2": "float",
+                "3": "float",
+                "4": "boolean",
+                "5": "string",
+                "6": "string"
+            },
+            "ventilation": {
+                "0": "string",
+                "1": "string",
+                "2": "float",
+                "3": "float",
+                "4": "float",
+                "5": "float",
+                "6": "float",
+                "7": "float",
+                "8": "float",
+                "9": "float",
+                "10": "string"
+            },
+            "ventilation_spaces": {
+                "0": "float",
+                "1": "float",
+                "2": "float",
+                "3": "float",
+                "4": "string"
+            }
+        },
+        "table_row_types": {},
+        "source_type": "DataPackageConnector"
+    },
+    "description": "Import Finnish structural data"
+}

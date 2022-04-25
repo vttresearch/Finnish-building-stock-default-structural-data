@@ -1,0 +1,149 @@
+{
+    "name": "finnish_default_structural_data",
+    "title": "Finnish building stock default structural data",
+    "description": "This dataset contains default data describing the variety of structures used in the Finnish building stock, as well as ventilation properties. The main data contains structural layer properties like type, thickness, and material by `source` and `structure`. The data in this dataset is based on a variety of public sources, and a lot of subjective guesstimation.",
+    "type": "dataset",
+    "version": "1.0.0",
+    "sources": [
+        {
+            "title": "Tyypillisiä olemassa olevien vanhojen rakennusten alkuperäisiä suunnitteluarvoja; Appendix of the Finnish energy certificate guide (2018)",
+            "path": "https://www.ymparisto.fi/download/noname/%7BA6558C5F-9B2E-40E5-B261-605118163F03%7D/141252"
+        },
+        {
+            "title": "Puuikkunan historia; Pauliina Kämäräinen (2012); Bachelor's Thesis; Seinäjoki University of Applied Sciences",
+            "path": "https://urn.fi/URN:NBN:fi:amk-2012120217741"
+        },
+        {
+            "title": "Vanhan puuikkunan energiakunnostus; Janne Jokelainen (2014); Bachelor's Thesis; Seinäjoki University of Applied Sciences",
+            "path": "https://urn.fi/URN:ISBN:978-952-5863-80-2"
+        },
+        {
+            "title": "Ikkunoiden energiatalous; Ilpo Kaikkonen (2017); Bachelor's Thesis; Kajaani University of Applied Sciences",
+            "path": "https://urn.fi/URN:NBN:fi:amk-201703283772"
+        },
+        {
+            "title": "Rakennusmateriaalien rakennusfysikaaliset ominaisuudet; Katariina Laine (2010); Master's Thesis; Tampere University of Technology",
+            "path": "https://urn.fi/URN:NBN:fi:tty-201505131277"
+        },
+        {
+            "title": "Lämmöneristys Ohjeet 2003; Ministry of the Environment (2003); Finnish Building Code C4",
+            "path": "http://www.finlex.fi/data/normit/1931-C4s.pdf"
+        },
+        {
+            "title": "The Engineering ToolBox website",
+            "path": "https://www.engineeringtoolbox.com/"
+        },
+        {
+            "title": "Asuinkerrostalojen välipohjarakenteet 1890-1960 ja niiden korjaaminen; Suvi Takko (2017); Master's Thesis; Aalto University School of Engineering",
+            "path": "http://urn.fi/URN:NBN:fi:aalto-201705114678"
+        },
+        {
+            "title": "1900-luvun kerrostalojen yleisimmät rakenteet ja niissä ilmeneviä ongelmia; Tomi Paajanen (2015); Bachelor's Thesis; Saimaa University of Applied Sciences",
+            "path": "https://urn.fi/URN:NBN:fi:amk-201505209183"
+        },
+        {
+            "title": "Korjausrakentamisen suunnitteluratkaisuja 1800-1950 rakennettuihin rakennuksiin Suomessa, Suunnittelijan Ohje; Tiina Säily (2017); Bachelor's Thesis; Metropolia School of Applied Sciences",
+            "path": "https://urn.fi/URN:NBN:fi:amk-201704215078"
+        },
+        {
+            "title": "Puurunkoisen pientalon energiatehokkuuden kehitys; Janne Taskinen (2010); Bachelor's Thesis; Metropolia University of Applied Sciences",
+            "path": "https://urn.fi/URN:NBN:fi:amk-2010111014307"
+        },
+        {
+            "title": "Energiatehokkuus - Rakennuksen energiankulutuksen ja lämmitystehontarpeen laskenta; Ministry of the Environment (2018)",
+            "path": "https://ym.fi/documents/1410903/38439968/Ohje---Rakennuksen-energiankulutuksen-ja-lammitystehontarpeen-laskenta-20-12-2017-4332AA81_75E1_4CA0_B208_B0ACB60A267F-133692.pdf/277c79e7-2a12-5052-ba33-cb2e2c8709ab/Ohje---Rakennuksen-energiankulutuksen-ja-lammitystehontarpeen-laskenta-20-12-2017-4332AA81_75E1_4CA0_B208_B0ACB60A267F-133692.pdf?t=1603260201597"
+        },
+        {
+            "title": "Asuinrakennusten ilmanpitävyys, sisäilmasto ja energiatalous; Juha Vinha et al. (2009); Report; Tampere University of Technology",
+            "path": "https://urn.fi/URN:NBN:fi:tty-2011122914971"
+        },
+        {
+            "title": "Puurunkoisten pientalojen kosteus- ja lämpötilaolosuhteet, ilmanvaihto, ja ilmatiiviys; Juha Vinha et al. (2005); Report; Tampere University of Technology",
+            "path": "https://urn.fi/URN:NBN:fi:tty-2011041510587"
+        },
+        {
+            "title": "Ilmatiiveys ja vuotokohdat pientaloissa; Heikki Jussila (2015); Master's Thesis; Aalto University School of Engineering",
+            "path": "http://urn.fi/URN:NBN:fi:aalto-201505132633"
+        },
+        {
+            "title": "Rakennusten sisäilmasto ja ilmanvaihto; Ministry of the Environment (2012); Finnish Building Code D2",
+            "path": "https://ymparisto.fi/download/noname/%7B5EB5B5EC-4DF9-44B9-A315-94D1E6B84AFE%7D/134437"
+        }
+    ],
+    "contributors": [
+        {
+            "title": "Topi Rasku",
+            "email": "topi.rasku@vtt.fi",
+            "role": "author",
+            "organization": "VTT Technical Research Centre of Finland Ltd"
+        }
+    ],
+    "keywords": [
+        "Finland",
+        "Building stock",
+        "Building structures",
+        "Ventilation",
+        "Fenestration",
+        "Construction"
+    ],
+    "created": "2021-01-22",
+    "id": "TBD",
+    "licenses": [
+        {
+            "name": "CC-BY-4.0",
+            "path": "https://creativecommons.org/licenses/by/4.0/",
+            "title": "Creative Commons Attribution 4.0 International (CC BY 4.0)"
+        }
+    ],
+    "profile": "data-package",
+    "resources": [
+        {
+            "path": "data\\fenestration.csv",
+            "profile": "data-resource",
+            "description": "This file contains the following fenestration properties: `U_value_W_m2K`, `solar_energy_transmittance`, `frame_area_fraction`, and `notes` for each `source` and `building_type`. The `source` basically represents the time period the windows in question were in use after.",
+            "format": "csv"
+        },
+        {
+            "path": "data\\materials.csv",
+            "profile": "data-resource",
+            "description": "This file defines the different `structure_materials`, links them to the appropriate `frame_material`, as well as contains their necessary thermal properties. Minimum and maximum values found in the literature are reported for density (kg/m3), specific heat (J/kgK), and thermal conductivity (W/mK).",
+            "format": "csv"
+        },
+        {
+            "path": "data\\sources.csv",
+            "profile": "data-resource",
+            "description": "This file defines the different `sources` of data, and contains the `source_year` and `source_description` parameters for each `source`. Essentially, each `source` corresponds to a different time period (`source_year`), after which the structures, fenestration, or ventilation solutions can be assumed to have been in use. The `source_description` parameter contains a brief description of the contents of each `source`.",
+            "format": "csv"
+        },
+        {
+            "path": "data\\structure_descriptions.csv",
+            "profile": "data-resource",
+            "description": "This file defines each `structure` by `source`, as well as a pivot table for guesstimated `weights` of each `structure` by `building_type`. Furthermore, the `design_U_value_W/m2K` and a brief `description` of each `structure` is included, as are `structure_notes` about the assumption regarding the assumed `weights`.",
+            "format": "csv"
+        },
+        {
+            "path": "data\\structure_layers.csv",
+            "profile": "data-resource",
+            "description": "This file defines each the properties of individual structural layers, represented using a `layer_id`. Each `layer_id` is attributed to a specific structure indicated by the `(source, structure)` pair, and each structure is assigned a `structure_type` from `[roof, exterior_wall, base_floor, separating_floor, partition_wall]` *(this really should be a property in `structure_descritions.csv`, but is currently defined here, unfortunately)*. Furthermore, each `layer_id` is attributed to a `structure_material`, which determines the material properties for that layer. The rest of the columns are layer-specific parameters. `layer_weight`: Describes the approximated share of the total volume in the case of overlapping `layers`, e.g. different types of furring with space in between the material. `layer_number`: Determines the order of the `layers` in the `structure`, explained in detail further down. `layer_minimum_thickness_mm`: Determines the minimum possible thickness of the `layer` in millimetres. `layer_load_bearing_thickness_mm`: Determines the minimum thickness of the `layer` in millimetres, when the `structure` is load-bearing. `layer_tag`: Describes the primary purpose of the `layer`. `notes`: Contains additional information about possible assumptions, dimensioning, furring, etc. All the structures have their layers enumerated using the `layer_number` to indicate their order in the structure. For envelope structures, the ordering of the layers is relative to the thermal insulation layer, with the thermal insulation layer being the zeroth layer. Structural layers towards the exterior of increase into positive numbers, and structural layers towards the interior decrease into negative numbers. For separating floors and partition walls, the ordering of the layers is relative to the load-bearing layer. Numbering of structural layers of separating floors and partition walls is based on their order in the RT card, with the topmost structure being the positive extreme.",
+            "format": "csv"
+        },
+        {
+            "path": "data\\types.csv",
+            "profile": "data-resource",
+            "description": "This file contains the following parameters: `interior_resistance_m2K_W`, `interior_resistance_m2K_W`, `linear_thermal_bridge_W_mK`, `is_internal`, `ventilation_space_heat_flow_direction`, and `structure_type_notes`, for each `structure_type`: `base_floor`, `exterior_wall`, `partition_wall`, `roof`, `separating_floor`.",
+            "format": "csv"
+        },
+        {
+            "path": "data\\ventilation.csv",
+            "profile": "data-resource",
+            "description": "This file contains the minimum and maximum ventilation rate (1/h), n50 infiltration rate (1/h), infiltration factor influenced by the height of the building, as well as the heat recovery unit (HRU) efficiency, for each `source` and `building_type`. A `notes` column is also included for notes about data sources and data quality.",
+            "format": "csv"
+        },
+        {
+            "path": "data\\ventilation_spaces.csv",
+            "profile": "data-resource",
+            "description": "This file contains the thermal resistance of ventilation spaces depending on thickness and heat flow direction according to the Finnish building code C4 2003.",
+            "format": "csv"
+        }
+    ]
+}

@@ -1,0 +1,7 @@
+thickness_mm,horizontal,upwards,downwards,Thermal resistances (m2K/W) of ventilation spaces as a function of heat flow direction and the thickness of the ventilation space. Finnish building code C4 2003.
+5,0.11,0.11,0.11,
+10,0.15,0.15,0.15,
+20,0.17,0.16,0.18,
+50,0.18,0.16,0.21,
+100,0.18,0.16,0.21,
+200,0.18,0.2,0.21,

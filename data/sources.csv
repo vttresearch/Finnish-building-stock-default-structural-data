@@ -1,0 +1,26 @@
+source,source_year,source_description
+ETOL_1900,1900,"`Tyypillisiä olemassa olevien vanhojen rakennusten alkuperäisiä suunnitteluarvoja, Energiatodistusoppaan 2018 liite` by the Ministry of the Environment. Estimated structures before 1920s"
+ETOL_1920,1920,"`Tyypillisiä olemassa olevien vanhojen rakennusten alkuperäisiä suunnitteluarvoja, Energiatodistusoppaan 2018 liite` by the Ministry of the Environment. Estimated structures between 1921-1945"
+ETOL_1945,1945,"`Tyypillisiä olemassa olevien vanhojen rakennusten alkuperäisiä suunnitteluarvoja, Energiatodistusoppaan 2018 liite` by the Ministry of the Environment. Estimated structures between 1945-1960"
+ETOL_1960,1960,"`Tyypillisiä olemassa olevien vanhojen rakennusten alkuperäisiä suunnitteluarvoja, Energiatodistusoppaan 2018 liite` by the Ministry of the Environment. Estimated structures between 1960-1970"
+ETOL_1970,1970,"`Tyypillisiä olemassa olevien vanhojen rakennusten alkuperäisiä suunnitteluarvoja, Energiatodistusoppaan 2018 liite` by the Ministry of the Environment. Estimated structures between 1970-1980"
+ETOL_1980,1980,"`Tyypillisiä olemassa olevien vanhojen rakennusten alkuperäisiä suunnitteluarvoja, Energiatodistusoppaan 2018 liite` by the Ministry of the Environment. Estimated structures between 1980-1985"
+Default_1985,1985,"Guesstimated default structures between 1985-2003 based on building code changes, essentially just extrapolated from older structures by increasing the thickness of the thermal insulation layer."
+Default_2003,2003,"Guesstimated default structures between 2003-2007 based on building code changes, essentially just extrapolated from older structures by increasing the thickness of the thermal insulation layer."
+Default_2007,2007,"Guesstimated default structures between 2007-2010 based on building code changes, essentially just extrapolated from older structures by increasing the thickness of the thermal insulation layer."
+Default_2010,2010,"Guesstimated default structures between 2010-2012 based on building code changes, essentially just extrapolated from older structures by increasing the thickness of the thermal insulation layer."
+Default_2012,2012,"Guesstimated default structures between 2012-2020 based on building code changes, essentially just extrapolated from older structures by increasing the thickness of the thermal insulation layer."
+Fenestration_1900,1900,`Puuikkunan historia` by Pauliina Kämäräinen
+Fenestration_1950,1950,`Vanhan puuikkunan energiakunnostus` by Janne Jokelainen.
+Fenestration_1969,1969,"`Tyypillisiä olemassa olevien vanhojen rakennusten alkuperäisiä suunnitteluarvoja, Energiatodistusoppaan 2018 liite` by the Ministry of the Environment. 1969 guidelines."
+Fenestration_1976,1976,"`Tyypillisiä olemassa olevien vanhojen rakennusten alkuperäisiä suunnitteluarvoja, Energiatodistusoppaan 2018 liite` by the Ministry of the Environment. 1976 regulations."
+Fenestration_1978,1978,"`Tyypillisiä olemassa olevien vanhojen rakennusten alkuperäisiä suunnitteluarvoja, Energiatodistusoppaan 2018 liite` by the Ministry of the Environment. 1978 regulations."
+Fenestration_1985,1985,"`Tyypillisiä olemassa olevien vanhojen rakennusten alkuperäisiä suunnitteluarvoja, Energiatodistusoppaan 2018 liite` by the Ministry of the Environment. 1985 regulations."
+Fenestration_2003,2003,"`Tyypillisiä olemassa olevien vanhojen rakennusten alkuperäisiä suunnitteluarvoja, Energiatodistusoppaan 2018 liite` by the Ministry of the Environment. 2003 regulations."
+Fenestration_2008,2008,"`Tyypillisiä olemassa olevien vanhojen rakennusten alkuperäisiä suunnitteluarvoja, Energiatodistusoppaan 2018 liite` by the Ministry of the Environment. 2008 regulations."
+Fenestration_2010,2010,"`Tyypillisiä olemassa olevien vanhojen rakennusten alkuperäisiä suunnitteluarvoja, Energiatodistusoppaan 2018 liite` by the Ministry of the Environment. 2010 regulations."
+Fenestration_2012,2012,"`Tyypillisiä olemassa olevien vanhojen rakennusten alkuperäisiä suunnitteluarvoja, Energiatodistusoppaan 2018 liite` by the Ministry of the Environment. 2012 regulations."
+Ventilation_1900,1900,Guesstimations based on various sources. Check `README.md` for a comprehensive list.
+Ventilation_1978,1978,Guesstimations based on various sources. Check `README.md` for a comprehensive list.
+Ventilation_1990,1990,Guesstimations based on various sources. Check `README.md` for a comprehensive list.
+Ventilation_2010,2010,Guesstimations based on various sources. Check `README.md` for a comprehensive list.
