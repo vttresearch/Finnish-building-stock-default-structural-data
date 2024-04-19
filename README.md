@@ -49,14 +49,13 @@ See `LICENSE` for more information.
 ## Acknowledgements
 
 <center>
+<center>
 <table width=500px frame="none">
 <tr>
 <td valign="middle" width=100px>
-<img src=https://www.aka.fi/globalassets/vanhat/y_kuvat/aka_logo_en.svg alt="AKA emblem" width=100%></td>
+<img src=https://www.aka.fi/globalassets/aka_en_vaaka_valkoinen.svg alt="AKA emblem" width=100%></td>
 <td valign="middle">
-This dataset was built for the [Academy of Finland](https://www.aka.fi/en) project
-[*"Integration of building flexibility into future energy systems (FlexiB)"*](https://cris.vtt.fi/en/projects/integration-of-building-flexibility-into-future-energy-systems)
-under grant agreement No 332421.
+This dataset was built for the Research Council of Finland project "Integration of building flexibility into future energy systems (FlexiB)" under grant agreement No 332421.
 </td>
 </table>
 </center>
@@ -67,7 +66,7 @@ under grant agreement No 332421.
 <td valign="middle" width=100px>
 <img src=https://csc.fi/o/csc-theme/images/csc-logo-teksti-fi.png alt="CSC emblem" width=100%></td>
 <td valign="middle">
-[CSC – IT Center for Science, Finland](https://csc.fi/en/home) provides the [Fairdata.fi](https://www.fairdata.fi/en/) service for easy research metadata publication.
+CSC – IT Center for Science, Finland, provides the Fairdata.fi service for easy research metadata publication.
 </td>
 </table>
 </center>
