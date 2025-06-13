@@ -20,10 +20,10 @@ For a detailed description of this dataset, see the end of the README.
 4. `data/materials.csv`, lists all the different materials and their properties that are relevant for the structures.
 5. `data/sources.csv`, lists the different `sources` for the structural data used in this dataset.
 6. `data/structure_descriptions.csv`,  lists each `structure` by `source`, and their overall properties and descriptions.
-7. `data/structural_layers.csv`, contains the detailed structural data down to individual layers.
+7. `data/structure_layers.csv`, contains the detailed structural data down to individual layers.
 8. `data/types.csv`, contains surface resistances for different types of structures.
-9. `data/ventilation.csv`, contains ventilation properties for different building types and age categories.
-10. `data/ventilation_spaces.csv`, contains thermal resistances for ventilation spaces according to Finnish building code C4 2003.
+9. `data/ventilation_spaces.csv`, contains thermal resistances for ventilation spaces according to Finnish building code C4 2003.
+10. `data/ventilation.csv`, contains ventilation properties for different building types and age categories.
 
 
 ## Usage
@@ -53,7 +53,7 @@ See `LICENSE` for more information.
 <table width=500px frame="none">
 <tr>
 <td valign="middle" width=100px>
-<img src=https://www.aka.fi/globalassets/aka_en_vaaka_valkoinen.svg alt="AKA emblem" width=100%></td>
+<img src=https://www.aka.fi/globalassets/aka_en_vaaka_sininen.svg alt="AKA emblem" width=100%></td>
 <td valign="middle">
 This dataset was built for the Research Council of Finland project "Integration of building flexibility into future energy systems (FlexiB)" under grant agreement No 332421.
 </td>
@@ -64,7 +64,7 @@ This dataset was built for the Research Council of Finland project "Integration 
 <table width=500px frame="none">
 <tr>
 <td valign="middle" width=100px>
-<img src=https://csc.fi/o/csc-theme/images/csc-logo-teksti-fi.png alt="CSC emblem" width=100%></td>
+<img src=https://csc.fi/app/uploads/2023/09/CSC_logo_no_tagline.svg alt="CSC emblem" width=100%></td>
 <td valign="middle">
 CSC – IT Center for Science, Finland, provides the Fairdata.fi service for easy research metadata publication.
 </td>
@@ -80,8 +80,7 @@ The format of the raw data can be a bit confusing at times,
 as it was originally designed for the [`finnish_RT_structural_data`](https://vttgit.vtt.fi/flexib/finnish_RT_structural_data) dataset,
 and doesn't necessarily fit the non-structural data so well.
 
-Currently, the weights of each structure for each building type in `data/structure_descriptions.csv` is based solely on guessimation.
-It might be possible to refine these values based on data from e.g. Statistics Finland, but I've yet to try and do so.
+Currently, the weights of each structure for each building type in `data/structure_descriptions.csv` are based solely on guessimation.
 
 
 ## `data/fenestration.csv`
@@ -99,9 +98,10 @@ Sources for the raw data include:
 
 ## `data/materials.csv`
 
-This file defines the different `structure_materials`, links them to the appropriate `frame_material`,
+This file defines the different `structure_materials`, maps them to a corresponding `frame_material`,
 as well as contains their necessary thermal properties.
 Minimum and maximum values found in the literature are reported for density (kg/m3), specific heat (J/kgK), and thermal conductivity (W/mK).
+The `material_notes` column contains notes about which corresponding material from the sources was used for the technical parameters, but occasionally describes assumptions or generalisations as well.
 
 Sources include:
 - Primary source [`Rakennusmateriaalisen rakennusfysikaaliset ominaisuudet`](https://urn.fi/URN:NBN:fi:tty-201505131277) by Katariina Laine 2010.
@@ -111,8 +111,8 @@ Sources include:
 
 ## `data/sources.csv`
 
-This file defines the different `sources` of data,
-and contains the `source_year` and `source_description` parameters for each `source`.
+This file defines the different `source`s of data,
+and contains the `source_year` and `source_description` for each `source`.
 Essentially, each `source` corresponds to a different time period (`source_year`),
 after which the structures, fenestration, or ventilation solutions can be assumed to have been in use.
 The `source_description` parameter contains a brief description of the contents of each `source`.
@@ -129,23 +129,23 @@ Sources include:
 - The [appendix of the Finnish energy certificate guide](https://www.ymparisto.fi/download/noname/%7BA6558C5F-9B2E-40E5-B261-605118163F03%7D/141252)
 
 
-## `data/structural_layers.csv`
+## `data/structure_layers.csv`
 
 This file defines each the properties of individual structural layers, represented using a `layer_id`.
 Each `layer_id` is attributed to a specific structure indicated by the `(source, structure)` pair,
 and each structure is assigned a `structure_type` from
 `[roof, exterior_wall, base_floor, separating_floor, partition_wall]`
-*(this really should be a property in `structure_descritions.csv`, but is currently defined here, unfortunately)*.
+*(this really should be a property in `structure_descriptions.csv`, but is currently defined here, unfortunately)*.
 Furthermore, each `layer_id` is attributed to a `structure_material`,
 which determines the material properties for that layer.
 The rest of the columns are layer-specific parameters, described below:
 
-- `layer_weight`: Describes the approximated share of the total volume in the case of overlapping `layers`, e.g. different types of furring with space in between the material.
+- `layer_weight`: Describes the approximated share of the total volume in the case of overlapping `layers`, e.g. different types of furring with space in between the material. Furring details are included in `layer_notes`, e.g. _150x175 k 600_ indicates a 150mm times 175mm beam every 600mm, resulting in a `layer_weight` of _150 / 600 = 0.25_. These always sum to 1 over layers with the same `layer_number`.
 - `layer_number`: Determines the order of the `layers` in the `structure`, explained in detail further down.
 - `layer_minimum_thickness_mm`: Determines the minimum possible thickness of the `layer` in millimetres.
 - `layer_load_bearing_thickness_mm`: Determines the minimum thickness of the `layer` in millimetres, when the `structure` is load-bearing.
-- `layer_tag`: Describes the primary purpose of the `layer`.
-- `notes`: Contains additional information about possible assumptions, dimensioning, furring, etc.
+- `layer_tag`: Describes the primary purpose of the `layer`. These are intended to be common between structures, helping group the layers. E.g. `load-bearing structure`, `thermal insulation`, as well as `exterior finish` and `interior finish` can be of interest when filtering the structures.
+- `layer_notes`: Contains additional information about possible assumptions, dimensioning, furring, etc.
 
 All the structures have their layers enumerated using the `layer_number` to indicate their order in the structure.
 For envelope structures, the ordering of the layers is relative to the thermal insulation layer, with the thermal insulation layer being the zeroth layer.
@@ -163,11 +163,16 @@ Sources include (but not limited to):
 
 ## `data/types.csv`
 
-This file contains the following parameters: `interior_resistance_m2K_W`, `interior_resistance_m2K_W`,
+This file contains the following parameters: `interior_resistance_m2K_W`, `exterior_resistance_m2K_W`,
 `linear_thermal_bridge_W_mK`, `is_internal`, `ventilation_space_heat_flow_direction`, and `structure_type_notes`,
 for each `structure_type`: `base_floor`, `exterior_wall`, `partition_wall`, `roof`, `separating_floor`.
 The values are based on the Finnish building code `Suomen rakentamismääräyskokoelma C4: Lämmöneristys, ohjeet 2003`, but the 2013 draft has the exact same values.
 The linear thermal bridges are based on `Energiatehokkuus - Rakennuksen energiankulutuksen ja lämmitystehotarpeen laskenta (2018)`, which is also a part of the Finnish building code.
+
+
+## `data/ventilation_spaces.csv`
+
+This file contains the thermal resistance of ventilation spaces depending on thickness and heat flow direction according to the Finnish building code C4 2003.
 
 
 ## `data/ventilation.csv`
@@ -183,8 +188,3 @@ Sources include:
 - [Energiatehokkuus - Rakennuksen energiankulutuksen ja lämmitystehotarpeen laskenta](https://ym.fi/documents/1410903/38439968/Ohje---Rakennuksen-energiankulutuksen-ja-lammitystehontarpeen-laskenta-20-12-2017-4332AA81_75E1_4CA0_B208_B0ACB60A267F-133692.pdf/277c79e7-2a12-5052-ba33-cb2e2c8709ab/Ohje---Rakennuksen-energiankulutuksen-ja-lammitystehontarpeen-laskenta-20-12-2017-4332AA81_75E1_4CA0_B208_B0ACB60A267F-133692.pdf?t=1603260201597) by Ympäristöministeriö.
 - [Puurunkoisen pientalon energiatehokkuuden kehitys](https://urn.fi/URN:NBN:fi:amk-2010111014307) by Janne Taskinen.
 - [Rakennusten sisäilmasto ja ilmanvaihto D2 (2012)](https://ymparisto.fi/download/noname/%7B5EB5B5EC-4DF9-44B9-A315-94D1E6B84AFE%7D/134437) by Ympäristöministeriö.
-
-
-## `data/ventilation_spaces.csv`
-
-This file contains the thermal resistance of ventilation spaces depending on thickness and heat flow direction according to the Finnish building code C4 2003.
